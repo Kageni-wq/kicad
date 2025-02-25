@@ -1,0 +1,288 @@
+(footprint "2199011-1-1L-2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.01 -3.86 0)
+		(unlocked yes)
+		(layer "User.2")
+		(uuid "c4f6071a-1619-4517-8bf9-eab7d0080b19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2199011-1-1L-2"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "45ee182b-762c-4f8c-80ec-b02033220572")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "2199011-1-1L-2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29b79e7b-a429-4000-a1c3-d095e97524a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7ba465c-1fff-4439-9076-32a284bc7c54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77a6f24e-9538-4364-9ed2-6d4ffb5d5c64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.25 -2.7)
+		(end -3.25 2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "92049aaa-497a-4f9c-a248-503644178abe")
+	)
+	(fp_line
+		(start -3.25 2.7)
+		(end 3.25 2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "216f1ad8-0c1a-4ace-ba33-6a0362c850d6")
+	)
+	(fp_line
+		(start 3.25 -2.7)
+		(end -3.25 -2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7c65f18d-9939-4f9f-9644-5c45bb16228a")
+	)
+	(fp_line
+		(start 3.25 2.7)
+		(end 3.25 -2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a9160cdf-3bf7-4025-963d-16d2e9d811be")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a88ca357-88bf-48bb-9981-e57c139889ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.95 2.4)
+		(size 0.75 0.75)
+		(drill 0.75)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "88de2d8e-b144-4dad-8f03-39714910c431")
+	)
+	(pad "" np_thru_hole circle
+		(at -2 -0.9)
+		(size 0.8 0.8)
+		(drill 0.8)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "49dc5513-c20b-48f2-92a0-ddfca789ca71")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -0.9)
+		(size 0.8 0.8)
+		(drill 0.8)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "1b9621e2-e3dd-4e2e-a6c6-e09d166e8964")
+	)
+	(pad "" np_thru_hole circle
+		(at 2 -0.9)
+		(size 0.8 0.8)
+		(drill 0.8)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "7ab84b7e-1b19-4c61-acec-f41dc5640f1a")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.95 -2.4)
+		(size 0.75 0.75)
+		(drill 0.75)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "6f3db0bb-fae8-48ee-ada4-28b833ce3bb4")
+	)
+	(pad "1" smd custom
+		(at -2.01 -1.55)
+		(size 0.2 0.2)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_circle
+				(center 0.01 0.65)
+				(end -0.51 0.17)
+				(width 0.2)
+				(fill no)
+			)
+			(gr_circle
+				(center 0.01 0.65)
+				(end -0.23 0.1)
+				(width 0.2)
+				(fill no)
+			)
+			(gr_poly
+				(pts
+					(xy -0.1 -0.05) (xy -0.096194 -0.069134) (xy -0.085355 -0.085355) (xy -0.069134 -0.096194) (xy -0.05 -0.1)
+					(xy 0.05 -0.1) (xy 0.069134 -0.096194) (xy 0.085355 -0.085355) (xy 0.096194 -0.069134) (xy 0.1 -0.05)
+					(xy 0.1 0.05) (xy 0.096194 0.069134) (xy 0.085355 0.085355) (xy 0.069134 0.096194) (xy 0.05 0.1)
+					(xy -0.05 0.1) (xy -0.069134 0.096194) (xy -0.085355 0.085355) (xy -0.096194 0.069134) (xy -0.1 0.05)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_circle
+				(center 0.01 0.65)
+				(end -0.2 0.2)
+				(width 0.2)
+				(fill no)
+			)
+		)
+		(uuid "e11a5d26-1c09-4989-9432-6e58d5a4e1cc")
+	)
+	(pad "2" smd custom
+		(at -0.01 -1.55)
+		(size 0.2 0.2)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_circle
+				(center 0.01 0.65)
+				(end -0.51 0.17)
+				(width 0.2)
+				(fill no)
+			)
+			(gr_circle
+				(center 0.01 0.65)
+				(end -0.23 0.1)
+				(width 0.2)
+				(fill no)
+			)
+			(gr_poly
+				(pts
+					(xy -0.1 -0.05) (xy -0.096194 -0.069134) (xy -0.085355 -0.085355) (xy -0.069134 -0.096194) (xy -0.05 -0.1)
+					(xy 0.05 -0.1) (xy 0.069134 -0.096194) (xy 0.085355 -0.085355) (xy 0.096194 -0.069134) (xy 0.1 -0.05)
+					(xy 0.1 0.05) (xy 0.096194 0.069134) (xy 0.085355 0.085355) (xy 0.069134 0.096194) (xy 0.05 0.1)
+					(xy -0.05 0.1) (xy -0.069134 0.096194) (xy -0.085355 0.085355) (xy -0.096194 0.069134) (xy -0.1 0.05)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_circle
+				(center 0.01 0.65)
+				(end -0.2 0.2)
+				(width 0.2)
+				(fill no)
+			)
+		)
+		(uuid "d96dd9fa-e0dc-4df1-a72b-a1b83f870ca9")
+	)
+	(pad "3" smd custom
+		(at 1.99 -1.55)
+		(size 0.2 0.2)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_circle
+				(center 0.01 0.65)
+				(end -0.51 0.17)
+				(width 0.2)
+				(fill no)
+			)
+			(gr_circle
+				(center 0.01 0.65)
+				(end -0.23 0.1)
+				(width 0.2)
+				(fill no)
+			)
+			(gr_poly
+				(pts
+					(xy -0.1 -0.05) (xy -0.096194 -0.069134) (xy -0.085355 -0.085355) (xy -0.069134 -0.096194) (xy -0.05 -0.1)
+					(xy 0.05 -0.1) (xy 0.069134 -0.096194) (xy 0.085355 -0.085355) (xy 0.096194 -0.069134) (xy 0.1 -0.05)
+					(xy 0.1 0.05) (xy 0.096194 0.069134) (xy 0.085355 0.085355) (xy 0.069134 0.096194) (xy 0.05 0.1)
+					(xy -0.05 0.1) (xy -0.069134 0.096194) (xy -0.085355 0.085355) (xy -0.096194 0.069134) (xy -0.1 0.05)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_circle
+				(center 0.01 0.65)
+				(end -0.2 0.2)
+				(width 0.2)
+				(fill no)
+			)
+		)
+		(uuid "6e7ee184-6017-4d88-a2f6-a2eada9c70d0")
+	)
+	(model "C:/Users/Kagen/Downloads/ENG_CVM_CVM_2199011-1_A_c-2199011-1-a.3d_stp/c-2199011-1-a-3d.stp"
+		(offset
+			(xyz 0 0 1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

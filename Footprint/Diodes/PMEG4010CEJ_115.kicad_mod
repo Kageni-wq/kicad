@@ -1,0 +1,236 @@
+(footprint "DIO_PMEG4010CEJ_115"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.525 -2.135 0)
+		(layer "F.SilkS")
+		(uuid "316d3594-68b3-4f33-9533-cd4efcdac50d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DIO_PMEG4010CEJ_115"
+		(at 10.415 2.135 0)
+		(layer "F.Fab")
+		(uuid "d977b09b-1290-43c9-b3fd-e5f25db43a39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e88d3c39-e1c9-4fbb-9118-ac8af70c02fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc348b54-95fa-4c8d-ba04-3ff6dd7ee3aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1bd1cc0-bae6-49c9-a229-7daf91a917b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -1.35 -0.25) (xy -0.85 -0.25) (xy -0.85 0.25) (xy -1.35 0.25)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "6a18b228-3ad9-456d-8359-e44abe2c1e73")
+	)
+	(fp_poly
+		(pts
+			(xy 0.85 -0.25) (xy 1.35 -0.25) (xy 1.35 0.25) (xy 0.85 0.25)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "3495e2e7-466c-4918-8ec3-cbf2893a3335")
+	)
+	(fp_line
+		(start -0.85 -0.625)
+		(end 0.85 -0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af7baced-08c4-4932-936f-c17c6f1b0b34")
+	)
+	(fp_line
+		(start 0.85 0.625)
+		(end -0.85 0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "81291f5c-b236-4e6b-a785-3cea84e757f5")
+	)
+	(fp_circle
+		(center -2 0)
+		(end -1.9 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "08172fc1-42c4-4b2c-9219-ec9dfa2ee513")
+	)
+	(fp_line
+		(start -1.65 -0.875)
+		(end -1.65 0.875)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eb27a854-df07-4247-9a76-70ef0a74a936")
+	)
+	(fp_line
+		(start -1.65 0.875)
+		(end 1.65 0.875)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ec91a9b3-86d3-4651-898e-974d310f34b6")
+	)
+	(fp_line
+		(start 1.65 -0.875)
+		(end -1.65 -0.875)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b09e1c24-7fb3-4d1c-a595-c7facf4f29e6")
+	)
+	(fp_line
+		(start 1.65 0.875)
+		(end 1.65 -0.875)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "407fd4de-a5f8-4a84-a48e-fb8304648f36")
+	)
+	(fp_line
+		(start -0.85 -0.625)
+		(end 0.85 -0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd483448-6e63-408c-a52b-de4b0c9c6ad6")
+	)
+	(fp_line
+		(start -0.85 0.625)
+		(end -0.85 -0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "950afb77-6d6c-4d34-92bc-664fba42fcdb")
+	)
+	(fp_line
+		(start 0.85 -0.625)
+		(end 0.85 0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec5f74e8-db9c-482b-ad72-14ab24cd6e28")
+	)
+	(fp_line
+		(start 0.85 0.625)
+		(end -0.85 0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9dd8a3e3-cbb8-47a5-b88e-1c166ae1949e")
+	)
+	(fp_circle
+		(center -2 0)
+		(end -1.9 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "e0a5980d-500c-4eea-9d2d-f2366c1205f7")
+	)
+	(pad "1" smd rect
+		(at -1.1 0)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "7756a9b9-2fba-4902-bd69-5c0ea276f43f")
+	)
+	(pad "2" smd rect
+		(at 1.1 0)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "8db3f749-32c4-4529-a160-fdb9d1659696")
+	)
+	(model "C:/Users/Kagen/OneDrive/Documents/KiCad/7.0/3dmodels/PMEG4010CEJ_115.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

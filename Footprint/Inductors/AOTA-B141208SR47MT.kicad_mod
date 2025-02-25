@@ -1,0 +1,245 @@
+(footprint "AOTA-B141208SR47MT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LSCND1412FETR33MC")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at 0.01 -1.73 0)
+		(layer "User.2")
+		(uuid "0261b1ac-9466-494f-bbd9-6d327348e32b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "LSCND1412FETR33MC"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e8dd0925-a19d-4567-8d62-9b7081a46b75")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "AOTA-B141208SR47MT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f527bf4-380f-4a40-b598-9e00cebd45b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9808dd57-62dc-482e-9bd5-058688954bc1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5954c073-76ed-4a54-94f8-d2046acedb05")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.3 0)
+		(end -1.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12cf3b4d-dace-44b0-8095-b328c7fcfbbb")
+	)
+	(fp_line
+		(start -1.3 0)
+		(end -1.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "887e9a31-25df-4802-a534-620e929e783a")
+	)
+	(fp_line
+		(start -1.2 0)
+		(end -1.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "26d584bd-ef72-4325-8d68-66be60e6013f")
+	)
+	(fp_arc
+		(start -1.3 0)
+		(mid -1.25 -0.05)
+		(end -1.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6cd0c950-bc7f-473e-92d2-8b4751cfbec2")
+	)
+	(fp_arc
+		(start -1.2 0)
+		(mid -1.25 0.05)
+		(end -1.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11f0d99a-ca1e-42e6-93f1-a62801b4b151")
+	)
+	(fp_arc
+		(start -1.2 0)
+		(mid -1.25 0.05)
+		(end -1.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a477fa88-4e51-4e82-ad15-b5d31d1e51eb")
+	)
+	(fp_line
+		(start -1.8 -1.7)
+		(end 1.8 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a7dd10bb-5dbf-4785-9081-6d86953dca0b")
+	)
+	(fp_line
+		(start -1.8 1.7)
+		(end -1.8 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "57a2e5fd-40f3-4c21-a031-1b23eba867a9")
+	)
+	(fp_line
+		(start 1.8 -1.7)
+		(end 1.8 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dacdda5b-51da-4071-99f9-55ba2a9b3dc8")
+	)
+	(fp_line
+		(start 1.8 1.7)
+		(end -1.8 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3b78a557-20e8-4ed0-814f-11761535bbfc")
+	)
+	(fp_line
+		(start -0.7 -0.6)
+		(end -0.7 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "68a7e450-54bb-4e44-8bb0-60c849d7b3ed")
+	)
+	(fp_line
+		(start -0.7 0.6)
+		(end 0.7 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dff96158-e4ae-4e70-a7df-a59bff3a4750")
+	)
+	(fp_line
+		(start 0.7 -0.6)
+		(end -0.7 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e873605-bc1e-40c5-aba4-9b7ec3887376")
+	)
+	(fp_line
+		(start 0.7 0.6)
+		(end 0.7 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e2bfbd97-0df9-480d-8db6-c75b5faed088")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "eb09a0c5-b18d-4f90-8c45-334fcbef9b19")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.5 0)
+		(size 0.6 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8155ecc7-717a-4052-81aa-11fa048abcd4")
+	)
+	(pad "2" smd rect
+		(at 0.5 0)
+		(size 0.6 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1bdbf930-f64d-480f-b667-9d0a4fac4e82")
+	)
+	(model "C:/Users/Kagen/OneDrive/Documents/KiCad/7.0/3dmodels/AOTA-B141208SR47MT.stp"
+		(offset
+			(xyz 0 0 0.08)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)

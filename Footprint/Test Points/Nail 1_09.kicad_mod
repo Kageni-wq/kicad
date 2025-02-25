@@ -1,0 +1,136 @@
+(footprint "Nail 1_09"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.28 0)
+		(layer "User.2")
+		(uuid "abb21904-7234-4f81-a857-2f9276c19ee2")
+		(effects
+			(font
+				(size 0.629921 0.629921)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MILL-MAX_0985-0-15-20-71-14-11-0"
+		(at 0 1.35 0)
+		(layer "F.SilkS")
+		(uuid "c818894e-a9ea-47df-a1c2-04eb22847683")
+		(effects
+			(font
+				(size 0.629921 0.629921)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c061a3b1-390b-4af0-a02a-aa61e03b118f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee97edc4-aae5-4f83-8284-b171883afa44")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4fb17f77-8994-42d2-a1aa-93a1fe527af1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.7455 -0.7455)
+		(end -0.7455 0.7455)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "29203f3e-cb56-455c-b1b3-6ca2b6756bc4")
+	)
+	(fp_line
+		(start -0.7455 0.7455)
+		(end 0.7455 0.7455)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8babb8e5-fe53-4135-ad1e-d2f5ec6ee6bc")
+	)
+	(fp_line
+		(start 0.7455 -0.7455)
+		(end -0.7455 -0.7455)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "62df569d-8855-4905-a85c-44e4286a3360")
+	)
+	(fp_line
+		(start 0.7455 0.7455)
+		(end 0.7455 -0.7455)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "940a6844-ba4e-4736-966e-bef93231578d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.5461 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "5b8b6633-e8b9-4d4a-83ee-688e4e626a54")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 0.991 0.991)
+		(drill 0.483)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "10601c3f-d026-4ba7-b0c6-cde43435d0bd")
+	)
+	(model "C:/Users/Kagen/OneDrive/Documents/KiCad/7.0/3dmodels/0985-0-15-20-71-14-11-0.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,190 @@
+(footprint "VLS3012HBX-220M"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.232 -2.6064 0)
+		(layer "User.2")
+		(uuid "c7a784d4-e485-4d09-9b7d-931a707f1a94")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND_VLS3012HBX-220M"
+		(at 5.9216 2.6064 0)
+		(layer "F.Fab")
+		(uuid "6a9015ea-153d-4817-8f88-b7bdbebeed76")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "VLS3012HBX-220M"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6848b52-ff82-4bf8-8382-6b0b6a75a14e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5724b9fc-1656-4cc2-a424-49f49d57a3a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f92c093-b11e-4d61-963e-ad86ca5840fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.23 -1.5)
+		(end 0.23 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70476d96-1d6a-4d58-add1-193ffe3ed94b")
+	)
+	(fp_line
+		(start -0.23 1.5)
+		(end 0.23 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "897fed99-0b3b-4769-a246-d3ad5bb8be98")
+	)
+	(fp_line
+		(start -1.8 -1.95)
+		(end -1.8 1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2174c34f-f6c9-4ff2-b6ed-fa7d8d26ac0c")
+	)
+	(fp_line
+		(start -1.8 1.95)
+		(end 1.8 1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4f1b0e35-256c-4249-a6b3-fbbbaf7b0b25")
+	)
+	(fp_line
+		(start 1.8 -1.95)
+		(end -1.8 -1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "15c9644d-621b-4b0c-9157-8fe543e8d27b")
+	)
+	(fp_line
+		(start 1.8 1.95)
+		(end 1.8 -1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae896794-8c65-4a4e-a0ff-ec8baf0f5d2a")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1e5ceddf-9481-4b81-b5d9-e1fce451571b")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c104485a-dd0a-4397-b6ea-8fbede0939d4")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9a5fd03-c458-43dc-ae1f-f3863d15257f")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "80e9a415-297d-4383-bc67-75185884c193")
+	)
+	(pad "1" smd rect
+		(at -1.05 0)
+		(size 1 3.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "31855914-3066-431d-9680-e92ae6ce1490")
+	)
+	(pad "2" smd rect
+		(at 1.05 0)
+		(size 1 3.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "188fab29-43e3-48ef-93c7-f23d42d62e0c")
+	)
+	(model "C:/Users/Kagen/OneDrive/Documents/KiCad/7.0/3dmodels/VLS3012HBX-220M.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

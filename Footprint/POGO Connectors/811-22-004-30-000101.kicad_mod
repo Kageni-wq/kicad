@@ -1,0 +1,139 @@
+(footprint "811-22-004-30-000101"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5c8dcaf8-12b9-4255-a7f7-67237296547d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "811-22-004-30-000101"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2b9ec16a-6626-49b5-96fd-247d4b53b50e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34ff8c76-8ded-424f-af4a-64c154afc087")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "322c6625-1471-481a-b564-25b6556619d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4cb808cf-7d44-4daf-9700-c9494b6236dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -5.1 -1.3)
+		(end 5.1 1.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ae1964c7-91fc-4ae6-90b1-0e1fc6a81562")
+	)
+	(fp_rect
+		(start -5.1 -1.3)
+		(end 5.1 1.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "3ae03802-ad2c-4691-a146-fc1ed488dd50")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "044ce2d7-142a-4783-a867-e49f4bf6f6c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at -3.81 0)
+		(size 1.83 1.83)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6eac10c8-bc58-4aa1-b21d-888d10177d91")
+	)
+	(pad "2" smd circle
+		(at -1.27 0)
+		(size 1.83 1.83)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dfe21bad-f694-43a3-b5f4-2c23304b719b")
+	)
+	(pad "3" smd circle
+		(at 1.27 0)
+		(size 1.83 1.83)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "535b712d-8d42-44c8-8276-30190d4c350e")
+	)
+	(pad "4" smd circle
+		(at 3.81 0)
+		(size 1.83 1.83)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d5c6622e-d3e5-43e9-8e08-42a91ef1dcbc")
+	)
+	(model "C:/Users/Kagen/OneDrive/Documents/KiCad/7.0/3dmodels/811-22-004-30-000101.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

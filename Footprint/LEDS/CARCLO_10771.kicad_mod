@@ -1,0 +1,129 @@
+(footprint "CARCLO_10771"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f53afbc5-0db9-400e-9ac3-3afce4302049")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CARCLO_10771"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3a5ed610-c37e-4286-83ad-4d2db5894ec3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d047f3e7-799b-4ec8-963d-939889e2f39a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fca1ce41-0dec-48bb-863b-0b4a256b90b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfef0a60-7e2c-41dd-a1d3-c3024833e8e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 5 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "03c477de-bdc5-4332-80e7-a12fa8ba6fa1")
+	)
+	(fp_rect
+		(start -6.25 -6.25)
+		(end 6.25 6.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "89699cf6-a5bf-4d7f-bb70-10b63972940a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "358aa9e3-bea2-4389-9318-ecb10bff75ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -4.95 -4.95)
+		(size 2.2 2.2)
+		(drill 2.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "8edc925d-b23b-400e-8fa6-4ff19f666440")
+	)
+	(pad "" np_thru_hole circle
+		(at 4.95 4.95)
+		(size 2.2 2.2)
+		(drill 2.1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "ad7226a9-47dc-4d63-9d1b-0f5e9180e463")
+	)
+	(model "C:/Users/Kagen/OneDrive/Documents/KiCad/7.0/3dmodels/60168 Rev1 WB0035 Optic Customer.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

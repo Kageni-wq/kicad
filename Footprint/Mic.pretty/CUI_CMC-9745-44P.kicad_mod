@@ -1,0 +1,141 @@
+(footprint "CUI_CMC-9745-44P"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.63598 -5.72389 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "89aacca6-2810-451a-a2c4-15f53238284a")
+		(effects
+			(font
+				(size 1.001559 1.001559)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CUI_CMC-9745-44P"
+		(at 6.35409 5.71871 0)
+		(layer "F.Fab")
+		(uuid "074732e1-9d03-425f-92fc-f90eb379d135")
+		(effects
+			(font
+				(size 1.000646 1.000646)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8aaefce8-dc71-4133-ac11-cd807ffbcbf0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b15493f-10f4-4a61-bf15-eafcdb714a0e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa160c9a-28db-4496-8909-000a3e8edbde")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 4.85 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e4ca459a-ff62-48c6-a3dc-20933a75e24f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.1 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ef42d4bc-5a5a-4d36-b28d-4b39add5d724")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.85 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "9847de77-64da-466a-873c-0d775aed3e44")
+	)
+	(fp_text user "+"
+		(at -4.325 -0.775 0)
+		(unlocked yes)
+		(layer "B.Mask")
+		(uuid "c844a8b7-eab5-4265-83ae-b86ea6143d2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2 1.27)
+		(size 1.278 1.278)
+		(drill 0.77)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "b86de8ab-30fa-492c-b73d-68b5e7cb9f5a")
+	)
+	(pad "2" thru_hole circle
+		(at -2 -1.27)
+		(size 1.278 1.278)
+		(drill 0.77)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "d983914d-80e0-451c-9b91-fe2b1c121ede")
+	)
+	(model "C:/Users/Kagen/OneDrive/Documents/KiCad/7.0/3dmodels/CUI_DEVICES_CMC-9745-44P.step"
+		(offset
+			(xyz 0 0 4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
+		)
+	)
+)

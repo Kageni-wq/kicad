@@ -1,0 +1,81 @@
+
+(footprint MURATA_LQH44PN330MPRL (layer F.Cu) (tedit 6599CF8B)
+  (descr "Wire Wound Ferrite Inductor for Power Lines 33uH±20% 740mA 0.552Ω 1515")
+  (attr smd)
+  (fp_text reference REF** (at 0.4 -2.9 0) (layer F.SilkS)
+    (effects (font (size 0.787401574803 0.787401574803) (thickness 0.15)))
+  )
+  (fp_text value "MURATA_LQH44PN330MPRL" (at 0 0) (layer F.Fab)
+    (effects (font (size 0.787401574803 0.787401574803) (thickness 0.15)))
+  )
+  (pad 1 smd custom (at -1.475 0.0) (size 1.305 1.305) (layers F.Cu) (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy -0.725 1.35)
+          (xy 0.725 1.65)
+          (xy 0.725 -1.65)
+          (xy -0.725 -1.35)
+        ) (width 0.0)
+      )
+    )
+  )
+  (pad 2 smd custom (at 1.475 0.0) (size 1.305 1.305) (layers F.Cu) (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0.725 1.35)
+          (xy 0.725 -1.35)
+          (xy -0.725 -1.65)
+          (xy -0.725 1.65)
+        ) (width 0.0)
+      )
+    )
+  )
+  (fp_poly
+    (pts
+      (xy -2.2 1.35)
+      (xy -0.75 1.65)
+      (xy -0.75 -1.65)
+      (xy -2.2 -1.35)
+    ) (layer F.Mask) (width 0.0)
+  )
+  (fp_poly
+    (pts
+      (xy -2.2 1.35)
+      (xy -0.75 1.65)
+      (xy -0.75 -1.65)
+      (xy -2.2 -1.35)
+    ) (layer F.Paste) (width 0.0)
+  )
+  (fp_poly
+    (pts
+      (xy 2.2 1.35)
+      (xy 2.2 -1.35)
+      (xy 0.75 -1.65)
+      (xy 0.75 1.65)
+    ) (layer F.Mask) (width 0.0)
+  )
+  (fp_poly
+    (pts
+      (xy 2.2 1.35)
+      (xy 2.2 -1.35)
+      (xy 0.75 -1.65)
+      (xy 0.75 1.65)
+    ) (layer F.Paste) (width 0.0)
+  )
+  (fp_line (start -2.1 2.1) (end -2.1 -2.1) (layer F.Fab) (width 0.15))
+  (fp_line (start -2.1 -2.1) (end 2.1 -2.1) (layer F.Fab) (width 0.15))
+  (fp_line (start 2.1 -2.1) (end 2.1 2.1) (layer F.Fab) (width 0.15))
+  (fp_line (start 2.1 2.1) (end -2.1 2.1) (layer F.Fab) (width 0.15))
+  (fp_line (start -2.1 -2.1) (end 2.1 -2.1) (layer F.SilkS) (width 0.15))
+  (fp_line (start 2.1 2.1) (end 2.1 2.025) (layer F.SilkS) (width 0.15))
+  (fp_line (start 2.1 -2.025) (end 2.1 -2.1) (layer F.SilkS) (width 0.15))
+  (fp_line (start -2.1 2.1) (end 2.1 2.1) (layer F.SilkS) (width 0.15))
+  (fp_line (start -2.1 2.1) (end -2.1 2.025) (layer F.SilkS) (width 0.15))
+  (fp_line (start -2.1 -2.025) (end -2.1 -2.1) (layer F.SilkS) (width 0.15))
+  (fp_line (start -2.3 2.2) (end -2.3 -2.2) (layer Dwgs.User) (width 0.1))
+  (fp_line (start -2.3 -2.2) (end 2.3 -2.2) (layer Dwgs.User) (width 0.1))
+  (fp_line (start 2.3 -2.2) (end 2.3 2.2) (layer Dwgs.User) (width 0.1))
+  (fp_line (start 2.3 2.2) (end -2.3 2.2) (layer Dwgs.User) (width 0.1))
+)

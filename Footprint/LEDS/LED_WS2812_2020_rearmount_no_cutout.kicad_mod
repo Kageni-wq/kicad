@@ -1,0 +1,219 @@
+(footprint "LED_WS2812_2020_rearmount_no_cutout"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "2020 SMD adressable RGB LED with integrated controller")
+	(tags "LED RGB NeoPixel")
+	(property "Reference" "REF**"
+		(at -0.01 -2.27 0)
+		(layer "Cmts.User")
+		(uuid "cf2cb3c6-dbda-4e71-b0e9-a4fdd9245c98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "WS2812_2020_rearmount"
+		(at 0 -3.2 0)
+		(layer "F.Fab")
+		(uuid "519efb65-e906-4119-9dd5-26ef8818ff2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f050a392-d2f1-4783-bc1e-18274fd7cf1c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2065780f-4349-4978-b3c4-7bf9b494ec88")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "056132ac-d3b3-48c0-8257-5c78d569b560")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.7 1.15)
+		(end -1.7 -1.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d621309b-8ee1-4dff-bb2b-17a3717c0e91")
+	)
+	(fp_line
+		(start -1.2 -1)
+		(end 1.2 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "f2272436-b72b-44f9-bc7f-d7693d802052")
+	)
+	(fp_line
+		(start -1.2 1)
+		(end -1.2 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "b8d89965-cf26-4eb9-9139-b925906717f7")
+	)
+	(fp_line
+		(start 1.2 -1)
+		(end 1.2 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "81752bd8-7cbd-4f69-947f-dbf9ec27456e")
+	)
+	(fp_line
+		(start 1.2 1)
+		(end -1.2 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "26d2469e-1d14-4568-b4be-596a00e1f73b")
+	)
+	(fp_line
+		(start -1.1 -1)
+		(end 1.1 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "f4d31a8d-7ee9-4224-abe2-e62f0601a2e8")
+	)
+	(fp_line
+		(start -1.1 1)
+		(end -1.1 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "24f08c77-c695-44dd-9ec4-fff248569094")
+	)
+	(fp_line
+		(start 1.1 -1)
+		(end 1.1 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "fcf72a58-0587-495d-ad1f-4da0b5c5be95")
+	)
+	(fp_line
+		(start 1.1 1)
+		(end -1.1 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "f55c1be0-7576-43d5-ac00-c85001b5f8f9")
+	)
+	(pad "1" smd roundrect
+		(at -1.15 0.55)
+		(size 0.7 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "4f39fac1-2ac4-40ab-ac7b-390d23ed2e0a")
+	)
+	(pad "2" smd roundrect
+		(at -1.15 -0.55)
+		(size 0.7 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "89b36c8e-df13-4f27-8e9d-c61057655c1a")
+	)
+	(pad "3" smd roundrect
+		(at 1.15 -0.55)
+		(size 0.7 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "0354e7d9-5f84-4ffe-8692-5e6d377e701f")
+	)
+	(pad "4" smd roundrect
+		(at 1.15 0.55)
+		(size 0.7 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "7694f3f2-c0e9-47be-9d4e-89164aee76f5")
+	)
+	(model "C:/Users/Kagen/iCloudDrive/Documents/Keeber/Libs/LED_WS2812_2020.step"
+		(offset
+			(xyz 0 0 0.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/../3d/LED_WS2812_2020.step"
+		(offset
+			(xyz 0 0 -2.06)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/marbastlib/3d/LED_WS2812_2020.step"
+		(offset
+			(xyz 0 0 -2.06)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

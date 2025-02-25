@@ -1,0 +1,204 @@
+(footprint "Mic Connector"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
+	(tags "Through hole pin header THT 1x04 2.54mm single row")
+	(property "Reference" "REF**"
+		(at -0.03 -6.1 0)
+		(layer "Cmts.User")
+		(uuid "d559e78f-9137-43bf-9f69-165532415fcf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Mic Connector"
+		(at 0 9.95 0)
+		(layer "F.Fab")
+		(uuid "348f53c9-f22c-45ad-a1c8-50113d0805cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Mic Connector"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b66841af-6427-48a9-bcd7-fbc51ebe8a7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a766e9ee-6346-4e18-8524-98430b8c086f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af4b1de4-83a2-4aa7-8b31-bce249f6f34c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.8 -3.07)
+		(end -1.8 3.07)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c81c6ee0-4441-4de7-807f-c30b3d1aa088")
+	)
+	(fp_line
+		(start 1.8 -3.07)
+		(end -1.8 -3.07)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eef21155-0819-4e22-84e8-f17b0bc291da")
+	)
+	(fp_line
+		(start 1.8 3.07)
+		(end -1.8 3.07)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3fce4a9b-2d51-429a-adc0-f696a700cf62")
+	)
+	(fp_line
+		(start 1.8 3.07)
+		(end 1.8 -3.07)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "22b486a5-f3c3-447d-83fc-e0bf37a5d122")
+	)
+	(fp_line
+		(start -1.27 -1.905)
+		(end -0.635 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f23b7a6c-84ee-4e57-bc43-363743bbba33")
+	)
+	(fp_line
+		(start -1.27 7.62)
+		(end -1.27 -1.905)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "91ac591b-23aa-41f6-a831-190c665c7dd1")
+	)
+	(fp_line
+		(start -0.635 -2.54)
+		(end 1.27 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "036fb27e-aac9-4db3-afab-9f568eb24cb5")
+	)
+	(fp_line
+		(start 1.27 -2.54)
+		(end 1.27 7.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a0f55beb-3ffe-43fe-b95d-6e9857ff1b99")
+	)
+	(fp_text user "-"
+		(at 1.97 -1.25 0)
+		(unlocked yes)
+		(layer "F.Mask")
+		(uuid "20e7e437-28f6-4032-b39a-43459b2986c0")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at 1.97 1.29 0)
+		(unlocked yes)
+		(layer "F.Mask")
+		(uuid "bf226323-17ed-4687-943d-6770a4b0750b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.54 90)
+		(layer "F.Fab")
+		(uuid "6a275956-06fa-47ad-92b1-820393d36d11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 -1.27)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.3)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(uuid "154cd23f-521c-47b4-b321-b81bccc55300")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 1.27)
+		(size 1.7 1.7)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.3)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(uuid "73467b20-058f-45e4-ac84-184d62db7dc8")
+	)
+)
