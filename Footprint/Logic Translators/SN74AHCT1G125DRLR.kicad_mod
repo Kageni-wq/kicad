@@ -1,7 +1,7 @@
 (footprint "SN74AHCT1G125DRLR"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "SN74AHCT1G125DRLR ")
 	(property "Reference" "REF**"
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" "SN74AHCT1G125DRLR"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3fd0789a-85f3-488d-b9f8-c41693774e90")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -417,48 +407,54 @@
 	(pad "1" smd roundrect
 		(at -0.6477 -0.499999)
 		(size 0.9144 0.3048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
+		(clearance 0.17)
 		(uuid "514b6460-a3a8-4e64-bcac-33f4ec0aa491")
 	)
 	(pad "2" smd roundrect
 		(at -0.6477 0)
 		(size 0.9144 0.3048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
+		(clearance 0.17)
 		(uuid "f1397355-1fa7-4c5d-a6da-1d595a51a3d9")
 	)
 	(pad "3" smd roundrect
 		(at -0.6477 0.499999)
 		(size 0.9144 0.3048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
+		(clearance 0.17)
 		(uuid "6062a51f-3ba3-4309-add6-a17375ef7ed1")
 	)
 	(pad "4" smd roundrect
 		(at 0.6477 0.499999)
 		(size 0.9144 0.3048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
+		(clearance 0.17)
 		(uuid "ff3f4e9c-2964-4900-b100-2a36d5d2b9de")
 	)
 	(pad "5" smd roundrect
 		(at 0.6477 -0.499999)
 		(size 0.9144 0.3048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
+		(clearance 0.17)
 		(uuid "8f8463ca-83d1-404f-8d35-294a02e5cc67")
 	)
+	(embedded_fonts no)
 	(model "C:/Users/Kagen/OneDrive/Documents/KiCad/7.0/3dmodels/SN74AHCT1G125DRLR.step"
 		(offset
 			(xyz 0 0 0)
