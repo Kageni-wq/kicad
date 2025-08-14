@@ -1,0 +1,165 @@
+(footprint "830081609"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<b>WE-XTAL Quartz Crystal<br><br>Size : </b>IQXC-26<br>L X W X H = 1.6mm X 1.2mm X 0.4mm")
+	(property "Reference" "REF**"
+		(at 0 -1.62 0)
+		(layer "User.2")
+		(uuid "638f805b-2cb2-4576-8836-191263eff99b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WE-XTAL_IQXC-26"
+		(at 2.872 1.3952 0)
+		(layer "F.Fab")
+		(uuid "347600d9-d043-42e3-88f2-9f7aa7e6e22d")
+		(effects
+			(font
+				(size 0.48 0.48)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b184323-9c73-46c7-b7f4-a94fcbd1b6b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d395446-0acc-44f3-9127-43eafb1cd4b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.25 0.8)
+		(end -1.2 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "47aaa1ba-244a-4eaa-8af9-cf858c173be7")
+	)
+	(fp_poly
+		(pts
+			(xy -1.15 -0.85) (xy 1.15 -0.85) (xy 1.15 0.85) (xy -1.15 0.85)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4c62dc84-aca5-4bc5-aafc-31f289b1e8f6")
+	)
+	(fp_line
+		(start -0.8 -0.6)
+		(end 0.8 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a0e31709-1f80-46cc-8466-775ce3d6a0be")
+	)
+	(fp_line
+		(start -0.8 0.6)
+		(end -0.8 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56953cbe-9f9c-4668-811c-d2068e4bdac5")
+	)
+	(fp_line
+		(start 0.8 -0.6)
+		(end 0.8 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d285911c-4c8b-4a3e-96ec-aa47b4ad9b9b")
+	)
+	(fp_line
+		(start 0.8 0.6)
+		(end -0.8 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "db09adda-109c-4dd7-be7e-640a32793b59")
+	)
+	(pad "1" smd roundrect
+		(at -0.55 0.375)
+		(size 0.75 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.06)
+		(solder_paste_margin -0.06)
+		(uuid "4f5ad1a2-7594-493f-94d3-96ebcd791792")
+	)
+	(pad "2" smd roundrect
+		(at 0.55 0.375)
+		(size 0.75 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.06)
+		(solder_paste_margin -0.06)
+		(uuid "a1825275-a8b8-45e3-b070-8e4c69c37a85")
+	)
+	(pad "3" smd roundrect
+		(at 0.55 -0.375)
+		(size 0.75 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.06)
+		(solder_paste_margin -0.06)
+		(uuid "c54df63a-9b9c-4bea-a06e-949cdcbc8be3")
+	)
+	(pad "4" smd roundrect
+		(at -0.55 -0.375)
+		(size 0.75 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.06)
+		(solder_paste_margin -0.06)
+		(uuid "ff16a0c0-842a-444d-92cd-0376e5c61943")
+	)
+	(embedded_fonts no)
+	(model "C:/Kicad Lib/kicad/3dmodels/830081609.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

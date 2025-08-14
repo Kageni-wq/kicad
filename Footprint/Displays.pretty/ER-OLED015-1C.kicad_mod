@@ -1,0 +1,221 @@
+(footprint "ER-OLED015-1C"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "65213e0e-99d8-45af-919c-29918c4db0a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ER-OLED015-1C"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0445199-c490-43a8-a0ea-bed88bf2f889")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d2dca77-03f1-4c03-8ded-88b154a3ba15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3fd7cb61-4f53-4946-8188-22efe250a02f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -17 22.064)
+		(end -17 -12)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4960515b-ab2d-4651-af05-da5539aa7142")
+	)
+	(fp_line
+		(start 17 -12)
+		(end 17 22.064)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "49cd4c3c-410a-410b-9493-2ae54ab770c2")
+	)
+	(fp_line
+		(start 17 22.064)
+		(end -17 22.064)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f72da4f5-6204-44fe-a1d7-8acaaa935497")
+	)
+	(fp_line
+		(start -13.4175 -6.9)
+		(end -13.4175 19.964)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "49426d7d-d97a-4d00-9146-08c6803a65b6")
+	)
+	(fp_line
+		(start -13.4175 19.964)
+		(end 13.4375 19.964)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "502decf8-b13c-45db-bb1c-f7a3fce79c22")
+	)
+	(fp_line
+		(start -8.516 -0.636)
+		(end -8.516 -4.416)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "43eb2893-0957-40ec-89e4-25d24240f9b7")
+	)
+	(fp_line
+		(start 8.536 -0.636)
+		(end 8.536 -4.416)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "911f9f60-3a54-4a60-a995-b383bbc85494")
+	)
+	(fp_line
+		(start 13.4375 -6.9)
+		(end -13.4175 -6.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "a1761d9f-d2b9-42fb-8eff-ee82a1996d67")
+	)
+	(fp_line
+		(start 13.4375 19.964)
+		(end 13.4375 -6.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "74f192f8-6637-4a57-beaa-128a5080d196")
+	)
+	(fp_line
+		(start -15.625 -12.636001)
+		(end -14.99 -12.001)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ddbd7ecf-397e-46da-9542-dc153e52fa57")
+	)
+	(fp_line
+		(start -14.99 -12.001)
+		(end -14.99 -11.036)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e3cd2169-ecac-4613-b8f5-5ca3f18ccb2e")
+	)
+	(fp_line
+		(start -14.99 -11.036)
+		(end 15.01 -11.036)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "95eab348-6748-468a-9528-99514afcdc3e")
+	)
+	(fp_line
+		(start 15.01 -12.001)
+		(end 15.645 -12.636001)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5bbe5f3e-21d3-469f-be79-19439c24aba2")
+	)
+	(fp_line
+		(start 15.01 -11.036)
+		(end 15.01 -12.001)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "34db7e59-1f3b-464c-a7ae-002ce306cb75")
+	)
+	(fp_rect
+		(start -16.89 -11.936)
+		(end 16.91 22.064)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5d772e20-83ff-440d-82db-cd704e6056ca")
+	)
+	(embedded_fonts no)
+	(model "C:/Kicad Lib/kicad/3dmodels/ER-OLED015-1C v1.step"
+		(offset
+			(xyz 0 -5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)
