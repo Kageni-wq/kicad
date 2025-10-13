@@ -1,0 +1,88 @@
+(footprint "BAT Pads smaller"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "BAT+"
+		(at 0.3048 -5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "631f6611-7cfb-4fd5-a3a4-44cf95a9f893")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BAT Pads smaller"
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c707479e-dadc-48b9-a8d2-5647e82dc92e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4cb56cc3-a6d4-41ce-8804-9b3d7acde993")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fca664a-4186-4ea7-869e-70cb9d8e065f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "505e78de-cccb-4f1a-87e3-500b45e52cf2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 3 1.5)
+		(drill 1)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "0a30a774-983b-4f68-8bb3-a27c695686e9")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Kagen/OneDrive/Documents/KiCad/6.0/3dmodels/Batt Pad.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

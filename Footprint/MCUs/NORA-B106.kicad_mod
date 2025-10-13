@@ -755,7 +755,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "C:/Kicad Lib/kicad/3dmodels/NORA-B1x6.stp"
+	(model "C:/Users/Kagen/Documents/GitHub/kicad/3dmodels/NORA-B1x6.stp"
 		(offset
 			(xyz -7.7 5.25 0.5)
 		)

@@ -534,7 +534,7 @@
 		(uuid "3f618ee4-d997-462e-a487-73870c45593f")
 	)
 	(embedded_fonts no)
-	(model "C:/Kicad Lib/kicad/3dmodels/CX90BW-16P_001_.step"
+	(model "C:/Users/Kagen/Documents/GitHub/kicad/3dmodels/CX90BW-16P_001_.step"
 		(offset
 			(xyz 0 1.53 0.6)
 		)

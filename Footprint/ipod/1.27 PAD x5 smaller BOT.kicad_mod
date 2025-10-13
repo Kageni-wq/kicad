@@ -1,0 +1,100 @@
+(footprint "1.27 PAD x5 smaller BOT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Through hole straight socket strip, 1x05, 1.27mm pitch, single row (from Kicad 4.0.7), script generated")
+	(tags "Through hole socket strip THT 1x05 1.27mm single row")
+	(property "Reference" "REF**"
+		(at 0 -4.675 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "278bd2f5-be9d-4795-877b-edd453c6ad5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1.27 PAD x5 smaller BOT"
+		(at 0 4.675 0)
+		(layer "F.Fab")
+		(uuid "78dbca62-c11c-42f4-88c0-1f2bc8875024")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -0.635 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "598dd521-14c0-402f-9fc4-f9c49a803739")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -0.635 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ed01270-7f65-4b6b-a422-775c04f509f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "40613253-6b6e-461a-9e52-7aec7a167fbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.54 -0.95 180)
+		(size 0.8 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "21673d3a-9ddd-4fc2-9fc7-fb414fd8003f")
+	)
+	(pad "2" smd rect
+		(at -1.27 -0.95 180)
+		(size 0.8 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d0eb24f1-e711-4c6a-86f1-ce69dbe11350")
+	)
+	(pad "3" smd rect
+		(at 0 -0.95 180)
+		(size 0.8 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4be850d7-9e82-49aa-997c-7129e1e31089")
+	)
+	(pad "4" smd rect
+		(at 1.27 -0.95 180)
+		(size 0.8 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "97640649-0683-4541-9256-43dbf0e811a3")
+	)
+	(pad "5" smd rect
+		(at 2.54 -0.95 180)
+		(size 0.8 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2fd0316a-1c82-441f-9bae-691a0fda3953")
+	)
+	(embedded_fonts no)
+)

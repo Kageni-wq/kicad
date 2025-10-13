@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20231120)
 	(generator "kicad_symbol_editor")
-	(generator_version "9.0")
+	(generator_version "8.0")
 	(symbol "ABM10-16.000MHZ-E20-T"
 		(pin_names
 			(offset 1.016)
@@ -96,6 +96,17 @@
 			)
 		)
 		(symbol "ABM10-16.000MHZ-E20-T_0_0"
+			(rectangle
+				(start -5.08 -10.16)
+				(end 5.08 5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
 					(xy -5.08 0) (xy -2.54 0)
@@ -106,17 +117,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(rectangle
-				(start -5.08 -10.16)
-				(end 5.08 5.08)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 			(polyline
@@ -157,7 +157,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.397 2.54) (xy 1.397 -2.54)
+					(xy 1.397 -2.54) (xy -1.397 -2.54)
 				)
 				(stroke
 					(width 0.4064)
@@ -169,7 +169,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.397 -2.54) (xy -1.397 -2.54)
+					(xy 1.397 2.54) (xy 1.397 -2.54)
 				)
 				(stroke
 					(width 0.4064)
@@ -221,24 +221,6 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 7.62 -5.08 180)
 				(length 2.54)
@@ -250,6 +232,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -276,7 +276,6 @@
 				)
 			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "ABM8G-12.288MHZ-4Y-T3"
 		(pin_names
@@ -372,6 +371,17 @@
 			)
 		)
 		(symbol "ABM8G-12.288MHZ-4Y-T3_0_0"
+			(rectangle
+				(start -5.08 -10.16)
+				(end 5.08 5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
 					(xy -5.08 0) (xy -2.54 0)
@@ -382,17 +392,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(rectangle
-				(start -5.08 -10.16)
-				(end 5.08 5.08)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 			(polyline
@@ -433,7 +432,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.397 2.54) (xy 1.397 -2.54)
+					(xy 1.397 -2.54) (xy -1.397 -2.54)
 				)
 				(stroke
 					(width 0.4064)
@@ -445,7 +444,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.397 -2.54) (xy -1.397 -2.54)
+					(xy 1.397 2.54) (xy 1.397 -2.54)
 				)
 				(stroke
 					(width 0.4064)
@@ -497,24 +496,6 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 7.62 -5.08 180)
 				(length 2.54)
@@ -526,6 +507,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -552,7 +551,6 @@
 				)
 			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "DSC6011HI1A-004.0000"
 		(pin_names
@@ -625,6 +623,24 @@
 			)
 		)
 		(symbol "DSC6011HI1A-004.0000_0_1"
+			(pin output line
+				(at 7.62 -1.27 180)
+				(length 2.54)
+				(name "STBY"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_out line
 				(at -7.62 -1.27 0)
 				(length 2.54)
@@ -654,24 +670,6 @@
 					)
 				)
 				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 7.62 -1.27 180)
-				(length 2.54)
-				(name "STBY"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -711,7 +709,6 @@
 				)
 			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "ECS-400-10-37B2-CKY-TR"
 		(pin_names
@@ -809,7 +806,7 @@
 		(symbol "ECS-400-10-37B2-CKY-TR_0_0"
 			(polyline
 				(pts
-					(xy -3.175 -2.54) (xy -3.175 -3.175)
+					(xy -3.175 -3.175) (xy 0 -3.175)
 				)
 				(stroke
 					(width 0.4064)
@@ -821,7 +818,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.175 -3.175) (xy 0 -3.175)
+					(xy -3.175 -2.54) (xy -3.175 -3.175)
 				)
 				(stroke
 					(width 0.4064)
@@ -869,18 +866,6 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -3.175) (xy 3.175 -3.175)
-				)
-				(stroke
-					(width 0.4064)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0 -5.08) (xy 0 -3.175)
 				)
 				(stroke
@@ -893,7 +878,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.397 2.54) (xy 1.397 -2.54)
+					(xy 0 -3.175) (xy 3.175 -3.175)
 				)
 				(stroke
 					(width 0.4064)
@@ -906,6 +891,18 @@
 			(polyline
 				(pts
 					(xy 1.397 -2.54) (xy -1.397 -2.54)
+				)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.397 2.54) (xy 1.397 -2.54)
 				)
 				(stroke
 					(width 0.4064)
@@ -1014,259 +1011,6 @@
 				)
 			)
 		)
-		(embedded_fonts no)
-	)
-	(symbol "RV-8263-C7-32.768KHZ-20PPM-TA-QC"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at -0.508 7.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "RV-8263-C7-32.768KHZ-20PPM-TA-QC"
-			(at -20.574 -8.128 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "Crystals:RV-8263-C7-32.768KHZ-20PPM-TA-QC"
-			(at 0.508 26.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.0"
-			(at -13.97 17.272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Micro Crystal"
-			(at 0 18.288 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
-			(at 26.416 16.764 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0.254 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(symbol "RV-8263-C7-32.768KHZ-20PPM-TA-QC_0_0"
-			(rectangle
-				(start -7.62 6.35)
-				(end 7.62 -6.35)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin power_in line
-				(at -12.7 3.81 0)
-				(length 5.08)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 1.27 0)
-				(length 5.08)
-				(name "CLKOE"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -12.7 -1.27 0)
-				(length 5.08)
-				(name "NC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -12.7 -3.81 0)
-				(length 5.08)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output clock
-				(at 12.7 3.81 180)
-				(length 5.08)
-				(name "CLKOUT"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 12.7 1.27 180)
-				(length 5.08)
-				(name "~{INT}"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input clock
-				(at 12.7 -1.27 180)
-				(length 5.08)
-				(name "SCL"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 12.7 -3.81 180)
-				(length 5.08)
-				(name "SDA"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
 	)
 	(symbol "XRCGB32M000F2P01R0"
 		(pin_names
@@ -1400,7 +1144,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.397 2.54) (xy 1.397 -2.54)
+					(xy 1.397 -2.54) (xy -1.397 -2.54)
 				)
 				(stroke
 					(width 0.4064)
@@ -1412,7 +1156,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.397 -2.54) (xy -1.397 -2.54)
+					(xy 1.397 2.54) (xy 1.397 -2.54)
 				)
 				(stroke
 					(width 0.4064)
@@ -1509,6 +1253,5 @@
 				)
 			)
 		)
-		(embedded_fonts no)
 	)
 )

@@ -194,7 +194,7 @@
 		(uuid "103c9f8a-aefc-4bcc-be43-54b8942c6816")
 	)
 	(embedded_fonts no)
-	(model "C:/Kicad Lib/kicad/3dmodels/TL6340AF160Q.step"
+	(model "C:/Users/Kagen/Documents/GitHub/kicad/3dmodels/TL6340AF160Q.step"
 		(offset
 			(xyz 0 0 0)
 		)

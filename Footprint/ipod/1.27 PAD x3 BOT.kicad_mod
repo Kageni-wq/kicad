@@ -1,0 +1,88 @@
+(footprint "1.27 PAD x3 BOT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Through hole straight socket strip, 1x05, 1.27mm pitch, single row (from Kicad 4.0.7), script generated")
+	(tags "Through hole socket strip THT 1x05 1.27mm single row")
+	(property "Reference" "REF**"
+		(at 0 -4.675 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "278bd2f5-be9d-4795-877b-edd453c6ad5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1.27 PAD x3 BOT"
+		(at 0 4.675 0)
+		(layer "F.Fab")
+		(uuid "78dbca62-c11c-42f4-88c0-1f2bc8875024")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -0.635 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "598dd521-14c0-402f-9fc4-f9c49a803739")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -0.635 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ed01270-7f65-4b6b-a422-775c04f509f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "40613253-6b6e-461a-9e52-7aec7a167fbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.8 -0.95 180)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ff2ac152-a745-4aa9-a983-32dc1098a409")
+	)
+	(pad "2" smd rect
+		(at 0 -0.95 180)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a51f529e-5129-4d75-b0b7-1f598466c20c")
+	)
+	(pad "3" smd rect
+		(at 1.8 -0.95 180)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1df50e92-b978-45c0-8942-0b14f002e357")
+	)
+	(embedded_fonts no)
+)
