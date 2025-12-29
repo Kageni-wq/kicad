@@ -6788,6 +6788,597 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "CYBT-413055-02"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CYBT-413055-02_0_0"
+			(pin unspecified line
+				(at -40.64 45.72 0)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -40.64 40.64 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -40.64 38.1 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -40.64 35.56 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -40.64 33.02 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -40.64 30.48 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -40.64 27.94 0)
+				(length 2.54)
+				(name "HOST_WAKE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -40.64 25.4 0)
+				(length 2.54)
+				(name "UART_RX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -40.64 22.86 0)
+				(length 2.54)
+				(name "UART_TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -40.64 20.32 0)
+				(length 2.54)
+				(name "UART_RTS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -40.64 17.78 0)
+				(length 2.54)
+				(name "UART_CTS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -40.64 12.7 0)
+				(length 2.54)
+				(name "XTALO32K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -40.64 10.16 0)
+				(length 2.54)
+				(name "XTALI32K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -20.32 45.72 180)
+				(length 2.54)
+				(name "P1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 45.72 0)
+				(length 2.54)
+				(name "P6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 40.64 0)
+				(length 2.54)
+				(name "P16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 38.1 0)
+				(length 2.54)
+				(name "P2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 35.56 0)
+				(length 2.54)
+				(name "P4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 33.02 0)
+				(length 2.54)
+				(name "P7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 30.48 0)
+				(length 2.54)
+				(name "P17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 27.94 0)
+				(length 2.54)
+				(name "P13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 22.86 0)
+				(length 2.54)
+				(name "P29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 20.32 0)
+				(length 2.54)
+				(name "P0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 15.24 0)
+				(length 2.54)
+				(name "P38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 12.7 0)
+				(length 2.54)
+				(name "P26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 10.16 0)
+				(length 2.54)
+				(name "P33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 7.62 0)
+				(length 2.54)
+				(name "P25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 5.08 0)
+				(length 2.54)
+				(name "XRES"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 19.05 21.59 0)
+				(length 2.54)
+				(name "P34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 19.05 19.05 0)
+				(length 2.54)
+				(name "P10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "ESP32-D0WDQ6"
 		(pin_names
 			(offset 1.016)
@@ -19147,7 +19738,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ISP1807-LR-RS"
+		(property "Footprint" "MCUs:ISP1807-LR-RS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19203,35 +19794,28 @@
 			)
 		)
 		(symbol "ISP1807-LR-RS_1_1"
-			(pin power_out line
-				(at -77.47 -53.34 0)
-				(length 7.62)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			(rectangle
+				(start -7.62 16.51)
+				(end 6.35 -21.59)
+				(stroke
+					(width 0)
+					(type default)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(fill
+					(type none)
 				)
 			)
-			(pin power_out line
-				(at -77.47 -55.88 0)
+			(pin power_in line
+				(at -15.24 13.97 0)
 				(length 7.62)
-				(name "VSS"
+				(name "VCC_NRF"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "26"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19240,7 +19824,7 @@
 				)
 			)
 			(pin power_in line
-				(at -77.47 -58.42 0)
+				(at -15.24 11.43 0)
 				(length 7.62)
 				(name "VBUS"
 					(effects
@@ -19258,7 +19842,25 @@
 				)
 			)
 			(pin power_out line
-				(at -77.47 -60.96 0)
+				(at -15.24 8.89 0)
+				(length 7.62)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -15.24 6.35 0)
 				(length 7.62)
 				(name "VSS"
 					(effects
@@ -19276,7 +19878,7 @@
 				)
 			)
 			(pin power_out line
-				(at -77.47 -63.5 0)
+				(at -15.24 3.81 0)
 				(length 7.62)
 				(name "VSS"
 					(effects
@@ -19294,7 +19896,7 @@
 				)
 			)
 			(pin power_out line
-				(at -77.47 -66.04 0)
+				(at -15.24 1.27 0)
 				(length 7.62)
 				(name "VSS"
 					(effects
@@ -19312,7 +19914,7 @@
 				)
 			)
 			(pin power_out line
-				(at -77.47 -68.58 0)
+				(at -15.24 -1.27 0)
 				(length 7.62)
 				(name "VSS"
 					(effects
@@ -19330,7 +19932,7 @@
 				)
 			)
 			(pin power_out line
-				(at -77.47 -71.12 0)
+				(at -15.24 -3.81 0)
 				(length 7.62)
 				(name "VSS"
 					(effects
@@ -19348,7 +19950,7 @@
 				)
 			)
 			(pin power_out line
-				(at -77.47 -73.66 0)
+				(at -15.24 -6.35 0)
 				(length 7.62)
 				(name "VSS"
 					(effects
@@ -19366,7 +19968,7 @@
 				)
 			)
 			(pin power_out line
-				(at -77.47 -76.2 0)
+				(at -15.24 -8.89 0)
 				(length 7.62)
 				(name "VSS"
 					(effects
@@ -19383,17 +19985,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -77.47 -78.74 0)
+			(pin power_out line
+				(at -15.24 -11.43 0)
 				(length 7.62)
-				(name "VCC_NRF"
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "26"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19402,7 +20004,7 @@
 				)
 			)
 			(pin power_out line
-				(at -77.47 -81.28 0)
+				(at -15.24 -13.97 0)
 				(length 7.62)
 				(name "VSS"
 					(effects
@@ -19420,7 +20022,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -48.26 -53.34 180)
+				(at 13.97 13.97 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -19438,7 +20040,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -48.26 -55.88 180)
+				(at 13.97 11.43 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -19456,7 +20058,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -48.26 -58.42 180)
+				(at 13.97 8.89 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -19474,7 +20076,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -48.26 -60.96 180)
+				(at 13.97 6.35 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -19492,7 +20094,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -48.26 -63.5 180)
+				(at 13.97 3.81 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -19510,7 +20112,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -48.26 -66.04 180)
+				(at 13.97 1.27 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -19528,7 +20130,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -48.26 -68.58 180)
+				(at 13.97 -1.27 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -19546,7 +20148,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -48.26 -71.12 180)
+				(at 13.97 -3.81 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -19564,7 +20166,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -48.26 -73.66 180)
+				(at 13.97 -6.35 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -19582,7 +20184,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -48.26 -76.2 180)
+				(at 13.97 -8.89 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -19600,7 +20202,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -48.26 -78.74 180)
+				(at 13.97 -11.43 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -19618,7 +20220,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -48.26 -81.28 180)
+				(at 13.97 -13.97 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -19636,7 +20238,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -48.26 -83.82 180)
+				(at 13.97 -16.51 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -19654,7 +20256,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -48.26 -86.36 180)
+				(at 13.97 -19.05 180)
 				(length 7.62)
 				(name "NC"
 					(effects
