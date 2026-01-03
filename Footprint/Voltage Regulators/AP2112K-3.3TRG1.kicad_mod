@@ -1,7 +1,7 @@
 (footprint "AP2112K-3.3TRG1"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0 0)
@@ -26,18 +26,6 @@
 			)
 		)
 	)
-	(property "Footprint" "AP2112K-3.3TRG1"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "dfa4e14c-1b2b-45b2-98d3-76c927b3557f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -47,6 +35,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -59,6 +48,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -464,50 +454,6 @@
 		(layer "F.Fab")
 		(uuid "a602a084-13f1-4e2d-97f9-7a40f0b029eb")
 	)
-	(fp_text user "0.02in/0.508mm"
-		(at 4.40055 -0.95 0)
-		(layer "Dwgs.User")
-		(uuid "04153aba-7b1f-42c7-af56-d1decb77a736")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "0.106in/2.705mm"
-		(at 0 -3.9624 0)
-		(layer "Dwgs.User")
-		(uuid "13a54b9d-bc39-4b2e-bd48-2596a4a75bd7")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "0in/0mm"
-		(at -4.40055 0 0)
-		(layer "Dwgs.User")
-		(uuid "4d01fd10-1910-4cd0-abb3-a6bee0bf9b8f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "0.04in/1.003mm"
-		(at -1.35255 3.9624 0)
-		(layer "Dwgs.User")
-		(uuid "c2e1f497-327b-4ce0-9b7f-102fe6385d1e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "Copyright 2016 Accelerated Designs. All rights reserved."
 		(at 0 0 0)
 		(layer "Cmts.User")
@@ -544,34 +490,35 @@
 	(pad "1" smd rect
 		(at -1.35255 -0.950001)
 		(size 1.0033 0.508)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9af79147-2890-4e20-9767-28e5b75bf196")
 	)
 	(pad "2" smd rect
 		(at -1.35255 0)
 		(size 1.0033 0.508)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "491cec01-95a9-40e5-8731-526d84867d64")
 	)
 	(pad "3" smd rect
 		(at -1.35255 0.950001)
 		(size 1.0033 0.508)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6783ac14-663b-46ca-afe4-4a832eb362db")
 	)
 	(pad "4" smd rect
 		(at 1.35255 0.950001)
 		(size 1.0033 0.508)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9baf8cd4-246f-45f5-bb21-81e8bcc83791")
 	)
 	(pad "5" smd rect
 		(at 1.35255 -0.950001)
 		(size 1.0033 0.508)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "793ff80a-c4eb-440b-8fea-9787f914db9f")
 	)
-	(model "C:/Users/Kagen/iCloudDrive/Documents/Keeber/Libs/AP2112K-3.3TRG1.step"
+	(embedded_fonts no)
+	(model "/Users/kagenaeby/Documents/GitHub/kicad/3dmodels/AP2112K-3.3TRG1.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -579,7 +526,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 90 180 -180)
 		)
 	)
 )

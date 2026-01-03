@@ -1,7 +1,7 @@
 (footprint "USBLC6-2SC6"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.078 -2.4189 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" "USBLC6-2SC6"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a26f36fd-d5c7-4fc5-ab41-47c5636c061d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -89,7 +79,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "a336f874-e563-491e-8938-62b3bfedd355")
 	)
@@ -180,14 +170,14 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "bf99e4ce-7bc1-42c0-b056-8c5906caee40")
 	)
 	(pad "1" smd roundrect
 		(at -1.255 -0.95)
 		(size 1.21 0.59)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.102)
 		(uuid "541d26c8-b872-44f1-8070-81b732f92bfa")
@@ -195,7 +185,7 @@
 	(pad "2" smd roundrect
 		(at -1.255 0)
 		(size 1.21 0.59)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.102)
 		(uuid "24943c4a-f100-48c4-962a-3a90a07e035b")
@@ -203,7 +193,7 @@
 	(pad "3" smd roundrect
 		(at -1.255 0.95)
 		(size 1.21 0.59)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.102)
 		(uuid "ad18932e-b4f3-4973-b7fa-cf0fc8430d7f")
@@ -211,7 +201,7 @@
 	(pad "4" smd roundrect
 		(at 1.255 0.95)
 		(size 1.21 0.59)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.102)
 		(uuid "6f1d76b1-c56e-45ef-9e9f-04b02b673fed")
@@ -219,7 +209,7 @@
 	(pad "5" smd roundrect
 		(at 1.255 0)
 		(size 1.21 0.59)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.102)
 		(uuid "555a9f90-34cf-4cd0-b3ea-5ecc8ff0b53c")
@@ -227,12 +217,13 @@
 	(pad "6" smd roundrect
 		(at 1.255 -0.95)
 		(size 1.21 0.59)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.102)
 		(uuid "919fbc66-e6a4-4aed-9d0b-9d4eb9c91ab4")
 	)
-	(model "C:/Users/Kagen/OneDrive/Documents/KiCad/7.0/3dmodels/USBLC6-2SC6.step"
+	(embedded_fonts no)
+	(model "/Users/kagenaeby/Documents/GitHub/kicad/3dmodels/USBLC6-2SC6.step"
 		(offset
 			(xyz 0 0 1)
 		)

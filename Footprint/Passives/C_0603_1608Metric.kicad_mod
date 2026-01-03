@@ -1,7 +1,7 @@
 (footprint "C_0603_1608Metric"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 	(tags "capacitor")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" "C_0603_1608Metric"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "287cf15e-326c-4748-8e5e-e3e0f464b677")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -190,7 +180,7 @@
 	(pad "1" smd roundrect
 		(at -0.775 0)
 		(size 0.9 0.95)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
@@ -199,21 +189,22 @@
 	(pad "2" smd roundrect
 		(at 0.775 0)
 		(size 0.9 0.95)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
 		(uuid "b3136c2f-02b9-49e1-a069-45a3c84854a1")
 	)
-	(model "C:/Users/Kagen/OneDrive/Documents/KiCad/6.0/3dmodels/CL10A105KO8NNNC.STEP"
+	(embedded_fonts no)
+	(model "/Users/kagenaeby/Documents/GitHub/kicad/3dmodels/c603.step"
 		(offset
-			(xyz 0 0 0.4)
+			(xyz 0 0 -0.04)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

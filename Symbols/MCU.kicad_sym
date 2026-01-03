@@ -17048,14 +17048,14 @@
 			(pin bidirectional line
 				(at -21.59 19.05 0)
 				(length 2.54)
-				(name "GND"
+				(name "EXT_RF"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "56"
+				(number "57"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17066,14 +17066,14 @@
 			(pin bidirectional line
 				(at -21.59 16.51 0)
 				(length 2.54)
-				(name "EXT_RF"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "57"
+				(number "56"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17822,24 +17822,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at 7.3025 -35.2425 90)
-				(length 2.54)
-				(name "SPRK1+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "45"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at 7.62 27.94 270)
 				(length 2.54)
 				(name "VDD_PADS"
@@ -17858,7 +17840,25 @@
 				)
 			)
 			(pin bidirectional line
-				(at 9.8425 -35.2425 90)
+				(at 7.62 -35.56 90)
+				(length 2.54)
+				(name "SPRK1+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 10.16 -35.56 90)
 				(length 2.54)
 				(name "SPKR1N"
 					(effects

@@ -6793,7 +6793,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at 0 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6808,8 +6808,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "MCUs:CYBT-413055-02"
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6837,7 +6837,7 @@
 		)
 		(symbol "CYBT-413055-02_0_0"
 			(pin unspecified line
-				(at -40.64 45.72 0)
+				(at -12.7 19.05 0)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -6855,7 +6855,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -40.64 40.64 0)
+				(at -12.7 13.97 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -6873,7 +6873,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -40.64 38.1 0)
+				(at -12.7 11.43 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -6891,7 +6891,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -40.64 35.56 0)
+				(at -12.7 8.89 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -6909,7 +6909,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -40.64 33.02 0)
+				(at -12.7 6.35 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -6927,7 +6927,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -40.64 30.48 0)
+				(at -12.7 3.81 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -6945,7 +6945,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -40.64 27.94 0)
+				(at -12.7 1.27 0)
 				(length 2.54)
 				(name "HOST_WAKE"
 					(effects
@@ -6963,7 +6963,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -40.64 25.4 0)
+				(at -12.7 -1.27 0)
 				(length 2.54)
 				(name "UART_RX"
 					(effects
@@ -6981,7 +6981,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -40.64 22.86 0)
+				(at -12.7 -3.81 0)
 				(length 2.54)
 				(name "UART_TX"
 					(effects
@@ -6999,7 +6999,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -40.64 20.32 0)
+				(at -12.7 -6.35 0)
 				(length 2.54)
 				(name "UART_RTS"
 					(effects
@@ -7017,7 +7017,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -40.64 17.78 0)
+				(at -12.7 -8.89 0)
 				(length 2.54)
 				(name "UART_CTS"
 					(effects
@@ -7035,7 +7035,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -40.64 12.7 0)
+				(at -12.7 -13.97 0)
 				(length 2.54)
 				(name "XTALO32K"
 					(effects
@@ -7053,7 +7053,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -40.64 10.16 0)
+				(at -12.7 -16.51 0)
 				(length 2.54)
 				(name "XTALI32K"
 					(effects
@@ -7071,259 +7071,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 45.72 180)
-				(length 2.54)
-				(name "P1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 45.72 0)
-				(length 2.54)
-				(name "P6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 40.64 0)
-				(length 2.54)
-				(name "P16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 38.1 0)
-				(length 2.54)
-				(name "P2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 35.56 0)
-				(length 2.54)
-				(name "P4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 33.02 0)
-				(length 2.54)
-				(name "P7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 30.48 0)
-				(length 2.54)
-				(name "P17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 27.94 0)
-				(length 2.54)
-				(name "P13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 22.86 0)
-				(length 2.54)
-				(name "P29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 20.32 0)
-				(length 2.54)
-				(name "P0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 15.24 0)
-				(length 2.54)
-				(name "P38"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 12.7 0)
-				(length 2.54)
-				(name "P26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 10.16 0)
-				(length 2.54)
-				(name "P33"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 7.62 0)
-				(length 2.54)
-				(name "P25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 5.08 0)
+				(at -12.7 -19.05 0)
 				(length 2.54)
 				(name "XRES"
 					(effects
@@ -7341,7 +7089,259 @@
 				)
 			)
 			(pin unspecified line
-				(at 19.05 21.59 0)
+				(at 11.43 19.05 180)
+				(length 2.54)
+				(name "P0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 16.51 180)
+				(length 2.54)
+				(name "P1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 13.97 180)
+				(length 2.54)
+				(name "P2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 11.43 180)
+				(length 2.54)
+				(name "P4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 8.89 180)
+				(length 2.54)
+				(name "P6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 6.35 180)
+				(length 2.54)
+				(name "P7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 3.81 180)
+				(length 2.54)
+				(name "P10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 1.27 180)
+				(length 2.54)
+				(name "P13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 -1.27 180)
+				(length 2.54)
+				(name "P16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 -3.81 180)
+				(length 2.54)
+				(name "P17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 -6.35 180)
+				(length 2.54)
+				(name "P25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 -8.89 180)
+				(length 2.54)
+				(name "P26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 -11.43 180)
+				(length 2.54)
+				(name "P29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 -13.97 180)
+				(length 2.54)
+				(name "P33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 -16.51 180)
 				(length 2.54)
 				(name "P34"
 					(effects
@@ -7359,21 +7359,34 @@
 				)
 			)
 			(pin unspecified line
-				(at 19.05 19.05 0)
+				(at 11.43 -19.05 180)
 				(length 2.54)
-				(name "P10"
+				(name "P38"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "21"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "CYBT-413055-02_0_1"
+			(rectangle
+				(start -10.16 21.59)
+				(end 8.89 -21.59)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 		)
@@ -17035,14 +17048,14 @@
 			(pin bidirectional line
 				(at -21.59 19.05 0)
 				(length 2.54)
-				(name "GND"
+				(name "EXT_RF"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "56"
+				(number "57"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17053,14 +17066,14 @@
 			(pin bidirectional line
 				(at -21.59 16.51 0)
 				(length 2.54)
-				(name "EXT_RF"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "57"
+				(number "56"
 					(effects
 						(font
 							(size 1.27 1.27)
