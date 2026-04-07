@@ -243,4 +243,15 @@
 			(xyz -90 -0 -0)
 		)
 	)
+	(model "/Users/kagenaeby/Documents/GitHub/kicad/3dmodels/skrmaae010.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

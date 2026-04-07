@@ -274,54 +274,6 @@
 		(layer "F.Fab")
 		(uuid "2ca97e07-d735-459e-81c7-dbfbc9b381d6")
 	)
-	(fp_text user "A"
-		(at -4.7117 -3.60045 0)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "2d644ab3-0f1a-45db-8ba8-19b54edb0027")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "K"
-		(at -4.7117 3.60045 0)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "77914698-0d2f-42af-a434-88a2556d30e2")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "1"
-		(at -3.60045 -4.7117 90)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "a34d179c-7e6d-42c0-9b92-0229f1e1ba4f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "10"
-		(at 3.60045 -4.7117 90)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "ff8086bb-60a6-485f-802a-1e31b678ba7c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "10"
 		(at 3.60045 -4.7117 90)
 		(unlocked yes)
@@ -1083,7 +1035,7 @@
 		(uuid "8b646cb4-4b28-40e2-8762-86908f0b0359")
 	)
 	(embedded_fonts no)
-	(model "C:/Kicad Lib/kicad/3dmodels/STM32H725VGH6.step"
+	(model "/Users/kagenaeby/Documents/GitHub/kicad/3dmodels/STM32H725VGH6.step"
 		(offset
 			(xyz 0 0 0)
 		)

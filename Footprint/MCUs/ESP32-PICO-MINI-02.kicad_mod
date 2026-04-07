@@ -804,4 +804,15 @@
 		(uuid "30077dc4-6f02-4b8a-bab3-ed3beaf913cf")
 	)
 	(embedded_fonts no)
+	(model "/Users/kagenaeby/Documents/GitHub/kicad/3dmodels/ESP32-PICO-MINI-02.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

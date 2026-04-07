@@ -387,7 +387,7 @@
 		(uuid "70153151-7a38-4d62-b115-8a6eee4eec64")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Kagen/OneDrive/Documents/KiCad/7.0/3dmodels/BQ25180YBGR.step"
+	(model "/Users/kagenaeby/Documents/GitHub/kicad/3dmodels/BQ25180YBGR.step"
 		(offset
 			(xyz 0 0 0)
 		)

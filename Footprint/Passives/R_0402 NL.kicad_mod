@@ -1,7 +1,7 @@
 (footprint "R_0402 NL"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 	(tags "resistor")
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2515c0e8-a378-4841-b9ec-b100c98edb9f")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -190,7 +178,7 @@
 	(pad "1" smd roundrect
 		(at -0.51 0)
 		(size 0.54 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
@@ -199,12 +187,13 @@
 	(pad "2" smd roundrect
 		(at 0.51 0)
 		(size 0.54 0.64)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
 		(uuid "b2dc4744-6f7a-4267-a134-185dba0d1741")
 	)
+	(embedded_fonts no)
 	(model "C:/Users/Kagen/OneDrive/Documents/KiCad/6.0/3dmodels/RMCF0402.stp"
 		(offset
 			(xyz 0.5 -0.25 0)
@@ -214,6 +203,17 @@
 		)
 		(rotate
 			(xyz -90 0 180)
+		)
+	)
+	(model "/Users/kagenaeby/Documents/GitHub/kicad/3dmodels/r402.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
 		)
 	)
 )

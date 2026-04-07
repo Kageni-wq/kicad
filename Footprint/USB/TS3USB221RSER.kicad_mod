@@ -915,4 +915,15 @@
 			(xyz -90 -0 -0)
 		)
 	)
+	(model "/Users/kagenaeby/Documents/GitHub/kicad/3dmodels/TS3USB221RSER.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

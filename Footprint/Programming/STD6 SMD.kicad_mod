@@ -1,7 +1,7 @@
 (footprint "STD6 SMD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -2.27 -5.315 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" "STD6 SMD"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5c5b60fa-5eab-4713-85b7-e0d510ba00fd")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -129,7 +119,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "cc2f87e2-fed1-4aa2-8369-7c414c0b6205")
 	)
@@ -240,52 +230,53 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "b62ad164-2612-42d7-b4fc-9fdcd090d04c")
 	)
 	(pad "1" smd rect
 		(at -1.27 1.74)
 		(size 0.74 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "13d0d8c1-f403-43fc-a830-a5710c83cf19")
 	)
 	(pad "2" smd rect
 		(at -1.27 -1.74)
 		(size 0.74 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "76d39e98-f3b0-492e-bf9b-a48d0f879a26")
 	)
 	(pad "3" smd rect
 		(at 0 1.74)
 		(size 0.74 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "1f4ad99a-cda6-4879-8bc2-5417a801ff2a")
 	)
 	(pad "4" smd rect
 		(at 0 -1.74)
 		(size 0.74 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "690a5590-c94d-42b1-8829-c15dc7b8a79c")
 	)
 	(pad "5" smd rect
 		(at 1.27 1.74)
 		(size 0.74 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "ea6b1fee-89d9-4fa6-93b2-b9636198951f")
 	)
 	(pad "6" smd rect
 		(at 1.27 -1.74)
 		(size 0.74 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "c2e36a99-8d91-4cac-a2e0-347b87b0361a")
 	)
+	(embedded_fonts no)
 	(model "C:/Users/Kagen/OneDrive/Documents/KiCad/7.0/3dmodels/FTSH-107-01-L-DV-K-P-TR.step"
 		(offset
 			(xyz 0 0 0.35)
@@ -295,6 +286,17 @@
 		)
 		(rotate
 			(xyz -90 0 0)
+		)
+	)
+	(model "/Users/kagenaeby/Documents/GitHub/kicad/3dmodels/FTSH-107-01-L-DV-K-P-TR.step"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
 		)
 	)
 )

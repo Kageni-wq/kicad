@@ -195,30 +195,6 @@
 		(layer "F.Fab")
 		(uuid "67382779-5c23-4054-b29b-aedf2ff12fcd")
 	)
-	(fp_text user "*"
-		(at 0 0 0)
-		(layer "Cmts.User")
-		(hide yes)
-		(uuid "6ef9b02c-5681-4893-b53f-8623bdbdbe47")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8df615f4-fde0-4c50-b179-b8c50d7d9da2")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(pad "1" smd roundrect
 		(at -0.45 0)
 		(size 0.51 0.56)
@@ -239,6 +215,17 @@
 	)
 	(embedded_fonts no)
 	(model "C:/Users/Kagen/OneDrive/Documents/KiCad/6.0/3dmodels/CAP_CL05_SAM.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

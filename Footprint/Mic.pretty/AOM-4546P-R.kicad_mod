@@ -1,7 +1,7 @@
 (footprint "AOM-4546P-R"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.635 -6.35 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a5bb4a51-0c89-40ed-aa60-677bb4d0e8cf")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -62,17 +50,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_circle
-		(center 0 0)
-		(end 4.85 0)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "dcb3cf5e-1eda-44ef-9bb0-804ed27012eb")
-	)
 	(fp_line
 		(start -1.935 0.06)
 		(end -0.665 0.06)
@@ -105,12 +82,23 @@
 	)
 	(fp_circle
 		(center 0 0)
+		(end 4.85 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "dcb3cf5e-1eda-44ef-9bb0-804ed27012eb")
+	)
+	(fp_circle
+		(center 0 0)
 		(end 5.1 0)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "cd962e6e-2ab3-4d62-b25e-00f1d31cc4b1")
 	)
@@ -151,7 +139,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "6e7cbf95-984f-444d-a89f-54d86975c407")
 	)
@@ -173,6 +161,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "1df002f1-8996-4432-bf2b-a481afcbb755")
 	)
+	(embedded_fonts no)
 	(model "C:/Users/Kagen/OneDrive/Documents/KiCad/7.0/3dmodels/AOM-4546P-R.step"
 		(offset
 			(xyz 0 0 2.5)
@@ -182,6 +171,17 @@
 		)
 		(rotate
 			(xyz -90 0 90)
+		)
+	)
+	(model "/Users/kagenaeby/Documents/GitHub/kicad/3dmodels/AOM-4546P-R.step"
+		(offset
+			(xyz 0 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
 		)
 	)
 )

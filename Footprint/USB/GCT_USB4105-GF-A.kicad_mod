@@ -1,7 +1,7 @@
 (footprint "GCT_USB4105-GF-A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -1.825 -8.635 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" "GCT_USB4105-GF-A"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "01dafae6-9014-47a4-aa79-fc7ec9657bc7")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -89,7 +79,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "1dae7a68-14c9-4508-b9c0-9961a57c24b2")
 	)
@@ -190,7 +180,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a6d2013b-cf8b-4ba7-9a79-65ee74295b50")
 	)
@@ -222,70 +212,70 @@
 	(pad "A5" smd rect
 		(at -1.25 -4.755)
 		(size 0.3 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "29bec2c5-4bf0-4f2f-b56c-baf7169f8ea0")
 	)
 	(pad "A6" smd rect
 		(at -0.25 -4.755)
 		(size 0.3 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "cb9076f6-2b2c-4ea6-a233-bee33c9b78bc")
 	)
 	(pad "A7" smd rect
 		(at 0.25 -4.755)
 		(size 0.3 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "d561ba04-e043-4d41-9e4a-3d42556a6f2d")
 	)
 	(pad "A8" smd rect
 		(at 1.25 -4.755)
 		(size 0.3 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "f2adb9f6-4353-4fda-8edf-b9f70d6e4e9d")
 	)
 	(pad "B5" smd rect
 		(at 1.75 -4.755)
 		(size 0.3 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "6eb03c93-3f87-4d4e-944b-61100dab8e82")
 	)
 	(pad "B6" smd rect
 		(at 0.75 -4.755)
 		(size 0.3 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "561b0561-386d-4329-8f17-2114b1096e53")
 	)
 	(pad "B7" smd rect
 		(at -0.75 -4.755)
 		(size 0.3 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "99a68429-66f8-4408-9751-34bf84d0197b")
 	)
 	(pad "B8" smd rect
 		(at -1.75 -4.755)
 		(size 0.3 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "1d2a3d8d-867c-4231-88cf-09de2560e288")
 	)
 	(pad "GND" smd rect
 		(at -3.2 -4.755)
 		(size 0.6 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "8d530a33-143b-405f-a9d4-8427f2420e4f")
 	)
 	(pad "GND" smd rect
 		(at 3.2 -4.755)
 		(size 0.6 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "50095ab4-8569-4c71-8048-b28ec125821e")
 	)
@@ -330,18 +320,20 @@
 	(pad "VBUS" smd rect
 		(at -2.4 -4.755)
 		(size 0.6 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "f5683be9-aca6-4d64-bd9b-97eb794bc733")
 	)
 	(pad "VBUS" smd rect
 		(at 2.4 -4.755)
 		(size 0.6 1.15)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.05)
 		(uuid "e3f5cae9-5222-4529-8768-d4dbba1a39a4")
 	)
+	(embedded_fonts no)
 	(model "C:/Users/Kagen/OneDrive/Documents/KiCad/7.0/3dmodels/USB4105-GF-A.step"
+		(hide yes)
 		(offset
 			(xyz 0 0 0)
 		)
@@ -352,7 +344,7 @@
 			(xyz -90 0 0)
 		)
 	)
-	(model "/Users/kagenaeby/Library/CloudStorage/OneDrive-Personal/Documents/KiCad/7.0/3dmodels/USB4105-GF-A.step"
+	(model "/Users/kagenaeby/Documents/GitHub/kicad/3dmodels/USB4105-GF-A.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -360,7 +352,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

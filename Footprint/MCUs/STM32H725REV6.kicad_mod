@@ -757,18 +757,6 @@
 	)
 	(fp_text user "*"
 		(at -4.785 -3.781 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "10954737-90e6-4394-a4e1-e7dfc405203d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -4.785 -3.781 0)
 		(layer "F.SilkS")
 		(uuid "66abe763-7e63-4783-a022-230bf810c571")
 		(effects
@@ -1565,6 +1553,17 @@
 	)
 	(embedded_fonts no)
 	(model "C:/Kicad Lib/kicad/3dmodels/STM32H725REV6.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/Users/kagenaeby/Documents/GitHub/kicad/3dmodels/STM32H725REV6.step"
 		(offset
 			(xyz 0 0 0)
 		)
