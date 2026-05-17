@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "76cea1f2-4415-49d8-8c79-d65a7364dfa6")
+		(uuid "c8ec9986-8707-4ef3-bf3b-3a10c5abf144")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "df211b04-32aa-4393-bfe4-2cf2971db7fd")
+		(uuid "c8207388-b378-4450-9d87-94e43f650e07")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1978c435-52f2-43e3-ac56-53a727db0aff")
+		(uuid "2e6e7465-6233-450f-b507-468761bc7cd7")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "785e41b4-ce96-424e-9b2b-599a8b60b21d")
+		(uuid "5a8daa25-9f06-4fbd-b873-0d6dc8313f56")
 		(effects
 			(font
 				(size 1 1)
@@ -60,7 +60,7 @@
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "c3523a55-36d8-4cf6-8aa5-443180a4a75a")
+		(uuid "472234b6-9fa9-46be-ab68-a791957694d6")
 		(effects
 			(font
 				(size 1 1)
@@ -69,66 +69,66 @@
 		)
 	)
 	(pad "" np_thru_hole circle
-		(at -3.5 -1.2)
+		(at -3.77 -1.2)
 		(size 0.99 0.99)
 		(drill 0.99)
 		(layers "*.Cu" "*.Mask")
-		(uuid "0d266776-f290-40aa-be5b-faa69aa1fb86")
+		(uuid "5980d111-2d9f-4c8a-9dd2-535c20abc9f7")
 	)
 	(pad "" np_thru_hole circle
-		(at 3.5 -1.2)
+		(at 3.77 -1.2)
 		(size 0.99 0.99)
 		(drill 0.99)
 		(layers "*.Cu" "*.Mask")
-		(uuid "62419e8c-fd5d-46fe-bcb8-5663f4fc2bba")
+		(uuid "5f6eb2ba-72d6-4272-9240-4ef01eff4c16")
 	)
 	(pad "1" smd circle
 		(at -1.905 -0.935)
 		(size 0.8 0.8)
 		(layers "F.Cu" "F.Mask")
-		(uuid "b5a16302-f777-443c-9b75-ad50ee25bb83")
+		(uuid "4710835b-bb00-465d-bc74-1d599833b6b1")
 	)
 	(pad "2" smd circle
 		(at -0.635 -0.935)
 		(size 0.8 0.8)
 		(layers "F.Cu" "F.Mask")
-		(uuid "380c1118-dd86-4c43-9e90-8deed23a745b")
+		(uuid "3f258931-d5a9-4ebb-882a-7e702544f152")
 	)
 	(pad "3" smd circle
 		(at 0.635 -0.935)
 		(size 0.8 0.8)
 		(layers "F.Cu" "F.Mask")
-		(uuid "46d792b0-4c49-4eec-b33b-7b0a1ab030cb")
+		(uuid "313fe349-6309-484b-8913-4ad57b49c534")
 	)
 	(pad "4" smd circle
 		(at 1.905 -0.935)
 		(size 0.8 0.8)
 		(layers "F.Cu" "F.Mask")
-		(uuid "b3612d88-f4c3-4b88-894b-317aa3743f32")
+		(uuid "a0acbeaf-28b2-4054-8a2c-8d70a75fc4f8")
 	)
 	(pad "5" smd circle
 		(at 1.905 -0.935)
 		(size 0.8 0.8)
 		(layers "B.Cu" "B.Mask")
-		(uuid "f8144f70-cb39-400c-a4de-bc193fce915c")
+		(uuid "057185d0-e091-499c-a930-f58e29978f97")
 	)
 	(pad "6" smd circle
 		(at 0.635 -0.935)
 		(size 0.8 0.8)
 		(layers "B.Cu" "B.Mask")
-		(uuid "1cc0ad1f-5544-4905-bf1c-314232cf6c7c")
+		(uuid "56830b62-2c54-4292-8278-b3183fdba3aa")
 	)
 	(pad "7" smd circle
 		(at -0.635 -0.935)
 		(size 0.8 0.8)
 		(layers "B.Cu" "B.Mask")
-		(uuid "760a03a8-0f70-42e8-8016-7ff9ed99a97d")
+		(uuid "118e18f7-50b4-48dd-8d6d-94bff4de8d8d")
 	)
 	(pad "8" smd circle
 		(at -1.905 -0.935)
 		(size 0.8 0.8)
 		(layers "B.Cu" "B.Mask")
-		(uuid "c7db6ceb-3b2c-47c3-8e21-93877e09e544")
+		(uuid "31c91e84-f4fb-4645-93f6-be3d572dbc59")
 	)
 	(embedded_fonts no)
 )
