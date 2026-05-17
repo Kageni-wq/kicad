@@ -1,14 +1,14 @@
 (footprint "Batt-247129002001829"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "247129002001829+-4")
 	(tags "Connector")
 	(property "Reference" "J**"
 		(at 0 0 0)
 		(layer "User.2")
-		(uuid "ed3e64e0-95c7-4ecf-8c18-12c4edb587be")
+		(uuid "b5a17c47-b8bf-4826-a8ff-04e79aaecc3a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +20,7 @@
 		(at -0.37 -7.17 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "b206357e-716e-4523-861b-28aa2417609c")
+		(uuid "b4001ab6-e71c-4b69-9520-de24032a2888")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "840aec4c-e652-4a45-8e86-0dba824ca6a2")
+		(uuid "ee829bbf-9f2d-41a7-8376-3b38ae35d9bf")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d04b5ba6-252d-4a50-a9d8-678b3aa6032a")
+		(uuid "afffe2ae-ca61-4f0c-b918-65f775fea887")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,16 +55,17 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
-		(start -3.04 -1.33)
-		(end 3.04 1.33)
+		(start -3.09 -1.38)
+		(end 3.09 1.38)
 		(stroke
 			(width 0.12)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "c7aaa10f-0222-46a2-b701-06b7441a91fa")
+		(uuid "e6ad3219-90e0-4aa9-a1a2-31456bfeb985")
 	)
 	(fp_arc
 		(start -1.2 -1.75)
@@ -75,7 +76,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "817f04e5-ffe1-4527-9078-6e4b05abc962")
+		(uuid "300a3fb0-64af-4c08-b449-4efc1051f0ba")
 	)
 	(fp_arc
 		(start -1.2 -1.55)
@@ -86,7 +87,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1a1ee0c1-cf4c-440a-9311-e01dbd120866")
+		(uuid "8c66484e-3c56-4d0a-86b9-9d985f64d9a1")
 	)
 	(fp_rect
 		(start -3.5 -1.9)
@@ -97,7 +98,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "f8ed8bff-7516-46aa-a02f-4ec25c342716")
+		(uuid "437a3b7d-9828-4588-a73b-f50bd59037a9")
 	)
 	(fp_line
 		(start -2.82 -1.1)
@@ -107,7 +108,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "d34f5307-8a96-43f9-8265-9371a84870bb")
+		(uuid "045b0b66-5900-419f-b453-fefafdafb4c6")
 	)
 	(fp_line
 		(start -2.82 1.1)
@@ -117,7 +118,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "1d84af48-98f2-4885-b26b-35e85f3e6d8b")
+		(uuid "f3164ca3-4ce3-4e73-8e12-9122fe157b14")
 	)
 	(fp_line
 		(start 2.82 -1.1)
@@ -127,7 +128,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "bcb17eee-8e4a-42fd-95fe-780b413f9b05")
+		(uuid "e7f2a0d1-1517-4a41-8d89-7b0356ac812d")
 	)
 	(fp_line
 		(start 2.82 1.1)
@@ -137,12 +138,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "694420e6-473c-4c36-8006-8231ae42240b")
+		(uuid "bb75160d-c1c1-44aa-ab4b-1d99604ef4ae")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "a8e116f1-f131-41d9-affd-bd7fae7a58f1")
+		(uuid "ba2f310c-de6a-410f-acdc-3cb452326ba5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -157,7 +158,7 @@
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "2e9bac84-8d8c-44e9-9267-0076c0741443")
+		(uuid "609e9d2d-8873-42a9-beb1-c90e6ce0683e")
 	)
 	(pad "1" smd roundrect
 		(at -0.9 1.028 90)
@@ -166,7 +167,7 @@
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "9f862866-605d-4af6-a6b5-423e1aa873e7")
+		(uuid "dde57772-0947-425a-bf6d-4e774d3f27f8")
 	)
 	(pad "2" smd roundrect
 		(at 0 -1.028)
@@ -175,7 +176,7 @@
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "b7a37387-288e-4745-9401-c43e6811ac0e")
+		(uuid "7d443d18-b7d3-4415-b939-255d51d49c87")
 	)
 	(pad "2" smd roundrect
 		(at 0 1.028)
@@ -184,7 +185,7 @@
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "2551563f-da23-4651-a185-600c07e2cb48")
+		(uuid "2f9bf65f-101e-4502-a3cc-876052024db7")
 	)
 	(pad "3" smd roundrect
 		(at 0.9 -1.028 90)
@@ -193,7 +194,7 @@
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "a4f92a88-b15c-4930-bd76-2d91e72d6905")
+		(uuid "ac79ebb6-cc5e-41f1-8848-6e9b3786a6ce")
 	)
 	(pad "3" smd roundrect
 		(at 0.9 1.028 90)
@@ -202,7 +203,7 @@
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "c512d1a7-1a0e-41e4-aac6-a79422c7eb07")
+		(uuid "6ff19863-a8e5-4ed1-9cf2-db7ed52fae3a")
 	)
 	(pad "SH" smd roundrect
 		(at -2.78 0)
@@ -211,7 +212,7 @@
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "5e21f4d3-61ca-4692-8647-3f71909f2749")
+		(uuid "d9eb6564-5be5-40a7-95dd-01193ec276ba")
 	)
 	(pad "SH" smd roundrect
 		(at -2.27 -1.07 90)
@@ -220,7 +221,7 @@
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "833b2088-63d1-4d73-ae8e-318d978f8385")
+		(uuid "b56d1fee-b462-4403-ba9a-f340cadb8fa2")
 	)
 	(pad "SH" smd roundrect
 		(at -2.27 1.07 90)
@@ -229,7 +230,7 @@
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "169e4c2a-84f8-4413-953f-847ff24c778d")
+		(uuid "01922108-437b-4801-a04f-be2d601316c4")
 	)
 	(pad "SH" smd roundrect
 		(at 2.27 -1.07 90)
@@ -238,7 +239,7 @@
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "4e970d3b-0750-4958-bbf3-c09da57b00de")
+		(uuid "271b0e97-8bac-47c5-ae70-37e45d99e715")
 	)
 	(pad "SH" smd roundrect
 		(at 2.27 1.07 90)
@@ -247,7 +248,7 @@
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "adf98ff9-aba3-4596-9cce-003f647c790b")
+		(uuid "53d593b0-9756-44c1-8dc1-4cbf874ca775")
 	)
 	(pad "SH" smd roundrect
 		(at 2.78 0)
@@ -256,7 +257,7 @@
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
-		(uuid "32eabb9d-a979-4e1f-9566-81e9c11c976e")
+		(uuid "70968d8b-e612-42d4-8647-cb14c3780202")
 	)
 	(embedded_fonts no)
 	(model "C:/Users/Kagen/OneDrive/Documents/KiCad/7.0/3dmodels/207129002001.stp"

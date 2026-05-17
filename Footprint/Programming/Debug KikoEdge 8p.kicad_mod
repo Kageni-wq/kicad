@@ -1,0 +1,134 @@
+(footprint "Debug KikoEdge 8p"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "76cea1f2-4415-49d8-8c79-d65a7364dfa6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Debug KikoEdge 8p"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "df211b04-32aa-4393-bfe4-2cf2971db7fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -2.54 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1978c435-52f2-43e3-ac56-53a727db0aff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -2.54 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "785e41b4-ce96-424e-9b2b-599a8b60b21d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c3523a55-36d8-4cf6-8aa5-443180a4a75a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -3.5 -1.2)
+		(size 0.99 0.99)
+		(drill 0.99)
+		(layers "*.Cu" "*.Mask")
+		(uuid "0d266776-f290-40aa-be5b-faa69aa1fb86")
+	)
+	(pad "" np_thru_hole circle
+		(at 3.5 -1.2)
+		(size 0.99 0.99)
+		(drill 0.99)
+		(layers "*.Cu" "*.Mask")
+		(uuid "62419e8c-fd5d-46fe-bcb8-5663f4fc2bba")
+	)
+	(pad "1" smd circle
+		(at -1.905 -0.935)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "b5a16302-f777-443c-9b75-ad50ee25bb83")
+	)
+	(pad "2" smd circle
+		(at -0.635 -0.935)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "380c1118-dd86-4c43-9e90-8deed23a745b")
+	)
+	(pad "3" smd circle
+		(at 0.635 -0.935)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "46d792b0-4c49-4eec-b33b-7b0a1ab030cb")
+	)
+	(pad "4" smd circle
+		(at 1.905 -0.935)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "b3612d88-f4c3-4b88-894b-317aa3743f32")
+	)
+	(pad "5" smd circle
+		(at 1.905 -0.935)
+		(size 0.8 0.8)
+		(layers "B.Cu" "B.Mask")
+		(uuid "f8144f70-cb39-400c-a4de-bc193fce915c")
+	)
+	(pad "6" smd circle
+		(at 0.635 -0.935)
+		(size 0.8 0.8)
+		(layers "B.Cu" "B.Mask")
+		(uuid "1cc0ad1f-5544-4905-bf1c-314232cf6c7c")
+	)
+	(pad "7" smd circle
+		(at -0.635 -0.935)
+		(size 0.8 0.8)
+		(layers "B.Cu" "B.Mask")
+		(uuid "760a03a8-0f70-42e8-8016-7ff9ed99a97d")
+	)
+	(pad "8" smd circle
+		(at -1.905 -0.935)
+		(size 0.8 0.8)
+		(layers "B.Cu" "B.Mask")
+		(uuid "c7db6ceb-3b2c-47c3-8e21-93877e09e544")
+	)
+	(embedded_fonts no)
+)
