@@ -7,7 +7,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "User.2")
-		(uuid "d1cfc508-e04f-483f-b2a5-de7f5cd23883")
+		(uuid "d5039c70-0c56-44c6-9aa6-072ed38d77f2")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "ec528d14-52b2-4807-b9e1-1186da870156")
+		(uuid "a09d9fd6-ec5d-4746-9ab9-af0d9ea42f79")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f12d4fbe-b7d5-441a-a6e2-ecdf53cd1953")
+		(uuid "f466b226-45c5-4ef1-9ad9-70199851ddf0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "39de8c22-ebd1-493b-815e-c1166f4d7d89")
+		(uuid "ca14c79d-5ec5-40bb-8403-f683d30d3b7d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -62,7 +62,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "6412a816-a60b-42cb-b87a-fc5870e164d2")
+		(uuid "dd28dfe1-eb05-4029-a6fe-5dbb57133fad")
 	)
 	(fp_line
 		(start -1.95 -1.3)
@@ -72,7 +72,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a8decdbb-78d5-4ccc-9708-0897beb605ed")
+		(uuid "6e8b7efb-9d89-4012-b951-888fbc39e486")
 	)
 	(fp_line
 		(start -0.75 1.6)
@@ -82,7 +82,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "4f5d9681-9273-4e0e-9616-525e465918b8")
+		(uuid "c8153c5b-24ba-467b-a17e-b6660ba23344")
 	)
 	(fp_line
 		(start 0.75 0.85)
@@ -92,7 +92,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ced40161-7150-48c5-826b-8ba0414035a8")
+		(uuid "9f9cf524-5299-4081-b478-aa6f110a0801")
 	)
 	(fp_line
 		(start 0.75 1.6)
@@ -102,7 +102,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "d4ce96e4-82dc-43bc-bd47-a2dae6202b00")
+		(uuid "63ec1b5c-a525-464a-9162-707bebfc08a8")
 	)
 	(fp_line
 		(start 1.925 -1.3)
@@ -112,7 +112,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7ee218d9-3461-4190-ae51-74221a1640e1")
+		(uuid "2c0145e7-1782-4cec-b78d-d91a9d0f044f")
 	)
 	(fp_line
 		(start 1.925 0.85)
@@ -122,7 +122,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "11d76486-aab7-4651-8d15-56d3058beb5e")
+		(uuid "701da8e3-b02f-4c38-96f9-09b9ee31c47a")
 	)
 	(fp_line
 		(start 1.925 0.85)
@@ -132,13 +132,13 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "46a57282-66c8-49b5-91cf-ab3a0108b517")
+		(uuid "cfd2fb97-5a97-41df-950c-384111bb6078")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "19c76739-b77f-4f98-bda1-73ab6cce62c1")
+		(uuid "4f351a56-8610-4f1d-996b-70829dcf78bb")
 		(effects
 			(font
 				(size 1 1)
@@ -150,13 +150,13 @@
 		(at 1.4 -1.3 180)
 		(size 0.7 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "85a4090e-87e7-45d9-b98e-ed5989d07836")
+		(uuid "3f9c5aef-e45a-482f-871d-1e0ae66c2c8a")
 	)
 	(pad "2" smd rect
 		(at -1.4 -1.3 180)
 		(size 0.7 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "83ee0bb9-be09-4225-b08e-ee6298fd828c")
+		(uuid "b72bd439-f4fa-4a8e-866f-504e5677f947")
 	)
 	(pad "SH" thru_hole circle
 		(at -1.825 0.05 180)
@@ -164,27 +164,27 @@
 		(drill 0.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "36057080-7fff-4afb-be12-390d5fdef0f2")
+		(uuid "e6c93379-a09e-44b1-aead-52fd559518bd")
 	)
 	(pad "SH" smd rect
 		(at -1.55 0)
 		(size 1.35 0.95)
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "48170ebd-995b-4eab-81ae-815c092af73f")
+		(uuid "eff241ee-95aa-4c26-bc78-239c0ed79b06")
 	)
 	(pad "SH" smd rect
 		(at 0 -1.45 180)
 		(size 1.4 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "c3ab2f92-613e-4186-93ec-ab2db723ded4")
+		(uuid "542bfd0c-454c-4f5f-8102-27012fbf2f60")
 	)
 	(pad "SH" smd rect
 		(at 1.55 0)
 		(size 1.35 0.95)
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "d08d04a9-b16a-4642-ac24-bce2ba9a66cf")
+		(uuid "828ddb91-2b09-4493-a81a-7c01ddcbc1b1")
 	)
 	(pad "SH" thru_hole circle
 		(at 1.825 0.05 180)
@@ -192,7 +192,7 @@
 		(drill 0.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "999a7438-9a3b-4af3-84db-7a53146cf5db")
+		(uuid "61f9aa46-0364-4e3c-bcba-9b606cd0e398")
 	)
 	(embedded_fonts no)
 	(model "C:/Users/Kagen/Documents/GitHub/kicad/3dmodels/TL6340AF160Q.step"
