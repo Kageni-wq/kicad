@@ -1,12 +1,12 @@
 (footprint "AOM-4546P-R"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.635 -6.35 0)
 		(layer "User.2")
-		(uuid "26dcc929-fc81-483b-823a-54ac86035e31")
+		(uuid "4ee42d02-a9b1-497f-ba30-d3433e46fcf2")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" "MIC_AOM-4546P-R"
 		(at 6.985 6.35 0)
 		(layer "F.Fab")
-		(uuid "463f01b4-fc0c-4df0-a90e-d6a5fe110385")
+		(uuid "6d20fd2a-22f7-4006-9fe9-08121577ea61")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "95d65091-da9b-4e19-ac54-767ba6d842c2")
+		(uuid "c535b2bb-4a12-4577-b055-f0cd80708976")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8f53b43e-28c0-41db-bb32-585fad021203")
+		(uuid "d02a6c23-f9de-446f-964c-97fcadd204b4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50,6 +50,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.935 0.06)
 		(end -0.665 0.06)
@@ -58,7 +59,7 @@
 			(type solid)
 		)
 		(layer "F.Mask")
-		(uuid "0b0bce55-ba0a-439d-9794-88f8a5969ed3")
+		(uuid "8c610e9b-90d6-4bd6-b9b1-97709113c2a3")
 	)
 	(fp_line
 		(start 0.615 0.08)
@@ -68,7 +69,7 @@
 			(type solid)
 		)
 		(layer "F.Mask")
-		(uuid "a8d5b745-ea82-423b-8cc3-d4ec8d46a982")
+		(uuid "69135d05-4d5e-4a70-8c46-dae444512f05")
 	)
 	(fp_line
 		(start 1.25 -0.555)
@@ -78,7 +79,7 @@
 			(type solid)
 		)
 		(layer "F.Mask")
-		(uuid "e742cfb6-c979-4798-a1ed-7283d12d23a9")
+		(uuid "f75f7a15-983c-4652-86ec-31ff0abc6d50")
 	)
 	(fp_circle
 		(center 0 0)
@@ -89,7 +90,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "dcb3cf5e-1eda-44ef-9bb0-804ed27012eb")
+		(uuid "0a1d422a-6f10-46e2-a96c-360cc504d43e")
 	)
 	(fp_circle
 		(center 0 0)
@@ -100,7 +101,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "cd962e6e-2ab3-4d62-b25e-00f1d31cc4b1")
+		(uuid "0a4d5463-ee34-4d57-9c57-f4f49f9fd29e")
 	)
 	(fp_line
 		(start -6.58 -2.135)
@@ -110,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "363aefc9-8d5b-45c2-8173-23a9c06a48f6")
+		(uuid "96410ed4-48ee-4125-b7bd-986a3c899093")
 	)
 	(fp_line
 		(start 5.56 -1.885)
@@ -120,7 +121,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a7a720ad-0599-4518-aba4-1ed311594ebe")
+		(uuid "f84e140b-003b-4636-bb59-0b17a3e0dced")
 	)
 	(fp_line
 		(start 6.195 -2.52)
@@ -130,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "02d16689-12a1-4785-8aef-f69ec8082cfd")
+		(uuid "9343bb68-4889-409d-b977-5c478b97a1c6")
 	)
 	(fp_circle
 		(center 0 0)
@@ -141,7 +142,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "6e7cbf95-984f-444d-a89f-54d86975c407")
+		(uuid "e15598e3-ac8f-4e87-ba67-99de908b4982")
 	)
 	(pad "N" thru_hole circle
 		(at -1.25 -2)
@@ -150,7 +151,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "12dfb9df-09bc-40a5-b3bb-36c9a26898e5")
+		(uuid "a6c35266-54f2-4f75-8efe-5b65c1ad4544")
 	)
 	(pad "P" thru_hole circle
 		(at 1.25 -2)
@@ -159,7 +160,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "1df002f1-8996-4432-bf2b-a481afcbb755")
+		(uuid "6f821647-a0bd-4d53-82c2-46d700712408")
 	)
 	(embedded_fonts no)
 	(model "C:/Users/Kagen/OneDrive/Documents/KiCad/7.0/3dmodels/AOM-4546P-R.step"
@@ -170,10 +171,21 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 90)
+			(xyz -90 -0 90)
 		)
 	)
 	(model "/Users/kagenaeby/Documents/GitHub/kicad/3dmodels/AOM-4546P-R.step"
+		(offset
+			(xyz 0 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+	(model "$KICAD_USER_3D_MODEL_DIR/AOM-4546P-R.step"
 		(offset
 			(xyz 0 0 2.5)
 		)
