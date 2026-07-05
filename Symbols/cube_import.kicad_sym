@@ -9,7 +9,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "IC"
-			(at 80.01 7.62 0)
+			(at 85.09 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20,7 +20,7 @@
 			)
 		)
 		(property "Value" "STM32H725VGH6"
-			(at 80.01 5.08 0)
+			(at 85.09 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Footprint" "BGA100C80P10X10_800X800X120"
-			(at 80.01 -94.92 0)
+			(at 85.09 -94.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -43,7 +43,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf"
-			(at 80.01 -194.92 0)
+			(at 85.09 -194.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -66,7 +66,7 @@
 			)
 		)
 		(property "Height" "1.2"
-			(at 80.01 -394.92 0)
+			(at 85.09 -394.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -80,7 +80,7 @@
 		(symbol "STM32H725VGH6_1_1"
 			(rectangle
 				(start 5.08 2.54)
-				(end 78.74 -127)
+				(end 83.82 -127)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -146,7 +146,7 @@
 			(pin passive line
 				(at 0 -7.62 0)
 				(length 5.08)
-				(name "PB8"
+				(name "PB8-I2C1_SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -200,7 +200,7 @@
 			(pin passive line
 				(at 0 -15.24 0)
 				(length 5.08)
-				(name "PD6-SDMMC2_CK"
+				(name "PD6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -344,7 +344,7 @@
 			(pin passive line
 				(at 0 -35.56 0)
 				(length 5.08)
-				(name "PB7"
+				(name "PB7-I2C1_SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -596,7 +596,7 @@
 			(pin passive line
 				(at 0 -71.12 0)
 				(length 5.08)
-				(name "PA14"
+				(name "PA14(JTCK/SWCLK)-DEBUG_JTCK-SWCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -614,7 +614,7 @@
 			(pin passive line
 				(at 0 -73.66 0)
 				(length 5.08)
-				(name "PA13"
+				(name "PA13(JTMS/SWDIO)-DEBUG_JTMS-SWDIO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -956,7 +956,7 @@
 			(pin passive line
 				(at 0 -121.92 0)
 				(length 5.08)
-				(name "PA9"
+				(name "PA9-LPUART1_TX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -974,7 +974,7 @@
 			(pin passive line
 				(at 0 -124.46 0)
 				(length 5.08)
-				(name "PA10"
+				(name "PA10-LPUART1_RX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -990,9 +990,9 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 0 180)
+				(at 88.9 0 180)
 				(length 5.08)
-				(name "PC1"
+				(name "PC1-SDMMC2_CK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1008,7 +1008,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -2.54 180)
+				(at 88.9 -2.54 180)
 				(length 5.08)
 				(name "NRST"
 					(effects
@@ -1026,9 +1026,9 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -5.08 180)
+				(at 88.9 -5.08 180)
 				(length 5.08)
-				(name "PC0"
+				(name "PC0-SAI4_FS_B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1044,7 +1044,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -7.62 180)
+				(at 88.9 -7.62 180)
 				(length 5.08)
 				(name "PC2_C"
 					(effects
@@ -1062,7 +1062,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -10.16 180)
+				(at 88.9 -10.16 180)
 				(length 5.08)
 				(name "VSS_4"
 					(effects
@@ -1080,7 +1080,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -12.7 180)
+				(at 88.9 -12.7 180)
 				(length 5.08)
 				(name "VDD_3"
 					(effects
@@ -1098,7 +1098,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -15.24 180)
+				(at 88.9 -15.24 180)
 				(length 5.08)
 				(name "VDDLDO_2"
 					(effects
@@ -1116,7 +1116,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -17.78 180)
+				(at 88.9 -17.78 180)
 				(length 5.08)
 				(name "PC6"
 					(effects
@@ -1134,7 +1134,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -20.32 180)
+				(at 88.9 -20.32 180)
 				(length 5.08)
 				(name "PC9-SDMMC1_D1"
 					(effects
@@ -1152,7 +1152,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -22.86 180)
+				(at 88.9 -22.86 180)
 				(length 5.08)
 				(name "PA8"
 					(effects
@@ -1170,7 +1170,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -25.4 180)
+				(at 88.9 -25.4 180)
 				(length 5.08)
 				(name "PH0-OSC_IN-RCC_OSC_IN"
 					(effects
@@ -1188,7 +1188,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -27.94 180)
+				(at 88.9 -27.94 180)
 				(length 5.08)
 				(name "PH1-OSC_OUT-RCC_OSC_OUT"
 					(effects
@@ -1206,9 +1206,9 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -30.48 180)
+				(at 88.9 -30.48 180)
 				(length 5.08)
-				(name "PA0"
+				(name "PA0-SAI4_SD_B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1224,7 +1224,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -33.02 180)
+				(at 88.9 -33.02 180)
 				(length 5.08)
 				(name "PC3_C"
 					(effects
@@ -1242,7 +1242,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -35.56 180)
+				(at 88.9 -35.56 180)
 				(length 5.08)
 				(name "PA3-OCTOSPIM_P1_CLK"
 					(effects
@@ -1260,7 +1260,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -38.1 180)
+				(at 88.9 -38.1 180)
 				(length 5.08)
 				(name "VCAP_2"
 					(effects
@@ -1278,7 +1278,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -40.64 180)
+				(at 88.9 -40.64 180)
 				(length 5.08)
 				(name "PD14"
 					(effects
@@ -1296,7 +1296,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -43.18 180)
+				(at 88.9 -43.18 180)
 				(length 5.08)
 				(name "PD15"
 					(effects
@@ -1314,7 +1314,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -45.72 180)
+				(at 88.9 -45.72 180)
 				(length 5.08)
 				(name "PC7"
 					(effects
@@ -1332,7 +1332,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -48.26 180)
+				(at 88.9 -48.26 180)
 				(length 5.08)
 				(name "PC8-SDMMC1_D0"
 					(effects
@@ -1350,7 +1350,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -50.8 180)
+				(at 88.9 -50.8 180)
 				(length 5.08)
 				(name "VDDA"
 					(effects
@@ -1368,7 +1368,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -53.34 180)
+				(at 88.9 -53.34 180)
 				(length 5.08)
 				(name "VSSA"
 					(effects
@@ -1386,9 +1386,9 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -55.88 180)
+				(at 88.9 -55.88 180)
 				(length 5.08)
-				(name "PA2"
+				(name "PA2-SAI4_SCK_B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1404,7 +1404,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -58.42 180)
+				(at 88.9 -58.42 180)
 				(length 5.08)
 				(name "PC4"
 					(effects
@@ -1422,7 +1422,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -60.96 180)
+				(at 88.9 -60.96 180)
 				(length 5.08)
 				(name "PE7"
 					(effects
@@ -1440,7 +1440,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -63.5 180)
+				(at 88.9 -63.5 180)
 				(length 5.08)
 				(name "PE10"
 					(effects
@@ -1458,9 +1458,9 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -66.04 180)
+				(at 88.9 -66.04 180)
 				(length 5.08)
-				(name "PD11"
+				(name "PD11-USART3_CTS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1476,9 +1476,9 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -68.58 180)
+				(at 88.9 -68.58 180)
 				(length 5.08)
-				(name "PD9"
+				(name "PD9-USART3_RX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1494,9 +1494,9 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -71.12 180)
+				(at 88.9 -71.12 180)
 				(length 5.08)
-				(name "PD12-OCTOSPIM_P1_IO1"
+				(name "PD12-USART3_RTS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1512,7 +1512,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -73.66 180)
+				(at 88.9 -73.66 180)
 				(length 5.08)
 				(name "PD13-OCTOSPIM_P1_IO3"
 					(effects
@@ -1530,7 +1530,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -76.2 180)
+				(at 88.9 -76.2 180)
 				(length 5.08)
 				(name "VREF+"
 					(effects
@@ -1548,7 +1548,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -78.74 180)
+				(at 88.9 -78.74 180)
 				(length 5.08)
 				(name "PA1"
 					(effects
@@ -1566,7 +1566,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -81.28 180)
+				(at 88.9 -81.28 180)
 				(length 5.08)
 				(name "PA6"
 					(effects
@@ -1584,7 +1584,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -83.82 180)
+				(at 88.9 -83.82 180)
 				(length 5.08)
 				(name "PC5"
 					(effects
@@ -1602,7 +1602,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -86.36 180)
+				(at 88.9 -86.36 180)
 				(length 5.08)
 				(name "PB2"
 					(effects
@@ -1620,7 +1620,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -88.9 180)
+				(at 88.9 -88.9 180)
 				(length 5.08)
 				(name "PE8"
 					(effects
@@ -1638,7 +1638,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -91.44 180)
+				(at 88.9 -91.44 180)
 				(length 5.08)
 				(name "PB11"
 					(effects
@@ -1656,7 +1656,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -93.98 180)
+				(at 88.9 -93.98 180)
 				(length 5.08)
 				(name "PB13-OCTOSPIM_P1_IO2"
 					(effects
@@ -1674,9 +1674,9 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -96.52 180)
+				(at 88.9 -96.52 180)
 				(length 5.08)
-				(name "PD8"
+				(name "PD8-USART3_TX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1692,7 +1692,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -99.06 180)
+				(at 88.9 -99.06 180)
 				(length 5.08)
 				(name "PD10"
 					(effects
@@ -1710,7 +1710,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -101.6 180)
+				(at 88.9 -101.6 180)
 				(length 5.08)
 				(name "PA4"
 					(effects
@@ -1728,9 +1728,9 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -104.14 180)
+				(at 88.9 -104.14 180)
 				(length 5.08)
-				(name "PA5"
+				(name "PA5-SPI6_SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1746,9 +1746,9 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -106.68 180)
+				(at 88.9 -106.68 180)
 				(length 5.08)
-				(name "PA7"
+				(name "PA7-SPI6_MOSI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1764,9 +1764,9 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -109.22 180)
+				(at 88.9 -109.22 180)
 				(length 5.08)
-				(name "PB0"
+				(name "PB0-OCTOSPIM_P1_IO1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1782,7 +1782,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -111.76 180)
+				(at 88.9 -111.76 180)
 				(length 5.08)
 				(name "PB1"
 					(effects
@@ -1800,7 +1800,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -114.3 180)
+				(at 88.9 -114.3 180)
 				(length 5.08)
 				(name "PE9"
 					(effects
@@ -1818,7 +1818,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -116.84 180)
+				(at 88.9 -116.84 180)
 				(length 5.08)
 				(name "PB10-OCTOSPIM_P1_NCS"
 					(effects
@@ -1836,7 +1836,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -119.38 180)
+				(at 88.9 -119.38 180)
 				(length 5.08)
 				(name "PB12-OCTOSPIM_P1_IO0"
 					(effects
@@ -1854,7 +1854,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -121.92 180)
+				(at 88.9 -121.92 180)
 				(length 5.08)
 				(name "PB14-SDMMC2_D0"
 					(effects
@@ -1872,7 +1872,7 @@
 				)
 			)
 			(pin passive line
-				(at 83.82 -124.46 180)
+				(at 88.9 -124.46 180)
 				(length 5.08)
 				(name "PB15-SDMMC2_D1"
 					(effects
