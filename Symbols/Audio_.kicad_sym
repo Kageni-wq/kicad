@@ -8753,7 +8753,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -11.43 -26.67 90)
+				(at -8.89 -26.67 90)
 				(length 7.62)
 				(name "SCL"
 					(effects
