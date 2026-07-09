@@ -128,7 +128,7 @@
 			(pin passive line
 				(at 0 -5.08 0)
 				(length 5.08)
-				(name "PE2"
+				(name "PE2-USART10_RX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -146,7 +146,7 @@
 			(pin passive line
 				(at 0 -7.62 0)
 				(length 5.08)
-				(name "PB8-I2C1_SCL"
+				(name "PB8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -200,7 +200,7 @@
 			(pin passive line
 				(at 0 -15.24 0)
 				(length 5.08)
-				(name "PD6"
+				(name "PD6-USART2_RX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -218,7 +218,7 @@
 			(pin passive line
 				(at 0 -17.78 0)
 				(length 5.08)
-				(name "PD3"
+				(name "PD3-USART2_CTS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -308,7 +308,7 @@
 			(pin passive line
 				(at 0 -30.48 0)
 				(length 5.08)
-				(name "PE3"
+				(name "PE3-USART10_TX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -344,7 +344,7 @@
 			(pin passive line
 				(at 0 -35.56 0)
 				(length 5.08)
-				(name "PB7-I2C1_SDA"
+				(name "PB7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -380,7 +380,7 @@
 			(pin passive line
 				(at 0 -40.64 0)
 				(length 5.08)
-				(name "PD4"
+				(name "PD4-USART2_RTS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -686,7 +686,7 @@
 			(pin passive line
 				(at 0 -83.82 0)
 				(length 5.08)
-				(name "PB6"
+				(name "PB6-I2C1_SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -740,7 +740,7 @@
 			(pin passive line
 				(at 0 -91.44 0)
 				(length 5.08)
-				(name "PD5"
+				(name "PD5-USART2_TX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -848,7 +848,7 @@
 			(pin passive line
 				(at 0 -106.68 0)
 				(length 5.08)
-				(name "PB9"
+				(name "PB9-I2C1_SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1460,7 +1460,7 @@
 			(pin passive line
 				(at 88.9 -66.04 180)
 				(length 5.08)
-				(name "PD11-USART3_CTS"
+				(name "PD11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1478,7 +1478,7 @@
 			(pin passive line
 				(at 88.9 -68.58 180)
 				(length 5.08)
-				(name "PD9-USART3_RX"
+				(name "PD9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1496,7 +1496,7 @@
 			(pin passive line
 				(at 88.9 -71.12 180)
 				(length 5.08)
-				(name "PD12-USART3_RTS"
+				(name "PD12-I2C4_SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1514,7 +1514,7 @@
 			(pin passive line
 				(at 88.9 -73.66 180)
 				(length 5.08)
-				(name "PD13-OCTOSPIM_P1_IO3"
+				(name "PD13-I2C4_SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1568,7 +1568,7 @@
 			(pin passive line
 				(at 88.9 -81.28 180)
 				(length 5.08)
-				(name "PA6"
+				(name "PA6-OCTOSPIM_P1_IO3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1676,7 +1676,7 @@
 			(pin passive line
 				(at 88.9 -96.52 180)
 				(length 5.08)
-				(name "PD8-USART3_TX"
+				(name "PD8"
 					(effects
 						(font
 							(size 1.27 1.27)

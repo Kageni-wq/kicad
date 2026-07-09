@@ -56352,22 +56352,11 @@
 				)
 			)
 		)
-		(symbol "STM32H725VGH6_1_1"
-			(rectangle
-				(start -8.89 15.24)
-				(end 11.43 -15.24)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
+		(symbol "STM32H725VGH6_1_0"
 			(pin power_out line
 				(at 19.05 -10.16 180)
 				(length 7.62)
-				(name "VSS"
+				(name "VSS_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -56457,7 +56446,7 @@
 			(pin power_out line
 				(at 19.05 -2.54 180)
 				(length 7.62)
-				(name "VSS"
+				(name "VSS_2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -56475,7 +56464,7 @@
 			(pin power_in line
 				(at -16.51 5.08 0)
 				(length 7.62)
-				(name "VDD"
+				(name "VDD_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -56493,7 +56482,7 @@
 			(pin unspecified line
 				(at -16.51 12.7 0)
 				(length 7.62)
-				(name "VCAP"
+				(name "VCAP_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -56547,7 +56536,7 @@
 			(pin power_in line
 				(at -16.51 7.62 0)
 				(length 7.62)
-				(name "VDD"
+				(name "VDD_2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -56565,7 +56554,7 @@
 			(pin power_in line
 				(at -16.51 -10.16 0)
 				(length 7.62)
-				(name "VDDLDO"
+				(name "VDDLDO_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -56583,7 +56572,7 @@
 			(pin power_out line
 				(at 19.05 -5.08 180)
 				(length 7.62)
-				(name "VSS"
+				(name "VSS_3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -56619,7 +56608,7 @@
 			(pin power_out line
 				(at 19.05 -7.62 180)
 				(length 7.62)
-				(name "VSS"
+				(name "VSS_4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -56637,7 +56626,7 @@
 			(pin power_in line
 				(at -16.51 2.54 0)
 				(length 7.62)
-				(name "VDD"
+				(name "VDD_3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -56655,7 +56644,7 @@
 			(pin power_in line
 				(at -16.51 -12.7 0)
 				(length 7.62)
-				(name "VDDLDO"
+				(name "VDDLDO_2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -56673,7 +56662,7 @@
 			(pin unspecified line
 				(at -16.51 10.16 0)
 				(length 7.62)
-				(name "VCAP"
+				(name "VCAP_2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -56743,18 +56732,20 @@
 				)
 			)
 		)
-		(symbol "STM32H725VGH6_2_1"
+		(symbol "STM32H725VGH6_1_1"
 			(rectangle
-				(start -20.32 21.59)
-				(end 19.05 -20.955)
+				(start -8.89 15.24)
+				(end 11.43 -15.24)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type background)
 				)
 			)
+		)
+		(symbol "STM32H725VGH6_2_0"
 			(pin bidirectional line
 				(at 26.67 -1.27 180)
 				(length 7.62)
@@ -56812,7 +56803,7 @@
 			(pin bidirectional line
 				(at 26.67 11.43 180)
 				(length 7.62)
-				(name "PB3"
+				(name "PB3-SDMMC2_D2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -56830,7 +56821,7 @@
 			(pin bidirectional line
 				(at 26.67 8.89 180)
 				(length 7.62)
-				(name "PB4"
+				(name "PB4-SDMMC2_D3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -56866,7 +56857,7 @@
 			(pin bidirectional line
 				(at -27.94 -16.51 0)
 				(length 7.62)
-				(name "PA14"
+				(name "PA14-SWCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -56884,7 +56875,7 @@
 			(pin bidirectional line
 				(at -27.94 -13.97 0)
 				(length 7.62)
-				(name "PA13"
+				(name "PA13-SWDIO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -56902,7 +56893,7 @@
 			(pin bidirectional line
 				(at 26.67 3.81 180)
 				(length 7.62)
-				(name "PB6"
+				(name "PB6-I2C1_SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -56920,7 +56911,7 @@
 			(pin bidirectional line
 				(at -27.94 -11.43 0)
 				(length 7.62)
-				(name "PA12"
+				(name "PA12-USB_OTG_HS_DP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -56938,7 +56929,7 @@
 			(pin bidirectional line
 				(at -27.94 -8.89 0)
 				(length 7.62)
-				(name "PA11"
+				(name "PA11-USB_OTG_HS_DM"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -56956,7 +56947,7 @@
 			(pin bidirectional line
 				(at 26.67 -3.81 180)
 				(length 7.62)
-				(name "PB9"
+				(name "PB9-I2C1_SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -56974,7 +56965,7 @@
 			(pin bidirectional line
 				(at -27.94 -3.81 0)
 				(length 7.62)
-				(name "PA9"
+				(name "PA9-LPUART1_TX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -56992,7 +56983,7 @@
 			(pin bidirectional line
 				(at -27.94 -6.35 0)
 				(length 7.62)
-				(name "PA10"
+				(name "PA10-LPUART1_RX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57028,7 +57019,7 @@
 			(pin bidirectional line
 				(at -27.94 19.05 0)
 				(length 7.62)
-				(name "PA0"
+				(name "PA0-SAI4_SD_B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57046,7 +57037,7 @@
 			(pin bidirectional line
 				(at -27.94 11.43 0)
 				(length 7.62)
-				(name "PA3"
+				(name "PA3-OSPI_P1_CLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57064,7 +57055,7 @@
 			(pin bidirectional line
 				(at -27.94 13.97 0)
 				(length 7.62)
-				(name "PA2"
+				(name "PA2-SAI4_SCK_B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57100,7 +57091,7 @@
 			(pin bidirectional line
 				(at -27.94 3.81 0)
 				(length 7.62)
-				(name "PA6"
+				(name "PA6-OSPI_P1_IO3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57154,7 +57145,7 @@
 			(pin bidirectional line
 				(at 26.67 -13.97 180)
 				(length 7.62)
-				(name "PB13"
+				(name "PB13-OSPI_P1_IO2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57190,7 +57181,7 @@
 			(pin bidirectional line
 				(at -27.94 6.35 0)
 				(length 7.62)
-				(name "PA5"
+				(name "PA5-SPI6_SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57208,7 +57199,7 @@
 			(pin bidirectional line
 				(at -27.94 1.27 0)
 				(length 7.62)
-				(name "PA7"
+				(name "PA7-SPI6_MOSI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57226,7 +57217,7 @@
 			(pin bidirectional line
 				(at 26.67 19.05 180)
 				(length 7.62)
-				(name "PB0"
+				(name "PB0-OSPI_P1_IO1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57262,7 +57253,7 @@
 			(pin bidirectional line
 				(at 26.67 -6.35 180)
 				(length 7.62)
-				(name "PB10"
+				(name "PB10-OSPI_P1_NCS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57280,7 +57271,7 @@
 			(pin bidirectional line
 				(at 26.67 -11.43 180)
 				(length 7.62)
-				(name "PB12"
+				(name "PB12-OSPI_P1_IO0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57298,7 +57289,7 @@
 			(pin bidirectional line
 				(at 26.67 -16.51 180)
 				(length 7.62)
-				(name "PB14"
+				(name "PB14-SDMMC2_D0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57316,7 +57307,7 @@
 			(pin bidirectional line
 				(at 26.67 -19.05 180)
 				(length 7.62)
-				(name "PB15"
+				(name "PB15-SDMMC2_D1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57332,10 +57323,10 @@
 				)
 			)
 		)
-		(symbol "STM32H725VGH6_3_1"
+		(symbol "STM32H725VGH6_2_1"
 			(rectangle
-				(start -19.05 20.955)
-				(end 19.05 -21.59)
+				(start -20.32 21.59)
+				(end 19.05 -20.955)
 				(stroke
 					(width 0)
 					(type default)
@@ -57344,6 +57335,8 @@
 					(type background)
 				)
 			)
+		)
+		(symbol "STM32H725VGH6_3_0"
 			(pin unspecified line
 				(at 26.67 -7.62 180)
 				(length 7.62)
@@ -57365,7 +57358,7 @@
 			(pin bidirectional line
 				(at 26.67 10.16 180)
 				(length 7.62)
-				(name "PC12"
+				(name "PC12-SDMMC1_CK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57383,7 +57376,7 @@
 			(pin bidirectional line
 				(at 26.67 5.08 180)
 				(length 7.62)
-				(name "PC14-_OSC32_IN"
+				(name "PC14-OSC32_IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57419,7 +57412,7 @@
 			(pin bidirectional line
 				(at 26.67 12.7 180)
 				(length 7.62)
-				(name "PC11"
+				(name "PC11-SDMMC1_D3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57437,7 +57430,7 @@
 			(pin bidirectional line
 				(at 26.67 15.24 180)
 				(length 7.62)
-				(name "PC10"
+				(name "PC10-SDMMC1_D2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57473,7 +57466,7 @@
 			(pin bidirectional line
 				(at -26.67 12.7 0)
 				(length 7.62)
-				(name "PC1"
+				(name "PC1-SDMMC2_CK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57509,7 +57502,7 @@
 			(pin bidirectional line
 				(at -26.67 15.24 0)
 				(length 7.62)
-				(name "PC0"
+				(name "PC0-SAI4_FS_B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57527,7 +57520,7 @@
 			(pin bidirectional line
 				(at -26.67 10.16 0)
 				(length 7.62)
-				(name "PC2"
+				(name "PC2_C"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57563,7 +57556,7 @@
 			(pin bidirectional line
 				(at -26.67 -7.62 0)
 				(length 7.62)
-				(name "PC9"
+				(name "PC9-SDMMC1_D1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57581,7 +57574,7 @@
 			(pin unspecified line
 				(at 26.67 0 180)
 				(length 7.62)
-				(name "*PH0-OSC_IN"
+				(name "PH0-OSC_IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57599,7 +57592,7 @@
 			(pin output line
 				(at 26.67 -2.54 180)
 				(length 7.62)
-				(name "PH1-_OSC_OUT"
+				(name "PH1-OSC_OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57653,7 +57646,7 @@
 			(pin bidirectional line
 				(at -26.67 -5.08 0)
 				(length 7.62)
-				(name "PC8"
+				(name "PC8-SDMMC1_D0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57705,10 +57698,10 @@
 				)
 			)
 		)
-		(symbol "STM32H725VGH6_4_1"
+		(symbol "STM32H725VGH6_3_1"
 			(rectangle
-				(start -19.05 20.32)
-				(end 19.05 -22.225)
+				(start -19.05 20.955)
+				(end 19.05 -21.59)
 				(stroke
 					(width 0)
 					(type default)
@@ -57717,10 +57710,12 @@
 					(type background)
 				)
 			)
+		)
+		(symbol "STM32H725VGH6_4_0"
 			(pin bidirectional line
 				(at 26.67 2.54 180)
 				(length 7.62)
-				(name "PE6"
+				(name "PE6-SAI1_SD_A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57738,7 +57733,7 @@
 			(pin bidirectional line
 				(at 26.67 5.08 180)
 				(length 7.62)
-				(name "PE5"
+				(name "PE5-SAI1_SCK_A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57756,7 +57751,7 @@
 			(pin bidirectional line
 				(at 26.67 12.7 180)
 				(length 7.62)
-				(name "PE2"
+				(name "PE2-USART10_RX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57774,7 +57769,7 @@
 			(pin bidirectional line
 				(at -26.67 2.54 0)
 				(length 7.62)
-				(name "PD6"
+				(name "PD6-USART2_RX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57792,7 +57787,7 @@
 			(pin bidirectional line
 				(at -26.67 10.16 0)
 				(length 7.62)
-				(name "PD3"
+				(name "PD3-USART2_CTS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57810,7 +57805,7 @@
 			(pin bidirectional line
 				(at -26.67 12.7 0)
 				(length 7.62)
-				(name "PD2"
+				(name "PD2-SDMMC1_CMD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57828,7 +57823,7 @@
 			(pin bidirectional line
 				(at 26.67 10.16 180)
 				(length 7.62)
-				(name "PE3"
+				(name "PE3-USART10_TX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57864,7 +57859,7 @@
 			(pin bidirectional line
 				(at -26.67 7.62 0)
 				(length 7.62)
-				(name "PD4"
+				(name "PD4-USART2_RTS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57900,7 +57895,7 @@
 			(pin bidirectional line
 				(at 26.67 7.62 180)
 				(length 7.62)
-				(name "PE4"
+				(name "PE4-SAI1_FS_A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57936,7 +57931,7 @@
 			(pin bidirectional line
 				(at -26.67 0 0)
 				(length 7.62)
-				(name "PD7"
+				(name "PD7-SDMMC2_CMD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57972,7 +57967,7 @@
 			(pin bidirectional line
 				(at -26.67 5.08 0)
 				(length 7.62)
-				(name "PD5"
+				(name "PD5-USART2_TX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -58098,7 +58093,7 @@
 			(pin bidirectional line
 				(at -26.67 -12.7 0)
 				(length 7.62)
-				(name "PD12"
+				(name "PD12-I2C4_SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -58116,7 +58111,7 @@
 			(pin bidirectional line
 				(at -26.67 -15.24 0)
 				(length 7.62)
-				(name "PD13"
+				(name "PD13-I2C4_SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -58201,6 +58196,19 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "STM32H725VGH6_4_1"
+			(rectangle
+				(start -19.05 20.32)
+				(end 19.05 -22.225)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
