@@ -1857,7 +1857,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "IC"
-			(at 25.4 -7.62 0)
+			(at -2.54 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1868,7 +1868,7 @@
 			)
 		)
 		(property "Value" "AE302F80F55D5LE-Y"
-			(at -10.414 25.146 0)
+			(at -11.43 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1985,7 +1985,7 @@
 		)
 		(symbol "AE302F80F55D5LE-Y_1_0"
 			(pin passive line
-				(at -29.21 5.08 0)
+				(at -20.32 5.08 0)
 				(length 5.08)
 				(name "VDD__PLL_0V8"
 					(effects
@@ -2003,7 +2003,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 -17.78 0)
+				(at -20.32 -17.78 0)
 				(length 5.08)
 				(name "VDD_SX__0V8"
 					(effects
@@ -2021,7 +2021,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 2.54 180)
+				(at 20.32 2.54 180)
 				(length 5.08)
 				(name "HFXO_N"
 					(effects
@@ -2039,7 +2039,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 5.08 180)
+				(at 20.32 5.08 180)
 				(length 5.08)
 				(name "HFXO_P"
 					(effects
@@ -2057,7 +2057,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 -27.94 0)
+				(at -20.32 -27.94 0)
 				(length 5.08)
 				(name "VDD_IO__1V8_1"
 					(effects
@@ -2075,7 +2075,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 12.7 180)
+				(at 20.32 12.7 180)
 				(length 5.08)
 				(name "N.C._1"
 					(effects
@@ -2093,7 +2093,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 -25.4 180)
+				(at 20.32 -25.4 180)
 				(length 5.08)
 				(name "VSS_1"
 					(effects
@@ -2111,7 +2111,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 -10.16 0)
+				(at -20.32 -10.16 0)
 				(length 5.08)
 				(name "VDD__CORE__0V8_1"
 					(effects
@@ -2129,7 +2129,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 15.24 180)
+				(at 20.32 15.24 180)
 				(length 5.08)
 				(name "N.C._2"
 					(effects
@@ -2147,7 +2147,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 -22.86 180)
+				(at 20.32 -22.86 180)
 				(length 5.08)
 				(name "VSS_2"
 					(effects
@@ -2165,7 +2165,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 -25.4 0)
+				(at -20.32 -25.4 0)
 				(length 5.08)
 				(name "VDD_IO__1V8_2"
 					(effects
@@ -2183,7 +2183,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 -7.62 0)
+				(at -20.32 -7.62 0)
 				(length 5.08)
 				(name "VDD__CORE__0V8_2"
 					(effects
@@ -2201,7 +2201,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 -5.08 0)
+				(at -20.32 -5.08 0)
 				(length 5.08)
 				(name "VDD__CORE__0V8_3"
 					(effects
@@ -2219,7 +2219,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 17.78 180)
+				(at 20.32 17.78 180)
 				(length 5.08)
 				(name "N.C._3"
 					(effects
@@ -2237,7 +2237,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 -20.32 180)
+				(at 20.32 -20.32 180)
 				(length 5.08)
 				(name "VSS_3"
 					(effects
@@ -2255,7 +2255,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 27.94 180)
+				(at 20.32 27.94 180)
 				(length 5.08)
 				(name "RESERVED"
 					(effects
@@ -2273,7 +2273,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 22.86 180)
+				(at 20.32 22.86 180)
 				(length 5.08)
 				(name "NSRST"
 					(effects
@@ -2291,7 +2291,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 -17.78 180)
+				(at 20.32 -17.78 180)
 				(length 5.08)
 				(name "VSS_4"
 					(effects
@@ -2309,7 +2309,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 -15.24 180)
+				(at 20.32 -15.24 180)
 				(length 5.08)
 				(name "VSS_5"
 					(effects
@@ -2327,7 +2327,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 -12.7 180)
+				(at 20.32 -12.7 180)
 				(length 5.08)
 				(name "VSS_6"
 					(effects
@@ -2345,7 +2345,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 -10.16 180)
+				(at 20.32 -10.16 180)
 				(length 5.08)
 				(name "VSS_7"
 					(effects
@@ -2363,7 +2363,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 -7.62 180)
+				(at 20.32 -7.62 180)
 				(length 5.08)
 				(name "VSS_8"
 					(effects
@@ -2381,7 +2381,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 20.32 180)
+				(at 20.32 20.32 180)
 				(length 5.08)
 				(name "N.C._4"
 					(effects
@@ -2399,7 +2399,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 -27.94 180)
+				(at 20.32 -27.94 180)
 				(length 5.08)
 				(name "VREF_P"
 					(effects
@@ -2417,7 +2417,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 25.4 0)
+				(at -20.32 25.4 0)
 				(length 5.08)
 				(name "VREG__MIPI__1V8"
 					(effects
@@ -2435,7 +2435,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 -2.54 180)
+				(at 20.32 -2.54 180)
 				(length 5.08)
 				(name "VSS_ANA"
 					(effects
@@ -2453,7 +2453,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 0 0)
+				(at -20.32 0 0)
 				(length 5.08)
 				(name "VDD__MAIN"
 					(effects
@@ -2471,7 +2471,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 -12.7 0)
+				(at -20.32 -12.7 0)
 				(length 5.08)
 				(name "VDD__BUCK"
 					(effects
@@ -2489,7 +2489,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 -15.24 0)
+				(at -20.32 -15.24 0)
 				(length 5.08)
 				(name "VDD__BATT"
 					(effects
@@ -2507,7 +2507,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 27.94 0)
+				(at -20.32 27.94 0)
 				(length 5.08)
 				(name "VSW"
 					(effects
@@ -2525,7 +2525,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 10.16 0)
+				(at -20.32 10.16 0)
 				(length 5.08)
 				(name "VREG__AON"
 					(effects
@@ -2543,7 +2543,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 25.4 180)
+				(at 20.32 25.4 180)
 				(length 5.08)
 				(name "POR_N"
 					(effects
@@ -2561,7 +2561,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 17.78 0)
+				(at -20.32 17.78 0)
 				(length 5.08)
 				(name "VREG__DIG_1V8"
 					(effects
@@ -2579,7 +2579,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 -2.54 0)
+				(at -20.32 -2.54 0)
 				(length 5.08)
 				(name "VDD__CORE__0V8_4"
 					(effects
@@ -2597,7 +2597,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 -5.08 180)
+				(at 20.32 -5.08 180)
 				(length 5.08)
 				(name "VSS_9"
 					(effects
@@ -2615,7 +2615,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 7.62 180)
+				(at 20.32 7.62 180)
 				(length 5.08)
 				(name "LFXO_N"
 					(effects
@@ -2633,7 +2633,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 12.7 0)
+				(at -20.32 12.7 0)
 				(length 5.08)
 				(name "VREG__AUX__1V8"
 					(effects
@@ -2651,7 +2651,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 0 180)
+				(at 20.32 0 180)
 				(length 5.08)
 				(name "VSS__BUCK"
 					(effects
@@ -2669,7 +2669,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 -20.32 0)
+				(at -20.32 -20.32 0)
 				(length 5.08)
 				(name "VDD_IO__FLEX"
 					(effects
@@ -2687,7 +2687,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 -22.86 0)
+				(at -20.32 -22.86 0)
 				(length 5.08)
 				(name "VDD_IO__1V8_3"
 					(effects
@@ -2705,7 +2705,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 7.62 0)
+				(at -20.32 7.62 0)
 				(length 5.08)
 				(name "VDD__USB_3V3"
 					(effects
@@ -2723,7 +2723,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 2.54 0)
+				(at -20.32 2.54 0)
 				(length 5.08)
 				(name "VDD__MIPI_1V8"
 					(effects
@@ -2741,7 +2741,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 22.86 0)
+				(at -20.32 22.86 0)
 				(length 5.08)
 				(name "VREG__MIPI_0V8"
 					(effects
@@ -2759,7 +2759,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 10.16 180)
+				(at 20.32 10.16 180)
 				(length 5.08)
 				(name "LFXO_P"
 					(effects
@@ -2777,7 +2777,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 15.24 0)
+				(at -20.32 15.24 0)
 				(length 5.08)
 				(name "VREG__CORE__0V8"
 					(effects
@@ -2795,7 +2795,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 20.32 0)
+				(at -20.32 20.32 0)
 				(length 5.08)
 				(name "VREG__LP_1V8"
 					(effects
@@ -2815,8 +2815,8 @@
 		)
 		(symbol "AE302F80F55D5LE-Y_1_1"
 			(rectangle
-				(start -24.13 30.48)
-				(end 24.13 -30.48)
+				(start -15.24 30.48)
+				(end 15.24 -30.48)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4010,7 +4010,7 @@
 		)
 		(symbol "AE302F80F55D5LE-Y_4_0"
 			(pin passive line
-				(at -19.05 12.7 0)
+				(at -29.21 12.7 0)
 				(length 5.08)
 				(name "GPIO8_3"
 					(effects
@@ -4028,7 +4028,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 10.16 0)
+				(at -29.21 10.16 0)
 				(length 5.08)
 				(name "GPIO8_4"
 					(effects
@@ -4046,7 +4046,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 20.32 0)
+				(at -29.21 20.32 0)
 				(length 5.08)
 				(name "GPIO8_0"
 					(effects
@@ -4064,7 +4064,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 17.78 0)
+				(at -29.21 17.78 0)
 				(length 5.08)
 				(name "GPIO8_1"
 					(effects
@@ -4082,7 +4082,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 15.24 0)
+				(at -29.21 15.24 0)
 				(length 5.08)
 				(name "GPIO8_2"
 					(effects
@@ -4100,7 +4100,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -7.62 0)
+				(at -29.21 -7.62 0)
 				(length 5.08)
 				(name "GPIO9_2"
 					(effects
@@ -4118,7 +4118,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -29.21 7.62 0)
 				(length 5.08)
 				(name "GPIO8_5"
 					(effects
@@ -4136,7 +4136,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -10.16 0)
+				(at -29.21 -10.16 0)
 				(length 5.08)
 				(name "GPIO9_3"
 					(effects
@@ -4154,7 +4154,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 2.54 0)
+				(at -29.21 2.54 0)
 				(length 5.08)
 				(name "GPIO8_7"
 					(effects
@@ -4172,7 +4172,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 5.08 0)
+				(at -29.21 5.08 0)
 				(length 5.08)
 				(name "GPIO8_6"
 					(effects
@@ -4190,7 +4190,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -12.7 0)
+				(at -29.21 -12.7 0)
 				(length 5.08)
 				(name "GPIO9_4"
 					(effects
@@ -4208,7 +4208,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -15.24 180)
+				(at 29.21 -15.24 180)
 				(length 5.08)
 				(name "GPIO11__5"
 					(effects
@@ -4226,7 +4226,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -5.08 0)
+				(at -29.21 -5.08 0)
 				(length 5.08)
 				(name "GPIO9_1"
 					(effects
@@ -4244,7 +4244,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -2.54 0)
+				(at -29.21 -2.54 0)
 				(length 5.08)
 				(name "GPIO9_0"
 					(effects
@@ -4262,7 +4262,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -17.78 0)
+				(at -29.21 -17.78 0)
 				(length 5.08)
 				(name "GPIO9_6"
 					(effects
@@ -4280,7 +4280,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -12.7 180)
+				(at 29.21 -12.7 180)
 				(length 5.08)
 				(name "GPIO11__4"
 					(effects
@@ -4298,7 +4298,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -15.24 0)
+				(at -29.21 -15.24 0)
 				(length 5.08)
 				(name "GPIO9_5"
 					(effects
@@ -4316,7 +4316,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -20.32 0)
+				(at -29.21 -20.32 0)
 				(length 5.08)
 				(name "GPIO9_7"
 					(effects
@@ -4334,7 +4334,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -20.32 180)
+				(at 29.21 -20.32 180)
 				(length 5.08)
 				(name "GPIO11__7"
 					(effects
@@ -4352,7 +4352,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 17.78 180)
+				(at 29.21 17.78 180)
 				(length 5.08)
 				(name "GPIO10__1"
 					(effects
@@ -4370,7 +4370,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 20.32 180)
+				(at 29.21 20.32 180)
 				(length 5.08)
 				(name "GPIO10__0"
 					(effects
@@ -4388,7 +4388,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 10.16 180)
+				(at 29.21 10.16 180)
 				(length 5.08)
 				(name "GPIO10__4"
 					(effects
@@ -4406,7 +4406,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 15.24 180)
+				(at 29.21 15.24 180)
 				(length 5.08)
 				(name "GPIO10__2"
 					(effects
@@ -4424,7 +4424,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 12.7 180)
+				(at 29.21 12.7 180)
 				(length 5.08)
 				(name "GPIO10__3"
 					(effects
@@ -4442,7 +4442,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 7.62 180)
+				(at 29.21 7.62 180)
 				(length 5.08)
 				(name "GPIO10__5"
 					(effects
@@ -4460,7 +4460,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 2.54 180)
+				(at 29.21 2.54 180)
 				(length 5.08)
 				(name "GPIO10__7"
 					(effects
@@ -4478,7 +4478,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -2.54 180)
+				(at 29.21 -2.54 180)
 				(length 5.08)
 				(name "GPIO11__0"
 					(effects
@@ -4496,7 +4496,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 5.08 180)
+				(at 29.21 5.08 180)
 				(length 5.08)
 				(name "GPIO10__6"
 					(effects
@@ -4514,7 +4514,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -5.08 180)
+				(at 29.21 -5.08 180)
 				(length 5.08)
 				(name "GPIO11__1"
 					(effects
@@ -4532,7 +4532,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -7.62 180)
+				(at 29.21 -7.62 180)
 				(length 5.08)
 				(name "GPIO11__2"
 					(effects
@@ -4550,7 +4550,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -10.16 180)
+				(at 29.21 -10.16 180)
 				(length 5.08)
 				(name "GPIO11__3"
 					(effects
@@ -4568,7 +4568,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -17.78 180)
+				(at 29.21 -17.78 180)
 				(length 5.08)
 				(name "GPIO11__6"
 					(effects
@@ -4588,8 +4588,8 @@
 		)
 		(symbol "AE302F80F55D5LE-Y_4_1"
 			(rectangle
-				(start -13.97 22.86)
-				(end 13.97 -22.86)
+				(start -24.13 22.86)
+				(end 24.13 -22.86)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4601,7 +4601,7 @@
 		)
 		(symbol "AE302F80F55D5LE-Y_5_0"
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -29.21 7.62 0)
 				(length 5.08)
 				(name "GPIO12__5"
 					(effects
@@ -4619,7 +4619,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -20.32 0)
+				(at -29.21 -20.32 0)
 				(length 5.08)
 				(name "GPIO13__7"
 					(effects
@@ -4637,7 +4637,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -15.24 0)
+				(at -29.21 -15.24 0)
 				(length 5.08)
 				(name "GPIO13__5"
 					(effects
@@ -4655,7 +4655,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 20.32 180)
+				(at 29.21 20.32 180)
 				(length 5.08)
 				(name "GPIO14__0"
 					(effects
@@ -4673,7 +4673,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -17.78 0)
+				(at -29.21 -17.78 0)
 				(length 5.08)
 				(name "GPIO13__6"
 					(effects
@@ -4691,7 +4691,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 2.54 0)
+				(at -29.21 2.54 0)
 				(length 5.08)
 				(name "GPIO12__7"
 					(effects
@@ -4709,7 +4709,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 12.7 0)
+				(at -29.21 12.7 0)
 				(length 5.08)
 				(name "GPIO12__3"
 					(effects
@@ -4727,7 +4727,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 5.08 0)
+				(at -29.21 5.08 0)
 				(length 5.08)
 				(name "GPIO12__6"
 					(effects
@@ -4745,7 +4745,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -10.16 0)
+				(at -29.21 -10.16 0)
 				(length 5.08)
 				(name "GPIO13__3"
 					(effects
@@ -4763,7 +4763,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -12.7 0)
+				(at -29.21 -12.7 0)
 				(length 5.08)
 				(name "GPIO13__4"
 					(effects
@@ -4781,7 +4781,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 15.24 0)
+				(at -29.21 15.24 0)
 				(length 5.08)
 				(name "GPIO12__2"
 					(effects
@@ -4799,7 +4799,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 17.78 0)
+				(at -29.21 17.78 0)
 				(length 5.08)
 				(name "GPIO12__1"
 					(effects
@@ -4817,7 +4817,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 10.16 0)
+				(at -29.21 10.16 0)
 				(length 5.08)
 				(name "GPIO12__4"
 					(effects
@@ -4835,7 +4835,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -7.62 0)
+				(at -29.21 -7.62 0)
 				(length 5.08)
 				(name "GPIO13__2"
 					(effects
@@ -4853,7 +4853,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 20.32 0)
+				(at -29.21 20.32 0)
 				(length 5.08)
 				(name "GPIO12__0"
 					(effects
@@ -4871,7 +4871,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 15.24 180)
+				(at 29.21 15.24 180)
 				(length 5.08)
 				(name "GPIO14__2"
 					(effects
@@ -4889,7 +4889,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -5.08 0)
+				(at -29.21 -5.08 0)
 				(length 5.08)
 				(name "GPIO13__1"
 					(effects
@@ -4907,7 +4907,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -2.54 0)
+				(at -29.21 -2.54 0)
 				(length 5.08)
 				(name "GPIO13__0"
 					(effects
@@ -4925,7 +4925,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 17.78 180)
+				(at 29.21 17.78 180)
 				(length 5.08)
 				(name "GPIO14__1"
 					(effects
@@ -4943,7 +4943,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 5.08 180)
+				(at 29.21 5.08 180)
 				(length 5.08)
 				(name "GPIO14__6"
 					(effects
@@ -4961,7 +4961,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 7.62 180)
+				(at 29.21 7.62 180)
 				(length 5.08)
 				(name "GPIO14_5"
 					(effects
@@ -4979,7 +4979,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 2.54 180)
+				(at 29.21 2.54 180)
 				(length 5.08)
 				(name "GPIO14__7"
 					(effects
@@ -4997,7 +4997,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 12.7 180)
+				(at 29.21 12.7 180)
 				(length 5.08)
 				(name "GPIO14__3"
 					(effects
@@ -5015,7 +5015,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 10.16 180)
+				(at 29.21 10.16 180)
 				(length 5.08)
 				(name "GPIO14__4"
 					(effects
@@ -5033,7 +5033,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -7.62 180)
+				(at 29.21 -7.62 180)
 				(length 5.08)
 				(name "GPIOV_2"
 					(effects
@@ -5051,7 +5051,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -10.16 180)
+				(at 29.21 -10.16 180)
 				(length 5.08)
 				(name "GPIOV_3"
 					(effects
@@ -5069,7 +5069,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -2.54 180)
+				(at 29.21 -2.54 180)
 				(length 5.08)
 				(name "GPIOV_0"
 					(effects
@@ -5087,7 +5087,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -12.7 180)
+				(at 29.21 -12.7 180)
 				(length 5.08)
 				(name "GPIOV_4"
 					(effects
@@ -5105,7 +5105,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -17.78 180)
+				(at 29.21 -17.78 180)
 				(length 5.08)
 				(name "GPIOV_6"
 					(effects
@@ -5123,7 +5123,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -5.08 180)
+				(at 29.21 -5.08 180)
 				(length 5.08)
 				(name "GPIOV_1"
 					(effects
@@ -5141,7 +5141,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -15.24 180)
+				(at 29.21 -15.24 180)
 				(length 5.08)
 				(name "GPIOV_5"
 					(effects
@@ -5159,7 +5159,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -20.32 180)
+				(at 29.21 -20.32 180)
 				(length 5.08)
 				(name "GPIOV_7"
 					(effects
@@ -5179,8 +5179,8 @@
 		)
 		(symbol "AE302F80F55D5LE-Y_5_1"
 			(rectangle
-				(start -13.97 22.86)
-				(end 13.97 -22.86)
+				(start -24.13 22.86)
+				(end 24.13 -22.86)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -56803,7 +56803,7 @@
 			(pin bidirectional line
 				(at 26.67 11.43 180)
 				(length 7.62)
-				(name "PB3(JTDO/TRACESWO)-SDMMC2_D2"
+				(name "PB3-SDMMC2_D2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -56821,7 +56821,7 @@
 			(pin bidirectional line
 				(at 26.67 8.89 180)
 				(length 7.62)
-				(name "PB4(NJTRST)-SDMMC2_D3"
+				(name "PB4-SDMMC2_D3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -56857,7 +56857,7 @@
 			(pin bidirectional line
 				(at -27.94 -16.51 0)
 				(length 7.62)
-				(name "PA14(JTCK/SWCLK)-DEBUG_JTCK-SWCLK"
+				(name "PA14-SWCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -56875,7 +56875,7 @@
 			(pin bidirectional line
 				(at -27.94 -13.97 0)
 				(length 7.62)
-				(name "PA13(JTMS/SWDIO)-DEBUG_JTMS-SWDIO"
+				(name "PA13-SWDIO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57037,7 +57037,7 @@
 			(pin bidirectional line
 				(at -27.94 11.43 0)
 				(length 7.62)
-				(name "PA3-OCTOSPIM_P1_CLK"
+				(name "PA3-OSPI_P1_CLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57091,7 +57091,7 @@
 			(pin bidirectional line
 				(at -27.94 3.81 0)
 				(length 7.62)
-				(name "PA6-OCTOSPIM_P1_IO3"
+				(name "PA6-OSPI_P1_IO3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57145,7 +57145,7 @@
 			(pin bidirectional line
 				(at 26.67 -13.97 180)
 				(length 7.62)
-				(name "PB13-OCTOSPIM_P1_IO2"
+				(name "PB13-OSPI_P1_IO2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57217,7 +57217,7 @@
 			(pin bidirectional line
 				(at 26.67 19.05 180)
 				(length 7.62)
-				(name "PB0-OCTOSPIM_P1_IO1"
+				(name "PB0-OSPI_P1_IO1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57253,7 +57253,7 @@
 			(pin bidirectional line
 				(at 26.67 -6.35 180)
 				(length 7.62)
-				(name "PB10-OCTOSPIM_P1_NCS"
+				(name "PB10-OSPI_P1_NCS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57271,7 +57271,7 @@
 			(pin bidirectional line
 				(at 26.67 -11.43 180)
 				(length 7.62)
-				(name "PB12-OCTOSPIM_P1_IO0"
+				(name "PB12-OSPI_P1_IO0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57376,7 +57376,7 @@
 			(pin bidirectional line
 				(at 26.67 5.08 180)
 				(length 7.62)
-				(name "PC14-OSC32_IN-RCC_OSC32_IN"
+				(name "PC14-OSC32_IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57574,7 +57574,7 @@
 			(pin unspecified line
 				(at 26.67 0 180)
 				(length 7.62)
-				(name "PH0-OSC_IN-RCC_OSC_IN"
+				(name "PH0-OSC_IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57592,7 +57592,7 @@
 			(pin output line
 				(at 26.67 -2.54 180)
 				(length 7.62)
-				(name "PH1-OSC_OUT-RCC_OSC_OUT"
+				(name "PH1-OSC_OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
