@@ -9,7 +9,7 @@
 		(at 0 -4.675 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "6bfe8007-77a4-41e7-a789-16d9b830ce4a")
+		(uuid "62ff3336-16a6-4310-9c24-bd042b442020")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 	(property "Value" "1.27 1x4"
 		(at 0 4.675 0)
 		(layer "F.Fab")
-		(uuid "d3509296-f4a9-40ad-bd75-0fd5cb071eee")
+		(uuid "b283ae28-f865-40dc-b465-5312fda170c0")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f6c60130-e672-49dd-914f-586a19b6c227")
+		(uuid "69110c23-ad51-4b37-b132-84f8bb4ff178")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dd998b61-8f0a-462d-ac65-daad28f7e72e")
+		(uuid "f0e6e3f6-3d61-4509-9f4e-20ba694b09ad")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -65,12 +65,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "a6ecf430-1cb2-4f41-b88a-2748ad3a2816")
+		(uuid "3cd89c58-c9b1-4e68-91f9-c95e708d75c7")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 90)
 		(layer "F.Fab")
-		(uuid "b752a8e6-759a-4213-8b1e-412f1ffc74fb")
+		(uuid "049ae67e-8f34-409b-b6ab-65818d3857a5")
 		(effects
 			(font
 				(size 1 1)
@@ -87,7 +87,7 @@
 		(roundrect_rratio 0)
 		(chamfer_ratio 0.3)
 		(chamfer top_left top_right bottom_left bottom_right)
-		(uuid "89c3e506-7490-488b-82ba-a5fac3d81678")
+		(uuid "2deec490-18c9-4f44-b98f-76970017abb9")
 	)
 	(pad "2" thru_hole roundrect
 		(at -0.635 0 90)
@@ -98,7 +98,7 @@
 		(roundrect_rratio 0)
 		(chamfer_ratio 0.3)
 		(chamfer top_left top_right bottom_left bottom_right)
-		(uuid "ff3818af-0429-4a80-880c-ed53d4d9d008")
+		(uuid "f42ca70c-adfe-4b61-addb-56c996d2249f")
 	)
 	(pad "3" thru_hole roundrect
 		(at 0.635 0 90)
@@ -109,7 +109,7 @@
 		(roundrect_rratio 0)
 		(chamfer_ratio 0.3)
 		(chamfer top_left top_right bottom_left bottom_right)
-		(uuid "2d3600fb-6640-45c6-a5c7-a41d479ea802")
+		(uuid "40e5b543-39e8-4346-8e42-3239e9f7c8fb")
 	)
 	(pad "4" thru_hole roundrect
 		(at 1.905 0 90)
@@ -120,18 +120,7 @@
 		(roundrect_rratio 0)
 		(chamfer_ratio 0.3)
 		(chamfer top_left top_right bottom_left bottom_right)
-		(uuid "d65ba99d-926d-40b2-b316-13cf55af65af")
+		(uuid "e0de2d65-1a57-4d9f-98e4-edf523bb876f")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_1x05_P1.27mm_Vertical.wrl"
-		(offset
-			(xyz 0 2.54 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )
