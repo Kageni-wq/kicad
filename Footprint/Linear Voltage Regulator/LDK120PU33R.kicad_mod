@@ -8,7 +8,7 @@
 		(at 0.01 -1.75 0)
 		(unlocked yes)
 		(layer "User.2")
-		(uuid "5a31d5e0-8693-4b96-9f21-bc2280ab8de2")
+		(uuid "05a8682f-9db5-4e00-b210-8332ef1ad9a8")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "123a1534-d7ae-47f7-af79-3c6e22ae6e4c")
+		(uuid "3a9b92c2-5496-4c96-986a-372b4c012216")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "79e01c45-3365-4bae-b989-f37d0910c338")
+		(uuid "d004cf91-34a8-4ef1-8f3e-404a73189f4a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bc26f231-8697-4afe-a465-23a31481225c")
+		(uuid "723ecf3d-8152-46b5-ab26-68dddc3426f9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -63,7 +63,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "20e97bf1-4b95-4fa8-a8f7-4f84c58d9531")
+		(uuid "f1238185-f13e-481a-863a-1a6cf10ec78f")
 	)
 	(fp_rect
 		(start -0.9017 -0.8509)
@@ -74,7 +74,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "cfe25ca4-e315-49cf-a9ae-7187cb4ec398")
+		(uuid "63823b73-2538-4640-9e10-4b7b81e78beb")
 	)
 	(fp_line
 		(start -0.6477 -0.5969)
@@ -84,7 +84,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "47933570-9436-4fa4-9249-4a5d80221a99")
+		(uuid "e2f0c2a1-eb44-45be-b48d-c4b52d5a7e54")
 	)
 	(fp_line
 		(start -0.6477 0.5969)
@@ -94,7 +94,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "fcb2e9cf-799b-42c5-a754-803b549a0b07")
+		(uuid "d34ccafd-c41f-4e65-92c0-17c456f6177d")
 	)
 	(fp_line
 		(start 0.6477 -0.5969)
@@ -104,7 +104,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "09205e84-ded6-4bda-8706-afc3d140d8e4")
+		(uuid "42dbe69c-f8f3-4976-ac93-a200607ee85f")
 	)
 	(fp_line
 		(start 0.6477 0.5969)
@@ -114,7 +114,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7b261846-0caf-4764-82b1-ff74cf96b11e")
+		(uuid "05f48898-1a63-403e-b778-2ef10711e999")
 	)
 	(fp_arc
 		(start 0.3048 -0.5969)
@@ -125,7 +125,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "96654519-0d39-49b5-978f-83dba8de2386")
+		(uuid "8ebf5253-5c81-4109-8536-6d6153fc7a00")
 	)
 	(fp_circle
 		(center -0.0635 -0.4064)
@@ -136,13 +136,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "12fa1805-8ebe-406a-b73a-fc2b6fe2afd1")
+		(uuid "9ca011dd-2349-4856-a05c-b9ddd3177a37")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "5725d1ce-451d-471a-a0b3-54179a70ca5e")
+		(uuid "413185e7-be63-4fc6-9766-a271d41e209c")
 		(effects
 			(font
 				(size 1 1)
@@ -155,45 +155,45 @@
 		(size 0.53 0.28)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.11)
-		(uuid "1de473de-382f-4fa0-a732-51cb4a6c5f2d")
+		(uuid "699ebe3d-c64e-4136-86ea-a4e1a127d425")
 	)
 	(pad "2" smd rect
 		(at -0.3398 0)
 		(size 0.53 0.28)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.11)
-		(uuid "b713661c-d662-4dcd-830d-6e85f7bd5461")
+		(uuid "2d13061a-f936-452f-999b-60c9a6cb59b1")
 	)
 	(pad "3" smd rect
 		(at -0.3398 0.4)
 		(size 0.53 0.28)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.11)
-		(uuid "18885760-378b-4fcc-9952-d85b99083902")
+		(uuid "cd0debf6-0af5-44a7-b014-6179078db1d9")
 	)
 	(pad "4" smd rect
 		(at 0.3398 0.4)
 		(size 0.53 0.28)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.11)
-		(uuid "aba10848-6803-4684-aeab-a640b1387a94")
+		(uuid "c28d0eab-2fa7-4eba-b52c-714842ca0ade")
 	)
 	(pad "5" smd rect
 		(at 0.3398 0)
 		(size 0.53 0.28)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.11)
-		(uuid "60dbd8c8-d1a3-42a7-8d69-101a74f4f44f")
+		(uuid "91d78ab8-6589-4ef8-8bcc-c631f0adfc19")
 	)
 	(pad "6" smd rect
 		(at 0.3398 -0.4)
 		(size 0.53 0.28)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.11)
-		(uuid "a6d5f186-2766-4983-9d5c-5ea97d8f25c9")
+		(uuid "6b360571-459f-40c2-a7f5-89486d8e3d6b")
 	)
 	(embedded_fonts no)
-	(model "C:/Kicad Lib/kicad/3dmodels/LDK120PU33R.step"
+	(model "$KICAD_3RD_PARTY/LDK120PU33R.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -202,28 +202,6 @@
 		)
 		(rotate
 			(xyz -0 -0 -0)
-		)
-	)
-	(model "/Users/kagenaeby/Documents/GitHub/kicad/3dmodels/LDK120PU33R.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "/Users/kagen/Documents/GitHub/kicad/3dmodels/LDK120PU33R.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
 		)
 	)
 )
