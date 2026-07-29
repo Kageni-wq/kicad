@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at -0.46 -1.5 0)
 		(layer "User.2")
-		(uuid "c8738be7-a294-49a9-bfd5-29363ada721e")
+		(uuid "5bd8598d-31fa-4063-b231-5ace455d4db4")
 		(effects
 			(font
 				(size 0.393701 0.393701)
@@ -17,7 +17,7 @@
 	(property "Value" "INDC2016X100N"
 		(at 1.54 1.5 0)
 		(layer "F.Fab")
-		(uuid "d62e3a04-3e87-4030-a09d-81b8ef6d824f")
+		(uuid "1b679de8-3db6-4d50-bb69-73ff110afd7e")
 		(effects
 			(font
 				(size 0.393701 0.393701)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "abf7ec85-e601-4963-873a-b8d4d09bdf81")
+		(uuid "eb5a51f4-623b-4518-8f2f-85b4346389b4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "afda4a43-48d7-40ed-b9d3-1222c65c00b2")
+		(uuid "d4962464-c8d6-4c95-b698-a848b8fa7ec8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "22147d1a-edbb-41d2-b2ce-5fdd60d787be")
+		(uuid "261c80a5-616a-4bb6-a07e-64268f5900dc")
 	)
 	(fp_line
 		(start -1.708 1.158)
@@ -69,7 +69,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "78aac16d-b8b5-45f8-8d18-6c67ddddf1ae")
+		(uuid "12549be3-d393-4479-aea6-053b8e13b883")
 	)
 	(fp_line
 		(start -1.708 1.158)
@@ -79,7 +79,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "74abd497-c729-4ad8-8016-090f64d039fb")
+		(uuid "dcdfa6c3-bb6a-4a1a-b9a9-da532605a3fe")
 	)
 	(fp_line
 		(start 1.708 1.158)
@@ -89,7 +89,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a41c292b-4da4-4ec8-bdf2-d97476a66a89")
+		(uuid "4fbc165f-3dd9-439b-a7a4-a0be50593d61")
 	)
 	(fp_line
 		(start -1.1 0.9)
@@ -99,7 +99,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "61726ba7-64cb-4f70-b0ca-96119d18f453")
+		(uuid "4355b285-19ae-4370-a286-e8e5359965ce")
 	)
 	(fp_line
 		(start 1.1 -0.9)
@@ -109,7 +109,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8316e31b-be70-4518-9b54-5e18c03141a5")
+		(uuid "aec30294-5ea6-466b-8c8d-60370000da69")
 	)
 	(fp_line
 		(start 1.1 0.9)
@@ -119,7 +119,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "cc3556a0-5127-4346-84cd-a18ecd42f9cf")
+		(uuid "e31c6a6c-df59-4856-a6e1-519c36daff99")
 	)
 	(fp_line
 		(start 1.1 0.9)
@@ -129,35 +129,24 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8b7cb264-50dc-47ac-9f77-1decea926375")
+		(uuid "7b67ad34-0cbb-4404-ab30-244758c4e74b")
 	)
 	(pad "1" smd rect
 		(at -0.86 0)
 		(size 1.2 1.82)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "43d7a4e8-f07e-4bca-8a9a-d781c3655cd3")
+		(uuid "e7a28682-3100-4247-b026-7b7fc2347121")
 	)
 	(pad "2" smd rect
 		(at 0.86 0)
 		(size 1.2 1.82)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "53d16bbb-a583-4a3c-8888-878b819a71d5")
+		(uuid "19111e63-4c03-4d8c-b03e-ea3a29958533")
 	)
 	(embedded_fonts no)
-	(model "/Users/kagenaeby/Documents/GitHub/kicad/3dmodels/DFE201610P-1R0M_P2.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 -0 -0)
-		)
-	)
-	(model "/Users/kagen/Documents/GitHub/kicad/3dmodels/DFE201610P-1R0M_P2.step"
+	(model "$KICAD_3RD_PARTY/DFE201610P-1R0M_P2.step"
 		(offset
 			(xyz 0 0 0)
 		)
