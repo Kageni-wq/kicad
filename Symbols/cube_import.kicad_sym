@@ -2018,7 +2018,7 @@
 			(pin passive line
 				(at 0 -5.08 0)
 				(length 5.08)
-				(name "PI5"
+				(name "DCMI_VSYNC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2144,7 +2144,7 @@
 			(pin passive line
 				(at 0 -22.86 0)
 				(length 5.08)
-				(name "PG9"
+				(name "USART6_RX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2486,7 +2486,7 @@
 			(pin passive line
 				(at 0 -71.12 0)
 				(length 5.08)
-				(name "DFSDM1_CKOUT"
+				(name "PD3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3404,7 +3404,7 @@
 			(pin passive line
 				(at 0 -200.66 0)
 				(length 5.08)
-				(name "SAI3_SD_A"
+				(name "PD1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3602,7 +3602,7 @@
 			(pin passive line
 				(at 0 -228.6 0)
 				(length 5.08)
-				(name "USART6_RX"
+				(name "PC7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3656,7 +3656,7 @@
 			(pin passive line
 				(at 0 -236.22 0)
 				(length 5.08)
-				(name "PG7"
+				(name "SYS_RST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4196,7 +4196,7 @@
 			(pin passive line
 				(at 0 -312.42 0)
 				(length 5.08)
-				(name "PG2"
+				(name "LCD_PWR_EN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4214,7 +4214,7 @@
 			(pin passive line
 				(at 0 -314.96 0)
 				(length 5.08)
-				(name "PK2"
+				(name "CTP_RST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5474,7 +5474,7 @@
 			(pin passive line
 				(at 58.42 -154.94 180)
 				(length 5.08)
-				(name "PJ6"
+				(name "PMIC_INT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5690,7 +5690,7 @@
 			(pin passive line
 				(at 58.42 -185.42 180)
 				(length 5.08)
-				(name "PE11"
+				(name "SAI2_SD_B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5798,7 +5798,7 @@
 			(pin passive line
 				(at 58.42 -200.66 180)
 				(length 5.08)
-				(name "SAI3_MCLK_B"
+				(name "LED_EN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5906,7 +5906,7 @@
 			(pin passive line
 				(at 58.42 -215.9 180)
 				(length 5.08)
-				(name "PA7"
+				(name "SPI1_MOSI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5996,7 +5996,7 @@
 			(pin passive line
 				(at 58.42 -228.6 180)
 				(length 5.08)
-				(name "SPI4_SCK"
+				(name "SAI2_SCK_B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6086,7 +6086,7 @@
 			(pin passive line
 				(at 58.42 -241.3 180)
 				(length 5.08)
-				(name "PD11"
+				(name "SAI2_SD_A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6176,7 +6176,7 @@
 			(pin passive line
 				(at 58.42 -254 180)
 				(length 5.08)
-				(name "PA5"
+				(name "SPI1_SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6212,7 +6212,7 @@
 			(pin passive line
 				(at 58.42 -259.08 180)
 				(length 5.08)
-				(name "PB1"
+				(name "DFSDM1_DATIN1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6248,7 +6248,7 @@
 			(pin passive line
 				(at 58.42 -264.16 180)
 				(length 5.08)
-				(name "PF11"
+				(name "SPI5_MOSI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6302,7 +6302,7 @@
 			(pin passive line
 				(at 58.42 -271.78 180)
 				(length 5.08)
-				(name "PE13"
+				(name "SAI2_FS_B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6320,7 +6320,7 @@
 			(pin passive line
 				(at 58.42 -274.32 180)
 				(length 5.08)
-				(name "PH6"
+				(name "SPI5_SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6410,7 +6410,7 @@
 			(pin passive line
 				(at 58.42 -287.02 180)
 				(length 5.08)
-				(name "SAI3_FS_B"
+				(name "PD10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6428,7 +6428,7 @@
 			(pin passive line
 				(at 58.42 -289.56 180)
 				(length 5.08)
-				(name "SAI3_SD_B"
+				(name "USART3_RX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6482,7 +6482,7 @@
 			(pin passive line
 				(at 58.42 -297.18 180)
 				(length 5.08)
-				(name "PA4"
+				(name "DCMI_HSYNC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6518,7 +6518,7 @@
 			(pin passive line
 				(at 58.42 -302.26 180)
 				(length 5.08)
-				(name "PB0"
+				(name "DFSDM1_CKOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6590,7 +6590,7 @@
 			(pin passive line
 				(at 58.42 -312.42 180)
 				(length 5.08)
-				(name "PE7"
+				(name "DFSDM1_DATIN2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6608,7 +6608,7 @@
 			(pin passive line
 				(at 58.42 -314.96 180)
 				(length 5.08)
-				(name "SPI4_MOSI"
+				(name "SAI2_MCLK_B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6716,7 +6716,7 @@
 			(pin passive line
 				(at 58.42 -330.2 180)
 				(length 5.08)
-				(name "SAI3_SCK_B"
+				(name "USART3_TX"
 					(effects
 						(font
 							(size 1.27 1.27)
