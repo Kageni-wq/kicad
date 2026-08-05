@@ -1985,7 +1985,7 @@
 		)
 		(symbol "AE302F80F55D5LE-Y_1_0"
 			(pin passive line
-				(at -20.32 5.08 0)
+				(at 25.4 2.54 180)
 				(length 5.08)
 				(name "VDD__PLL_0V8"
 					(effects
@@ -2003,7 +2003,7 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -17.78 0)
+				(at 25.4 5.08 180)
 				(length 5.08)
 				(name "VDD_SX__0V8"
 					(effects
@@ -2021,43 +2021,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 2.54 180)
-				(length 5.08)
-				(name "HFXO_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 5.08 180)
-				(length 5.08)
-				(name "HFXO_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -27.94 0)
+				(at -25.4 17.78 0)
 				(length 5.08)
 				(name "VDD_IO__1V8_1"
 					(effects
@@ -2075,25 +2039,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 12.7 180)
-				(length 5.08)
-				(name "N.C._1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -25.4 180)
+				(at -25.4 -27.94 0)
 				(length 5.08)
 				(name "VSS_1"
 					(effects
@@ -2111,7 +2057,7 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -10.16 0)
+				(at 25.4 17.78 180)
 				(length 5.08)
 				(name "VDD__CORE__0V8_1"
 					(effects
@@ -2129,25 +2075,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 15.24 180)
-				(length 5.08)
-				(name "N.C._2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -22.86 180)
+				(at -25.4 -25.4 0)
 				(length 5.08)
 				(name "VSS_2"
 					(effects
@@ -2165,7 +2093,7 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -25.4 0)
+				(at -25.4 15.24 0)
 				(length 5.08)
 				(name "VDD_IO__1V8_2"
 					(effects
@@ -2183,7 +2111,7 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -7.62 0)
+				(at 25.4 15.24 180)
 				(length 5.08)
 				(name "VDD__CORE__0V8_2"
 					(effects
@@ -2201,7 +2129,7 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -5.08 0)
+				(at 25.4 12.7 180)
 				(length 5.08)
 				(name "VDD__CORE__0V8_3"
 					(effects
@@ -2219,25 +2147,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 17.78 180)
-				(length 5.08)
-				(name "N.C._3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -20.32 180)
+				(at -25.4 -22.86 0)
 				(length 5.08)
 				(name "VSS_3"
 					(effects
@@ -2255,43 +2165,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 27.94 180)
-				(length 5.08)
-				(name "RESERVED"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 22.86 180)
-				(length 5.08)
-				(name "NSRST"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -17.78 180)
+				(at -25.4 -20.32 0)
 				(length 5.08)
 				(name "VSS_4"
 					(effects
@@ -2309,7 +2183,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -15.24 180)
+				(at -25.4 -17.78 0)
 				(length 5.08)
 				(name "VSS_5"
 					(effects
@@ -2327,7 +2201,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -12.7 180)
+				(at -25.4 -15.24 0)
 				(length 5.08)
 				(name "VSS_6"
 					(effects
@@ -2345,7 +2219,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -10.16 180)
+				(at -25.4 -12.7 0)
 				(length 5.08)
 				(name "VSS_7"
 					(effects
@@ -2363,7 +2237,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -7.62 180)
+				(at -25.4 -10.16 0)
 				(length 5.08)
 				(name "VSS_8"
 					(effects
@@ -2381,25 +2255,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 20.32 180)
-				(length 5.08)
-				(name "N.C._4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "M18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -27.94 180)
+				(at 25.4 -25.4 180)
 				(length 5.08)
 				(name "VREF_P"
 					(effects
@@ -2417,7 +2273,7 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 25.4 0)
+				(at 25.4 -15.24 180)
 				(length 5.08)
 				(name "VREG__MIPI__1V8"
 					(effects
@@ -2435,7 +2291,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -2.54 180)
+				(at -25.4 -5.08 0)
 				(length 5.08)
 				(name "VSS_ANA"
 					(effects
@@ -2453,7 +2309,7 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 0 0)
+				(at -25.4 25.4 0)
 				(length 5.08)
 				(name "VDD__MAIN"
 					(effects
@@ -2471,7 +2327,7 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -12.7 0)
+				(at -25.4 22.86 0)
 				(length 5.08)
 				(name "VDD__BUCK"
 					(effects
@@ -2489,7 +2345,7 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -15.24 0)
+				(at -25.4 2.54 0)
 				(length 5.08)
 				(name "VDD__BATT"
 					(effects
@@ -2507,7 +2363,7 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 27.94 0)
+				(at 25.4 27.94 180)
 				(length 5.08)
 				(name "VSW"
 					(effects
@@ -2525,7 +2381,7 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 10.16 0)
+				(at 25.4 -22.86 180)
 				(length 5.08)
 				(name "VREG__AON"
 					(effects
@@ -2543,25 +2399,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 25.4 180)
-				(length 5.08)
-				(name "POR_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "U18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 17.78 0)
+				(at 25.4 -7.62 180)
 				(length 5.08)
 				(name "VREG__DIG_1V8"
 					(effects
@@ -2579,7 +2417,7 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -2.54 0)
+				(at 25.4 10.16 180)
 				(length 5.08)
 				(name "VDD__CORE__0V8_4"
 					(effects
@@ -2597,7 +2435,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -5.08 180)
+				(at -25.4 -7.62 0)
 				(length 5.08)
 				(name "VSS_9"
 					(effects
@@ -2615,25 +2453,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 7.62 180)
-				(length 5.08)
-				(name "LFXO_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "V17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 12.7 0)
+				(at 25.4 -5.08 180)
 				(length 5.08)
 				(name "VREG__AUX__1V8"
 					(effects
@@ -2651,7 +2471,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 0 180)
+				(at -25.4 -2.54 0)
 				(length 5.08)
 				(name "VSS__BUCK"
 					(effects
@@ -2669,7 +2489,7 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -20.32 0)
+				(at -25.4 7.62 0)
 				(length 5.08)
 				(name "VDD_IO__FLEX"
 					(effects
@@ -2687,7 +2507,7 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -22.86 0)
+				(at -25.4 12.7 0)
 				(length 5.08)
 				(name "VDD_IO__1V8_3"
 					(effects
@@ -2705,7 +2525,7 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 7.62 0)
+				(at -25.4 27.94 0)
 				(length 5.08)
 				(name "VDD__USB_3V3"
 					(effects
@@ -2723,7 +2543,7 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 2.54 0)
+				(at 25.4 -12.7 180)
 				(length 5.08)
 				(name "VDD__MIPI_1V8"
 					(effects
@@ -2741,7 +2561,7 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 22.86 0)
+				(at 25.4 -2.54 180)
 				(length 5.08)
 				(name "VREG__MIPI_0V8"
 					(effects
@@ -2759,25 +2579,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 10.16 180)
-				(length 5.08)
-				(name "LFXO_P"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "W17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 15.24 0)
+				(at 25.4 22.86 180)
 				(length 5.08)
 				(name "VREG__CORE__0V8"
 					(effects
@@ -2795,7 +2597,7 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 20.32 0)
+				(at 25.4 -20.32 180)
 				(length 5.08)
 				(name "VREG__LP_1V8"
 					(effects
@@ -2815,8 +2617,8 @@
 		)
 		(symbol "AE302F80F55D5LE-Y_1_1"
 			(rectangle
-				(start -15.24 30.48)
-				(end 15.24 -30.48)
+				(start -20.32 30.48)
+				(end 20.32 -30.48)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5192,6 +4994,42 @@
 		)
 		(symbol "AE302F80F55D5LE-Y_6_0"
 			(pin passive line
+				(at 19.05 -2.54 180)
+				(length 5.08)
+				(name "HFXO_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 0 180)
+				(length 5.08)
+				(name "HFXO_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at -19.05 5.08 0)
 				(length 5.08)
 				(name "SEUART__TX"
@@ -5228,6 +5066,114 @@
 				)
 			)
 			(pin passive line
+				(at 19.05 7.62 180)
+				(length 5.08)
+				(name "N.C._1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 10.16 180)
+				(length 5.08)
+				(name "N.C._2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 12.7 180)
+				(length 5.08)
+				(name "N.C._3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -19.05 -2.54 0)
+				(length 5.08)
+				(name "RESERVED"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 17.78 180)
+				(length 5.08)
+				(name "NSRST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 15.24 180)
+				(length 5.08)
+				(name "N.C._4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at -19.05 20.32 0)
 				(length 5.08)
 				(name "USB_IO__ID"
@@ -5238,6 +5184,24 @@
 					)
 				)
 				(number "R9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 20.32 180)
+				(length 5.08)
+				(name "POR_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "U18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5282,7 +5246,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -7.62 0)
+				(at -19.05 -12.7 0)
 				(length 5.08)
 				(name "MIPIDSI__1_N"
 					(effects
@@ -5300,7 +5264,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -12.7 0)
+				(at -19.05 -17.78 0)
 				(length 5.08)
 				(name "MIPIDSI__C_N"
 					(effects
@@ -5318,7 +5282,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -2.54 0)
+				(at -19.05 -7.62 0)
 				(length 5.08)
 				(name "MIPIDSI__0_N"
 					(effects
@@ -5336,7 +5300,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 2.54 180)
+				(at -19.05 -5.08 0)
 				(length 5.08)
 				(name "MIPI__REXT"
 					(effects
@@ -5354,7 +5318,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -2.54 180)
+				(at 19.05 -7.62 180)
 				(length 5.08)
 				(name "MIPICSI__0_N"
 					(effects
@@ -5372,7 +5336,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -7.62 180)
+				(at 19.05 -12.7 180)
 				(length 5.08)
 				(name "MIPICSI__1_N"
 					(effects
@@ -5390,7 +5354,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -12.7 180)
+				(at 19.05 -17.78 180)
 				(length 5.08)
 				(name "MIPICSI__C_N"
 					(effects
@@ -5400,6 +5364,24 @@
 					)
 				)
 				(number "V16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 2.54 180)
+				(length 5.08)
+				(name "LFXO_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "V17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5444,7 +5426,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -10.16 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(name "MIPIDSI__1_P"
 					(effects
@@ -5462,7 +5444,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -15.24 0)
+				(at -19.05 -20.32 0)
 				(length 5.08)
 				(name "MIPIDSI__C_P"
 					(effects
@@ -5480,7 +5462,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -5.08 0)
+				(at -19.05 -10.16 0)
 				(length 5.08)
 				(name "MIPIDSI__0_P"
 					(effects
@@ -5498,7 +5480,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -5.08 180)
+				(at 19.05 -10.16 180)
 				(length 5.08)
 				(name "MIPICSI__0_P"
 					(effects
@@ -5516,7 +5498,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -10.16 180)
+				(at 19.05 -15.24 180)
 				(length 5.08)
 				(name "MIPICSI__1_P"
 					(effects
@@ -5534,7 +5516,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 -15.24 180)
+				(at 19.05 -20.32 180)
 				(length 5.08)
 				(name "MIPICSI__C_P"
 					(effects
@@ -5551,11 +5533,29 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 19.05 5.08 180)
+				(length 5.08)
+				(name "LFXO_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "W17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "AE302F80F55D5LE-Y_6_1"
 			(rectangle
 				(start -13.97 22.86)
-				(end 13.97 -17.78)
+				(end 13.97 -22.86)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -61982,7 +61982,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -0.254 25.908 0)
+			(at 0.254 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -61992,7 +61992,7 @@
 			)
 		)
 		(property "Value" "STM32H745IIK6"
-			(at -0.254 23.368 0)
+			(at 0.254 47.498 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -62068,18 +62068,7 @@
 				)
 			)
 		)
-		(symbol "STM32H745IIK6_1_1"
-			(rectangle
-				(start -12.7 45.72)
-				(end 12.7 -45.72)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
+		(symbol "STM32H745IIK6_1_0"
 			(pin power_out line
 				(at 20.32 -33.02 180)
 				(length 7.62)
@@ -63287,10 +63276,10 @@
 				)
 			)
 		)
-		(symbol "STM32H745IIK6_2_1"
+		(symbol "STM32H745IIK6_1_1"
 			(rectangle
-				(start -19.05 21.59)
-				(end 19.05 -21.59)
+				(start -12.7 45.72)
+				(end 12.7 -45.72)
 				(stroke
 					(width 0)
 					(type default)
@@ -63299,6 +63288,8 @@
 					(type background)
 				)
 			)
+		)
+		(symbol "STM32H745IIK6_2_0"
 			(pin bidirectional line
 				(at 26.67 -1.27 180)
 				(length 7.62)
@@ -63876,7 +63867,7 @@
 				)
 			)
 		)
-		(symbol "STM32H745IIK6_3_1"
+		(symbol "STM32H745IIK6_2_1"
 			(rectangle
 				(start -19.05 21.59)
 				(end 19.05 -21.59)
@@ -63888,6 +63879,8 @@
 					(type background)
 				)
 			)
+		)
+		(symbol "STM32H745IIK6_3_0"
 			(pin bidirectional line
 				(at 26.67 11.43 180)
 				(length 7.62)
@@ -64465,7 +64458,7 @@
 				)
 			)
 		)
-		(symbol "STM32H745IIK6_4_1"
+		(symbol "STM32H745IIK6_3_1"
 			(rectangle
 				(start -19.05 21.59)
 				(end 19.05 -21.59)
@@ -64477,6 +64470,8 @@
 					(type background)
 				)
 			)
+		)
+		(symbol "STM32H745IIK6_4_0"
 			(pin bidirectional line
 				(at -26.67 8.89 0)
 				(length 7.62)
@@ -65018,7 +65013,7 @@
 				)
 			)
 		)
-		(symbol "STM32H745IIK6_5_1"
+		(symbol "STM32H745IIK6_4_1"
 			(rectangle
 				(start -19.05 21.59)
 				(end 19.05 -21.59)
@@ -65030,6 +65025,8 @@
 					(type background)
 				)
 			)
+		)
+		(symbol "STM32H745IIK6_5_0"
 			(pin bidirectional line
 				(at -26.67 -8.89 0)
 				(length 7.62)
@@ -65607,10 +65604,10 @@
 				)
 			)
 		)
-		(symbol "STM32H745IIK6_6_1"
+		(symbol "STM32H745IIK6_5_1"
 			(rectangle
-				(start 0 8.89)
-				(end 7.62 -8.89)
+				(start -19.05 21.59)
+				(end 19.05 -21.59)
 				(stroke
 					(width 0)
 					(type default)
@@ -65619,6 +65616,8 @@
 					(type background)
 				)
 			)
+		)
+		(symbol "STM32H745IIK6_6_0"
 			(pin unspecified line
 				(at 15.24 -6.35 180)
 				(length 7.62)
@@ -65725,6 +65724,19 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "STM32H745IIK6_6_1"
+			(rectangle
+				(start 0 8.89)
+				(end 7.62 -8.89)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
