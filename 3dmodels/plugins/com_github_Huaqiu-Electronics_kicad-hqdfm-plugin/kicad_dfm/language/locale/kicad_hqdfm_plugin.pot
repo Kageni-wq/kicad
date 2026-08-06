@@ -1,0 +1,589 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-03-19 17:32+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=cp936\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\_baseApp.py:54
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:33
+msgid "HQ DFM"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\_baseApp.py:59
+msgid "pcb editor"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\analysis.py:82
+msgid "Long Pads"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\analysis.py:85
+msgid "Short Pads"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\analysis.py:124
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\analysis.py:149
+msgid "Via Annular Ring"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\analysis.py:127
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\analysis.py:192
+msgid "PTH Annular Ring"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\analysis.py:244
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:172
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:244
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:294
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:466
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:469
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:472
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:475
+msgid "Smallest Trace Width"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\analysis.py:301
+msgid "Grid Spacing"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\analysis.py:311
+msgid "Grid Width"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\child_frame\child_frame_setting.py:53
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\child_frame\dfm_child_frame.py:366
+msgid "pcs"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\child_frame\dfm_child_frame.py:70
+msgid "Item"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\child_frame\dfm_child_frame.py:347
+msgid "Aspect Ratio"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\child_frame\dfm_child_frame.py:599
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:175
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:247
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:306
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:518
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:519
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:523
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:526
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:531
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:532
+msgid "Pad Spacing"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\child_frame\ui_child_frame.py:62
+msgid "Layer"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\child_frame\ui_child_frame.py:83
+msgid "Keep selected layers"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\child_frame\ui_child_frame.py:90
+msgid "!! (Alarm)"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\child_frame\ui_child_frame.py:90
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\child_frame\ui_child_frame.py:94
+msgid "Show all"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\child_frame\ui_child_frame.py:120
+msgid "Problem"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\child_frame\ui_child_frame.py:155
+msgid "Occurrences(Click to view)"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\child_frame\ui_child_frame.py:190
+msgid "First"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\child_frame\ui_child_frame.py:198
+msgid "<<"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\child_frame\ui_child_frame.py:203
+msgid ">>"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\child_frame\ui_child_frame.py:210
+msgid "Last"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\child_frame\ui_child_frame.py:243
+msgid "Rule description"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_analysis.py:38
+msgid "Failed to upload file. Please request again."
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_analysis.py:43
+msgid "HTTP request error. Please request again."
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_analysis.py:50
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_analysis.py:96
+msgid "Not dfm data. Please request again."
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_analysis.py:109
+msgid "Upload DFM analysis file"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_analysis.py:110
+msgid "Please wait"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_analysis.py:125
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_analysis.py:181
+msgid "Analytical phase"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_analysis.py:134
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_analysis.py:190
+msgid "Network connection error. Please request again."
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_analysis.py:152
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_analysis.py:208
+msgid "Request data error,please request again."
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_analysis.py:153
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_analysis.py:209
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:405
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:410
+msgid "Info"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_analysis.py:248
+msgid "Analysis file"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_analysis.py:251
+msgid "HTTP request timed out."
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_analysis.py:254
+msgid "HTTP error occurred: {error}"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_analysis.py:258
+msgid "An unexpected HTTP error occurred: {error}"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_analysis.py:263
+msgid ""
+"Failed to request dfm analysis data: \r\n"
+"{reasons}\r\n"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_analysis.py:266
+msgid "Error"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_maindialog\ui_dfm_maindialog.py:57
+msgid "   DFM Analysis   "
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_maindialog\ui_dfm_maindialog.py:69
+msgid "   Rule Manager   "
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_maindialog\ui_dfm_maindialog.py:146
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_maindialog\ui_dfm_maindialog.py:156
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_maindialog\ui_dfm_maindialog.py:166
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_maindialog\ui_dfm_maindialog.py:176
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_maindialog\ui_dfm_maindialog.py:186
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_maindialog\ui_dfm_maindialog.py:196
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_maindialog\ui_dfm_maindialog.py:206
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_maindialog\ui_dfm_maindialog.py:216
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_maindialog\ui_dfm_maindialog.py:226
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_maindialog\ui_dfm_maindialog.py:236
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_maindialog\ui_dfm_maindialog.py:246
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_maindialog\ui_dfm_maindialog.py:256
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_maindialog\ui_dfm_maindialog.py:266
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_maindialog\ui_dfm_maindialog.py:276
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_maindialog\ui_dfm_maindialog.py:286
+msgid "Check"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:48
+msgid "The language you selected is currently not supported"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:49
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:226
+msgid "Help"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:88
+msgid "no errors detected"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:169
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:436
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:439
+msgid "Layer Count"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:170
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:440
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:443
+msgid "Dimensions"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:171
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:243
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:289
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:447
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:448
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:452
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:455
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:459
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:462
+msgid "Signal Integrity"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:173
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:245
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:299
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:481
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:484
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:490
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:493
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:498
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:501
+msgid "Smallest Trace Spacing"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:174
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:246
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:303
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:505
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:506
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:509
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:512
+msgid "Pad size"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:176
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:248
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:310
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:536
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:539
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:542
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:545
+msgid "Hatched Copper Pour"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:177
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:249
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:315
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:551
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:552
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:556
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:559
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:564
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:565
+msgid "Hole Diameter"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:178
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:250
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:319
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:569
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:570
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:573
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:576
+msgid "RingHole"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:179
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:251
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:323
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:582
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:585
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:589
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:592
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:596
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:599
+msgid "Drill Hole Spacing"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:180
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:252
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:328
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:603
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:604
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:608
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:611
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:615
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:618
+msgid "Drill to Copper"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:181
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:253
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:333
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:622
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:625
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:631
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:634
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:638
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:641
+msgid "Copper-to-Board Edge"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:182
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:254
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:338
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:645
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:648
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:652
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:655
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:659
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:662
+msgid "Special Drill Holes"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:183
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:255
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:343
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:666
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:667
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:671
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:672
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:676
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:679
+msgid "Holes on SMD Pads"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:184
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:256
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:348
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:683
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:686
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:692
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:695
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:700
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:703
+msgid "Missing SMask Openings"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:185
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:259
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:707
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:710
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:712
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:715
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\hole_childframe\ui_hole_childframe.py:24
+msgid "Drill Hole Density"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:186
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:257
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:719
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:722
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:724
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:727
+msgid "Surface Finish Area"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:187
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:258
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:731
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:732
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:734
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:737
+msgid "Test Point Count"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:225
+msgid "File parsing failed. Please click dfm analysis."
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:404
+msgid "End of DFM analysis request. No analysis data was returned!"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:410
+msgid "Analysis success!"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:452
+msgid "Error(s) detected"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\dfm_mainframe.py:777
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\manager\ui_rule_manager.py:25
+msgid "Rule View"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\hole_childframe\hole_childframe_view.py:16
+msgid "Laser hole number 0; "
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\hole_childframe\hole_childframe_view.py:17
+msgid "\"Pcs / SET\"The number of holes is : "
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\hole_childframe\hole_childframe_view.py:19
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\hole_childframe\hole_childframe_view.py:28
+msgid "; \"Hole density\" is : "
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\hole_childframe\hole_childframe_view.py:24
+msgid "Laser hole number "
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\hole_childframe\hole_childframe_view.py:26
+msgid "; \"Pcs / SET\"The number of holes is : "
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\hole_childframe\ui_hole_childframe.py:67
+msgid " Rule description"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\language\lang_const.py:47
+msgid "Chinese"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\language\lang_const.py:47
+msgid "English"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\language\lang_const.py:47
+msgid "Japanese"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\manager\rule_manager_view.py:21
+msgid "ID"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\manager\rule_manager_view.py:28
+msgid "AnalyseItem"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\manager\rule_manager_view.py:35
+msgid "AnalyseSubItem"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\manager\rule_manager_view.py:42
+msgid "ReportSet"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\manager\rule_manager_view.py:49
+msgid "Unit"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\settings\graphics_setting.py:220
+msgid "Via-to-Trace (Inner)"
+msgstr ""
+
+#:
+#: C:\Users\haf\Documents\KiCad\9.0\3rdparty\plugins\com_github_Huaqiu-Electronics_kicad-hqdfm-plugin\kicad_dfm\settings\graphics_setting.py:220
+msgid "Via-to-Trace (Outer)"
+msgstr ""
+

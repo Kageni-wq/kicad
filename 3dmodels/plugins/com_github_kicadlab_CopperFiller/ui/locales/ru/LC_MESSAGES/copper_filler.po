@@ -1,0 +1,451 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2026-04-01 12:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=cp1251\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: plugin/copper_filler_action.py:43
+msgid "START PLUGIN COPPER FILLER"
+msgstr "НАЧАЛО ВЫПОЛНЕНИЯ PLUGIN COPPER FILLER"
+
+#: plugin/copper_filler_action.py:45
+msgid "Get board classes"
+msgstr "Загрузка классов плат"
+
+#: plugin/copper_filler_action.py:51
+msgid "Board: {board}"
+msgstr "Плата {board}"
+
+#: plugin/copper_filler_action.py:52
+msgid "System {system}, version {version}"
+msgstr "ОС {system}, версия {version}"
+
+#: plugin/copper_filler_action.py:53
+msgid "Kicad version {version}"
+msgstr "Версия KiCAD {version}"
+
+#: plugin/copper_filler_action.py:54
+msgid "Processor {proc}, RAM {ram}"
+msgstr "Процессор {proc}, ОЗУ {ram}"
+
+#: plugin/copper_filler_action.py:68
+msgid "Show setting dialog"
+msgstr "Отображение диалога настроек"
+
+#: plugin/copper_filler_action.py:82
+msgid "User cancelled operation!"
+msgstr "Пользователь отменил операцию!"
+
+#: plugin/copper_filler_action.py:90
+msgid "Settings are saved in {settings_file}"
+msgstr "Настройки сохранены в {settings_file}"
+
+#: plugin/copper_filler_action.py:92
+msgid "Error while saving settings: {e}"
+msgstr "Ошибка при сохранении настроек: {e}"
+
+#: plugin/copper_filler_action.py:113
+msgid ""
+"\n"
+"                                Filler Settings:\n"
+"                                \tLayer: {layer_name}\n"
+"                                \tShape: {shape}\n"
+"                                \tSize: {size} µm\n"
+"                                \tDensity: {density} %\n"
+"                                \tClearance: {clearance} µm\n"
+"                                \tOffset X: {offset_x} µm\n"
+"                                \tOffset Y: {offset_y} µm\n"
+"                                "
+msgstr ""
+"\n"
+"                                Параметры заполнения:\n"
+"                                \tСлой: {layer_name}\n"
+"                                \tФорма: {shape}\n"
+"                                \tРазмер: {size} µм\n"
+"                                \tПлотность: {density} %\n"
+"                                \tЗазор: {clearance} µм\n"
+"                                \tОтступ X: {offset_x} µм\n"
+"                                \tОтступ Y: {offset_y} µм\n"
+"                                "
+
+#: plugin/copper_filler_action.py:137
+msgid "Get Edge_Cuts..."
+msgstr "Получение контуров платы..."
+
+#: plugin/copper_filler_action.py:143
+msgid "Failed to obtain the board edges. Check for closed edges in the Edge.Cuts layer"
+msgstr "Ошибка при получении контуров платы. Проверьте на замкнутость контуров на слое Edge.Cuts"
+
+#: plugin/copper_filler_action.py:145
+msgid "Get Edge_Cuts: {edge_time:.3f} sec"
+msgstr "Получение контуров платы: {edge_time:.3f} сек"
+
+#: plugin/copper_filler_action.py:150
+msgid "Get zones..."
+msgstr "Получение зон..."
+
+#: plugin/copper_filler_action.py:154
+msgid "Get zones: {zones_time:.3f} sec"
+msgstr "Получение зон: {zones_time:.3f} сек"
+
+#: plugin/copper_filler_action.py:156
+msgid "Get masks..."
+msgstr "Получение масок..."
+
+#: plugin/copper_filler_action.py:160
+msgid "Get masks: {masks_time:.3f} sec"
+msgstr "Получение масок: {masks_time:.3f} сек"
+
+#: plugin/copper_filler_action.py:162
+msgid "Get tracks..."
+msgstr "Получение дорожек..."
+
+#: plugin/copper_filler_action.py:166
+msgid "Get tracks: {tracks_time:.3f} sec"
+msgstr "Получение дорожек: {tracks_time:.3f} сек"
+
+#: plugin/copper_filler_action.py:168
+msgid "Get pads..."
+msgstr "Получение площадок..."
+
+#: plugin/copper_filler_action.py:172
+msgid "Get pads: {pads_time:.3f} sec"
+msgstr "Получение площадок: {pads_time:.3f} сек"
+
+#: plugin/copper_filler_action.py:174
+msgid "Get vias..."
+msgstr "Получение переходов..."
+
+#: plugin/copper_filler_action.py:178
+msgid "Get vias: {vias_time:.3f} sec"
+msgstr "Получение переходов: {vias_time:.3f} сек"
+
+#: plugin/copper_filler_action.py:180
+msgid "Get text..."
+msgstr "Получение текста..."
+
+#: plugin/copper_filler_action.py:184
+msgid "Get text: {text_time:.3f} sec"
+msgstr "Получение текста: {text_time:.3f} сек"
+
+#: plugin/copper_filler_action.py:211
+msgid "Board size: {board_width:.1f} x {board_height:.1f} µm"
+msgstr "Размеры платы: {board_width:.1f} x {board_height:.1f} µм"
+
+#: plugin/copper_filler_action.py:212
+msgid "Element size: {element_diam} µm, step: {step:.3f} µm"
+msgstr "Размер элемента: {element_diam} µm, шаг: {step:.3f} µm"
+
+#: plugin/copper_filler_action.py:215
+msgid "START MAIN LOOP"
+msgstr "НАЧИНАЕМ ОСНОВНОЙ ЦИКЛ ЗАПОЛНЕНИЯ"
+
+#: plugin/copper_filler_action.py:223
+msgid "Proccessing Threads Count: {num_threads}"
+msgstr "Количество потоков: {num_threads}"
+
+#: plugin/copper_filler_action.py:225
+msgid "Check pre-count shapes..."
+msgstr "Расчет количества фигур..."
+
+#: plugin/copper_filler_action.py:227
+msgid "Pre-count shape: {total_estimated_shapes}"
+msgstr "Оценочное количество фигур: {total_estimated_shapes}"
+
+#: plugin/copper_filler_action.py:238
+msgid "Start copper filling..."
+msgstr "Начало заполнения меди..."
+
+#: plugin/copper_filler_action.py:269
+msgid "Fill copper... Section {completed_sections}/{num_threads}"
+msgstr "Заполнение меди... Секция {completed_sections}/{num_threads}"
+
+#: plugin/copper_filler_action.py:271
+msgid "Section {section_id} ends: {total_shapes} elements, {clipped_shapes} added"
+msgstr "Секция {section_id} завершена: {total_shapes} фигур, {clipped_shapes} добавлено"
+
+#: plugin/copper_filler_action.py:277
+msgid "Error while processing: {e}"
+msgstr "Ошибка в обработке секции: {e}"
+
+#: plugin/copper_filler_action.py:281
+msgid "Checking isolated shapes..."
+msgstr "Проверка изолированных элементов..."
+
+#: plugin/copper_filler_action.py:287
+msgid "Removed {removed_count} isolated shapes in {isolated_time:.3f} sec"
+msgstr "Удалено {removed_count} изолированных элеентов за {isolated_time:.3f} сек"
+
+#: plugin/copper_filler_action.py:301
+msgid "MAIN LOOP ENDED"
+msgstr "ОСНОВНОЙ ЦИКЛ ЗАВЕРШЕН"
+
+#: plugin/copper_filler_action.py:302
+msgid "Main loop time: {fill_loop_time:.3f} sec"
+msgstr "Время основного цикла: {fill_loop_time:.3f} сек"
+
+#: plugin/copper_filler_action.py:303
+msgid "Total shapes: {total_shapes}"
+msgstr "Всего фигур создано: {total_shapes}"
+
+#: plugin/copper_filler_action.py:304
+msgid "Clipped shapes: {clipped_shapes}"
+msgstr "Фигур добавлено в зону: {clipped_shapes}"
+
+#: plugin/copper_filler_action.py:305
+msgid "Shape creation time: {shape_creation_time:.3f} sec"
+msgstr "Время создания фигур: {shape_creation_time:.3f} сек"
+
+#: plugin/copper_filler_action.py:307
+msgid "Average clipper total time: {clipper_total_time:.3f} sec"
+msgstr "Среднее время клиппинга в потоке: {clipper_total_time:.3f} сек"
+
+#: plugin/copper_filler_action.py:308
+msgid "Average time to element: {a:.2f} msec"
+msgstr "Среднее время на фигуру: {a:.2f} мс"
+
+#: plugin/copper_filler_action.py:309
+msgid "Added element persentage: {a:.1f}%"
+msgstr "Процент добавленных фигур: {a:.1f}%"
+
+#: plugin/copper_filler_action.py:312
+msgid "End zone..."
+msgstr "Финализация зоны..."
+
+#: plugin/copper_filler_action.py:328
+msgid "Add and fill zones: {fill_time:.3f} sec"
+msgstr "Добавление и заполнение зоны: {fill_time:.3f} сек"
+
+#: plugin/copper_filler_action.py:335
+msgid "TOTAL INFORMATION"
+msgstr "ИТОГОВЫЙ ОТЧЕТ О ПРОИЗВОДИТЕЛЬНОСТИ"
+
+#: plugin/copper_filler_action.py:336
+msgid "Total time: {total_time:.3f} sec"
+msgstr "Общее время выполнения: {total_time:.3f} сек"
+
+#: plugin/copper_filler_action.py:337
+msgid "Preproccessing time: {t:.3f} sec ({a:.1f}%)"
+msgstr "Подготовительные операции: {t:.3f} сек ({a:.1f}%)"
+
+#: plugin/copper_filler_action.py:340
+msgid "Main loop time: {fill_loop_time:.3f} sec ({a:.1f}%)"
+msgstr "Основной цикл заполнения: {fill_loop_time:.3f} сек ({a:.1f}%)"
+
+#: plugin/copper_filler_action.py:344
+msgid "Zone fill: {fill_time:.3f} sec ({a:.1f}%)"
+msgstr "Заполнение зоны: {fill_time:.3f} сек ({a:.1f}%)"
+
+#: plugin/copper_filler_action.py:348
+msgid ""
+"\n"
+"                    Preprocessing details:\n"
+"                    \tEdge contours: {edge_time:.3f} sec\n"
+"                    \tZones: {zones_time:.3f} sec\n"
+"                    \tMasks: {masks_time:.3f} sec\n"
+"                    \tTracks: {tracks_time:.3f} sec\n"
+"                    \tPads: {pads_time:.3f} sec\n"
+"                    \tVias: {vias_time:.3f} sec\n"
+"                "
+msgstr ""
+"\n"
+"                    Детализация подготовительных операций:\n"
+"                    \tКонтуры: {edge_time:.3f} сек\n"
+"                    \tЗоны: {zones_time:.3f} сек\n"
+"                    \tМаски: {masks_time:.3f} сек\n"
+"                    \tДорожки: {tracks_time:.3f} сек\n"
+"                    \tПлощадки: {pads_time:.3f} сек\n"
+"                    \tПереходы: {vias_time:.3f} сек\n"
+"                "
+
+#: plugin/copper_filler_action.py:366
+msgid "END PLUGIN"
+msgstr "ВЫПОЛНЕНИЕ ЗАВЕРШЕНО"
+
+#: plugin/copper_filler_action.py:369
+msgid "End!"
+msgstr "Завершено!"
+
+#: plugin/copper_filler_action.py:378
+msgid "Operation cancelled by user: {e}"
+msgstr "Операция отменена пользователем: {e}"
+
+#: plugin/copper_filler_action.py:380
+msgid "Operation cancelled by user"
+msgstr "Операция отменена пользователем"
+
+#: plugin/copper_filler_action.py:382 plugin/copper_filler_action.py:384
+msgid "Critical error: {e}"
+msgstr "Критическая ошибка: {e}"
+
+#: plugin/copper_filler_action.py:591
+msgid "Single shape detected - it will be removed as isolated"
+msgstr "Единственный элемент найден - будет удален"
+
+#: plugin/copper_filler_action.py:617
+msgid "Isolated shapes filter: {removed} shapes removed, {kept} shapes kept"
+msgstr "Фильтр изолированных элементов: {removed} элементов удалено, {kept} элементов сохранено"
+
+#: plugin/core/preprocessing.py:59
+msgid "Get Zones"
+msgstr "Получение зон"
+
+#: plugin/core/preprocessing.py:84
+msgid "Zone count: {zones_count}, removed: {removed_zones}"
+msgstr "Количество зон: {zones_count}, удалено: {removed_zones}"
+
+#: plugin/core/preprocessing.py:89
+msgid "Get Masks"
+msgstr "Получение масок"
+
+#: plugin/core/preprocessing.py:104
+msgid "Masks count: {masks_count}"
+msgstr "Количество масок: {masks_count}"
+
+#: plugin/core/preprocessing.py:109
+msgid "Get Tracks"
+msgstr "Получение дорожек"
+
+#: plugin/core/preprocessing.py:151
+msgid "Tracks count: {tracks_count}"
+msgstr "Количество дорожек: {tracks_count}"
+
+#: plugin/core/preprocessing.py:156
+msgid "Get Pads"
+msgstr "Получение площадок"
+
+#: plugin/core/preprocessing.py:170
+msgid "Pads count: {pads_count}"
+msgstr "Количество площадок: {pads_count}"
+
+#: plugin/core/preprocessing.py:186
+msgid "Get Vias"
+msgstr "Получение переходов"
+
+#: plugin/core/preprocessing.py:214
+msgid "Vias count: {vias_count}"
+msgstr "Количество переходов: {vias_count}"
+
+#: plugin/core/preprocessing.py:218
+msgid "Get Text Blocks"
+msgstr "Получение текстовых блоков"
+
+#: plugin/core/preprocessing.py:233
+msgid "Text count: {text_count}"
+msgstr "Количество текста: {text_count}"
+
+#: plugin/ui/action_dialog.py:26
+msgid "Settings CopperFiller"
+msgstr "Настройки CopperFiller"
+
+#: plugin/ui/action_dialog.py:46
+msgid "Layer"
+msgstr "Слой"
+
+#: plugin/ui/action_dialog.py:60
+msgid "Element"
+msgstr "Элемент"
+
+#: plugin/ui/action_dialog.py:62
+msgid "Shape:"
+msgstr "Форма:"
+
+#: plugin/ui/action_dialog.py:67
+msgid "Circle"
+msgstr "Круг"
+
+#: plugin/ui/action_dialog.py:67
+msgid "Square"
+msgstr "Квадрат"
+
+#: plugin/ui/action_dialog.py:75
+msgid "Size:"
+msgstr "Размер:"
+
+#: plugin/ui/action_dialog.py:87
+msgid "Geometry"
+msgstr "Геометрия"
+
+#: plugin/ui/action_dialog.py:91
+msgid "Density:"
+msgstr "Плотность:"
+
+#: plugin/ui/action_dialog.py:107
+msgid "Offset X:"
+msgstr "Отступ X:"
+
+#: plugin/ui/action_dialog.py:119
+msgid "Offset Y:"
+msgstr "Отступ Y:"
+
+#: plugin/ui/action_dialog.py:134
+msgid "Board Class | Clearance Settings"
+msgstr "Класс платы | Настройки зазора"
+
+#: plugin/ui/action_dialog.py:138 plugin/ui/action_dialog.py:321
+msgid "Board Class {i}"
+msgstr "Класс платы {i}"
+
+#: plugin/ui/action_dialog.py:145
+msgid "Element Clearance:"
+msgstr "Зазор между элементами:"
+
+#: plugin/ui/action_dialog.py:156
+msgid "Conductor and Element Clearance:"
+msgstr "Зазор между элем. и проводниками:"
+
+#: plugin/ui/action_dialog.py:172
+msgid "Check the table Electrical Spacing in Calculator Tools while entering clearance value"
+msgstr "При вводе значения зазора проверьте в соответствии с таблицей Электрический зазор"
+
+#: plugin/ui/action_dialog.py:182
+msgid "Save Settings?"
+msgstr "Сохранить настройки?"
+
+#: plugin/ui/info_dialog.py:12
+msgid "Total Information"
+msgstr "Общая информация"
+
+#: plugin/ui/info_dialog.py:24
+msgid ""
+"Filler ends!\n"
+"Total time: {total_time:.1f} sec\n"
+"Created shapes: {shapes}\n"
+"Added: {clipped}\n"
+"\n"
+"Details in log file."
+msgstr ""
+"Плагин завершил работу!\n"
+"Общее время: {total_time:.1f} sec\n"
+"Создано элементов: {shapes}\n"
+"Добавлено: {clipped}\n"
+"\n"
+"Подробности в лог файле."
+
+#: plugin/ui/info_dialog.py:36
+msgid "Logs"
+msgstr "Логи"
+
+#: plugin/ui/info_dialog.py:55
+msgid "Not found logs directory"
+msgstr "Директория с логами не найдена"
+
+#: plugin/ui/info_dialog.py:55 plugin/ui/info_dialog.py:66
+msgid "Error"
+msgstr "Ошибка"
+
+#: plugin/ui/info_dialog.py:66
+msgid "Not open logs directory"
+msgstr "Невозможно открыть директорию с логами"
+

@@ -1,0 +1,45 @@
+{
+    "ClassCount" : 6,
+    "Class1": {
+        "Lines": 0.80,
+        "Clearance": 0.68,
+        "via_diam_diff": -1.0,
+        "PadDiffPlated": 1.19,
+        "PadDiffNotPlated": 1.57
+    },
+    "Class2": {
+        "Lines": 0.50,
+        "Clearance": 0.5,
+        "via_diam_diff": -1.0,
+        "PadDiffPlated": 0.78,
+        "PadDiffNotPlated": 1.13
+    },
+    "Class3": {
+        "Lines": 0.31,
+        "Clearance": 0.31,
+        "via_diam_diff": 0.45,
+        "PadDiffPlated": 0.60,
+        "PadDiffNotPlated": 0.9
+    },
+    "Class4": {
+        "Lines": 0.21,
+        "Clearance": 0.21,
+        "via_diam_diff": 0.34,
+        "PadDiffPlated": 0.49,
+        "PadDiffNotPlated": -1.0
+    },
+    "Class5": {
+        "Lines": 0.15,
+        "Clearance": 0.15,
+        "via_diam_diff": 0.24,
+        "PadDiffPlated": 0.39,
+        "PadDiffNotPlated": -1.0
+    },
+    "Class6": {
+        "Lines": 0.12,
+        "Clearance": 0.12,
+        "via_diam_diff": 0.2,
+        "PadDiffPlated": 0.35,
+        "PadDiffNotPlated": -1.0
+    }
+}

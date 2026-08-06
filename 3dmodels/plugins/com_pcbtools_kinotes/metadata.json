@@ -1,0 +1,32 @@
+{
+  "$schema": "https://go.kicad.org/pcm/schemas/v1",
+  "name": "KiNotes",
+  "description": "Engineering notes that live inside KiCad — auto-save, Smart-Link, time tracking",
+  "description_full": "Your design decisions shouldn't live in a separate notepad. KiNotes keeps engineering notes right inside KiCad—where they belong.\n\nA note written today saves hours tomorrow. A design decision documented now prevents the same argument six months from now.\n\nFeatures:\n• Smart-Link: Click R1, U3, C5 → highlights component on PCB\n• Net highlighting: Click VCC, GND, SDA → highlights traces\n• Visual WYSIWYG editor (Notion-like experience)\n• Auto-save: Your notes survive your forgetting\n• Dark/Light themes with custom colors\n• Task list with time tracking\n• Export to PDF\n• Git-friendly .kinotes/ folder storage\n• 100% offline, no cloud accounts\n\nBuilt for engineers who've learned that memory is unreliable, but good notes aren't.\n\nOpen source (Apache 2.0) by PCBtools.xyz",
+  "identifier": "com.pcbtools.kinotes",
+  "type": "plugin",
+  "author": {
+    "name": "PCBtools.xyz",
+    "contact": {
+      "web": "https://pcbtools.xyz"
+    }
+  },
+  "maintainer": {
+    "name": "PCBtools.xyz",
+    "contact": {
+      "web": "https://pcbtools.xyz"
+    }
+  },
+  "license": "Apache-2.0",
+  "resources": {
+    "homepage": "https://pcbtools.xyz/tools/kinotes",
+    "repository": "https://github.com/way2pramil/KiNotes"
+  },
+  "versions": [
+    {
+      "version": "1.5.2",
+      "status": "stable",
+      "kicad_version": "9.0"
+    }
+  ]
+}

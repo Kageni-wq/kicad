@@ -1,0 +1,26 @@
+{
+    "$schema": "https://go.kicad.org/api/schemas/v1",
+    "identifier": "com.github.adamws.kicad-via-patterns",
+    "name": "Via Patterns",
+    "description": "Add vias using various patterns",
+    "runtime": {
+        "type": "python",
+        "min_version": "3.9"
+    },
+    "actions": [
+        {
+            "identifier": "show-gui",
+            "name": "Via Patterns",
+            "description": "Add vias using various patterns",
+            "show-button": true,
+            "scopes": [
+                "pcb"
+            ],
+            "entrypoint": "entrypoint.py",
+            "icons-light": [
+                "via_patterns/icon.png"
+            ],
+            "icons-dark": []
+        }
+    ]
+}

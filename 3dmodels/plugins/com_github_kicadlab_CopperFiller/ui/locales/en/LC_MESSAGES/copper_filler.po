@@ -1,0 +1,451 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2026-04-01 12:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=cp1251\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: plugin/copper_filler_action.py:43
+msgid "START PLUGIN COPPER FILLER"
+msgstr "START PLUGIN COPPER FILLER"
+
+#: plugin/copper_filler_action.py:45
+msgid "Get board classes"
+msgstr "Get board classes"
+
+#: plugin/copper_filler_action.py:51
+msgid "Board: {board}"
+msgstr "Board: {board}"
+
+#: plugin/copper_filler_action.py:52
+msgid "System {system}, version {version}"
+msgstr "System {system}, version {version}"
+
+#: plugin/copper_filler_action.py:53
+msgid "Kicad version {version}"
+msgstr "KiCAD version {version}"
+
+#: plugin/copper_filler_action.py:54
+msgid "Processor {proc}, RAM {ram}"
+msgstr "Processor {proc}, RAM {ram}"
+
+#: plugin/copper_filler_action.py:68
+msgid "Show setting dialog"
+msgstr "Show setting dialog"
+
+#: plugin/copper_filler_action.py:82
+msgid "User cancelled operation!"
+msgstr "User cancelled operation!"
+
+#: plugin/copper_filler_action.py:90
+msgid "Settings are saved in {settings_file}"
+msgstr "Settings are saved in {settings_file}"
+
+#: plugin/copper_filler_action.py:92
+msgid "Error while saving settings: {e}"
+msgstr "Error while saving settings: {e}"
+
+#: plugin/copper_filler_action.py:113
+msgid ""
+"\n"
+"                                Filler Settings:\n"
+"                                \tLayer: {layer_name}\n"
+"                                \tShape: {shape}\n"
+"                                \tSize: {size} µm\n"
+"                                \tDensity: {density} %\n"
+"                                \tClearance: {clearance} µm\n"
+"                                \tOffset X: {offset_x} µm\n"
+"                                \tOffset Y: {offset_y} µm\n"
+"                                "
+msgstr ""
+"\n"
+"                                Filler Settings:\n"
+"                                \tLayer: {layer_name}\n"
+"                                \tShape: {shape}\n"
+"                                \tSize: {size} µm\n"
+"                                \tDensity: {density} %\n"
+"                                \tClearance: {clearance} µm\n"
+"                                \tOffset X: {offset_x} µm\n"
+"                                \tOffset Y: {offset_y} µm\n"
+"                                "
+
+#: plugin/copper_filler_action.py:137
+msgid "Get Edge_Cuts..."
+msgstr "Get Edge_Cuts..."
+
+#: plugin/copper_filler_action.py:143
+msgid "Failed to obtain the board edges. Check for closed edges in the Edge.Cuts layer"
+msgstr "Failed to obtain the board edges. Check for closed edges in the Edge.Cuts layer"
+
+#: plugin/copper_filler_action.py:145
+msgid "Get Edge_Cuts: {edge_time:.3f} sec"
+msgstr "Get Edge_Cuts: {edge_time:.3f} sec"
+
+#: plugin/copper_filler_action.py:150
+msgid "Get zones..."
+msgstr "Get zones..."
+
+#: plugin/copper_filler_action.py:154
+msgid "Get zones: {zones_time:.3f} sec"
+msgstr "Get zones: {zones_time:.3f} sec"
+
+#: plugin/copper_filler_action.py:156
+msgid "Get masks..."
+msgstr "Get masks..."
+
+#: plugin/copper_filler_action.py:160
+msgid "Get masks: {masks_time:.3f} sec"
+msgstr "Get masks: {masks_time:.3f} sec"
+
+#: plugin/copper_filler_action.py:162
+msgid "Get tracks..."
+msgstr "Get tracks..."
+
+#: plugin/copper_filler_action.py:166
+msgid "Get tracks: {tracks_time:.3f} sec"
+msgstr "Get tracks: {tracks_time:.3f} sec"
+
+#: plugin/copper_filler_action.py:168
+msgid "Get pads..."
+msgstr "Get pads..."
+
+#: plugin/copper_filler_action.py:172
+msgid "Get pads: {pads_time:.3f} sec"
+msgstr "Get pads: {pads_time:.3f} sec"
+
+#: plugin/copper_filler_action.py:174
+msgid "Get vias..."
+msgstr "Get vias..."
+
+#: plugin/copper_filler_action.py:178
+msgid "Get vias: {vias_time:.3f} sec"
+msgstr "Get vias: {vias_time:.3f} sec"
+
+#: plugin/copper_filler_action.py:180
+msgid "Get text..."
+msgstr "Get text..."
+
+#: plugin/copper_filler_action.py:184
+msgid "Get text: {text_time:.3f} sec"
+msgstr "Get text: {text_time:.3f} sec"
+
+#: plugin/copper_filler_action.py:211
+msgid "Board size: {board_width:.1f} x {board_height:.1f} µm"
+msgstr "Board size: {board_width:.1f} x {board_height:.1f} µm"
+
+#: plugin/copper_filler_action.py:212
+msgid "Element size: {element_diam} µm, step: {step:.3f} µm"
+msgstr "Element size: {element_diam} µm, step: {step:.3f} µm"
+
+#: plugin/copper_filler_action.py:215
+msgid "START MAIN LOOP"
+msgstr "START MAIN LOOP"
+
+#: plugin/copper_filler_action.py:223
+msgid "Proccessing Threads Count: {num_threads}"
+msgstr "Proccessing Threads Count: {num_threads}"
+
+#: plugin/copper_filler_action.py:225
+msgid "Check pre-count shapes..."
+msgstr "Check pre-count shapes..."
+
+#: plugin/copper_filler_action.py:227
+msgid "Pre-count shape: {total_estimated_shapes}"
+msgstr "Pre-count shape: {total_estimated_shapes}"
+
+#: plugin/copper_filler_action.py:238
+msgid "Start copper filling..."
+msgstr "Start copper filling..."
+
+#: plugin/copper_filler_action.py:269
+msgid "Fill copper... Section {completed_sections}/{num_threads}"
+msgstr "Fill copper... Section {completed_sections}/{num_threads}"
+
+#: plugin/copper_filler_action.py:271
+msgid "Section {section_id} ends: {total_shapes} elements, {clipped_shapes} added"
+msgstr "Section {section_id} ends: {total_shapes} elements, {clipped_shapes} added"
+
+#: plugin/copper_filler_action.py:277
+msgid "Error while processing: {e}"
+msgstr "Error while processing: {e}"
+
+#: plugin/copper_filler_action.py:281
+msgid "Checking isolated shapes..."
+msgstr "Checking isolated shapes..."
+
+#: plugin/copper_filler_action.py:287
+msgid "Removed {removed_count} isolated shapes in {isolated_time:.3f} sec"
+msgstr "Removed {removed_count} isolated shapes in {isolated_time:.3f} sec"
+
+#: plugin/copper_filler_action.py:301
+msgid "MAIN LOOP ENDED"
+msgstr "MAIN LOOP ENDED"
+
+#: plugin/copper_filler_action.py:302
+msgid "Main loop time: {fill_loop_time:.3f} sec"
+msgstr "Main loop time: {fill_loop_time:.3f} sec"
+
+#: plugin/copper_filler_action.py:303
+msgid "Total shapes: {total_shapes}"
+msgstr "Total shapes: {total_shapes}"
+
+#: plugin/copper_filler_action.py:304
+msgid "Clipped shapes: {clipped_shapes}"
+msgstr "Clipped shapes: {clipped_shapes}"
+
+#: plugin/copper_filler_action.py:305
+msgid "Shape creation time: {shape_creation_time:.3f} sec"
+msgstr "Shape creation time: {shape_creation_time:.3f} sec"
+
+#: plugin/copper_filler_action.py:307
+msgid "Average clipper total time: {clipper_total_time:.3f} sec"
+msgstr "Average clipper total time: {clipper_total_time:.3f} sec"
+
+#: plugin/copper_filler_action.py:308
+msgid "Average time to element: {a:.2f} msec"
+msgstr "Average time to element: {a:.2f} msec"
+
+#: plugin/copper_filler_action.py:309
+msgid "Added element persentage: {a:.1f}%"
+msgstr "Added element persentage: {a:.1f}%"
+
+#: plugin/copper_filler_action.py:312
+msgid "End zone..."
+msgstr "End zone..."
+
+#: plugin/copper_filler_action.py:328
+msgid "Add and fill zones: {fill_time:.3f} sec"
+msgstr "Add and fill zones: {fill_time:.3f} sec"
+
+#: plugin/copper_filler_action.py:335
+msgid "TOTAL INFORMATION"
+msgstr "TOTAL INFORMATION"
+
+#: plugin/copper_filler_action.py:336
+msgid "Total time: {total_time:.3f} sec"
+msgstr "Total time: {total_time:.3f} sec"
+
+#: plugin/copper_filler_action.py:337
+msgid "Preproccessing time: {t:.3f} sec ({a:.1f}%)"
+msgstr "Preproccessing time: {t:.3f} sec ({a:.1f}%)"
+
+#: plugin/copper_filler_action.py:340
+msgid "Main loop time: {fill_loop_time:.3f} sec ({a:.1f}%)"
+msgstr "Main loop time: {fill_loop_time:.3f} sec ({a:.1f}%)"
+
+#: plugin/copper_filler_action.py:344
+msgid "Zone fill: {fill_time:.3f} sec ({a:.1f}%)"
+msgstr "Zone fill: {fill_time:.3f} sec ({a:.1f}%)"
+
+#: plugin/copper_filler_action.py:348
+msgid ""
+"\n"
+"                    Preprocessing details:\n"
+"                    \tEdge contours: {edge_time:.3f} sec\n"
+"                    \tZones: {zones_time:.3f} sec\n"
+"                    \tMasks: {masks_time:.3f} sec\n"
+"                    \tTracks: {tracks_time:.3f} sec\n"
+"                    \tPads: {pads_time:.3f} sec\n"
+"                    \tVias: {vias_time:.3f} sec\n"
+"                "
+msgstr ""
+"\n"
+"                    Preprocessing details:\n"
+"                    \tEdge contours: {edge_time:.3f} sec\n"
+"                    \tZones: {zones_time:.3f} sec\n"
+"                    \tMasks: {masks_time:.3f} sec\n"
+"                    \tTracks: {tracks_time:.3f} sec\n"
+"                    \tPads: {pads_time:.3f} sec\n"
+"                    \tVias: {vias_time:.3f} sec\n"
+"                "
+
+#: plugin/copper_filler_action.py:366
+msgid "END PLUGIN"
+msgstr "END PLUGIN"
+
+#: plugin/copper_filler_action.py:369
+msgid "End!"
+msgstr "End!"
+
+#: plugin/copper_filler_action.py:378
+msgid "Operation cancelled by user: {e}"
+msgstr "Operation cancelled by user: {e}"
+
+#: plugin/copper_filler_action.py:380
+msgid "Operation cancelled by user"
+msgstr "Operation cancelled by user"
+
+#: plugin/copper_filler_action.py:382 plugin/copper_filler_action.py:384
+msgid "Critical error: {e}"
+msgstr "Critical error: {e}"
+
+#: plugin/copper_filler_action.py:591
+msgid "Single shape detected - it will be removed as isolated"
+msgstr "Single shape detected - it will be removed as isolated"
+
+#: plugin/copper_filler_action.py:617
+msgid "Isolated shapes filter: {removed} shapes removed, {kept} shapes kept"
+msgstr "Isolated shapes filter: {removed} shapes removed, {kept} shapes kept"
+
+#: plugin/core/preprocessing.py:59
+msgid "Get Zones"
+msgstr "Get Zones"
+
+#: plugin/core/preprocessing.py:84
+msgid "Zone count: {zones_count}, removed: {removed_zones}"
+msgstr "Zone count: {zones_count}, removed: {removed_zones}"
+
+#: plugin/core/preprocessing.py:89
+msgid "Get Masks"
+msgstr "Get Masks"
+
+#: plugin/core/preprocessing.py:104
+msgid "Masks count: {masks_count}"
+msgstr "Masks count: {masks_count}"
+
+#: plugin/core/preprocessing.py:109
+msgid "Get Tracks"
+msgstr "Get Tracks"
+
+#: plugin/core/preprocessing.py:151
+msgid "Tracks count: {tracks_count}"
+msgstr "Tracks count: {tracks_count}"
+
+#: plugin/core/preprocessing.py:156
+msgid "Get Pads"
+msgstr "Get Pads"
+
+#: plugin/core/preprocessing.py:170
+msgid "Pads count: {pads_count}"
+msgstr "Pads count: {pads_count}"
+
+#: plugin/core/preprocessing.py:186
+msgid "Get Vias"
+msgstr "Get Vias"
+
+#: plugin/core/preprocessing.py:214
+msgid "Vias count: {vias_count}"
+msgstr "Vias count: {vias_count}"
+
+#: plugin/core/preprocessing.py:218
+msgid "Get Text Blocks"
+msgstr "Get Text Blocks"
+
+#: plugin/core/preprocessing.py:233
+msgid "Text count: {text_count}"
+msgstr "Text count: {text_count}"
+
+#: plugin/ui/action_dialog.py:26
+msgid "Settings CopperFiller"
+msgstr "Settings CopperFiller"
+
+#: plugin/ui/action_dialog.py:46
+msgid "Layer"
+msgstr "Layer"
+
+#: plugin/ui/action_dialog.py:60
+msgid "Element"
+msgstr "Element"
+
+#: plugin/ui/action_dialog.py:62
+msgid "Shape:"
+msgstr "Shape:"
+
+#: plugin/ui/action_dialog.py:67
+msgid "Circle"
+msgstr "Circle"
+
+#: plugin/ui/action_dialog.py:67
+msgid "Square"
+msgstr "Square"
+
+#: plugin/ui/action_dialog.py:75
+msgid "Size:"
+msgstr "Size:"
+
+#: plugin/ui/action_dialog.py:87
+msgid "Geometry"
+msgstr "Geometry"
+
+#: plugin/ui/action_dialog.py:91
+msgid "Density:"
+msgstr "Density:"
+
+#: plugin/ui/action_dialog.py:107
+msgid "Offset X:"
+msgstr "Offset X:"
+
+#: plugin/ui/action_dialog.py:119
+msgid "Offset Y:"
+msgstr "Offset Y:"
+
+#: plugin/ui/action_dialog.py:134
+msgid "Board Class | Clearance Settings"
+msgstr "Board Class | Clearance Settings"
+
+#: plugin/ui/action_dialog.py:138 plugin/ui/action_dialog.py:321
+msgid "Board Class {i}"
+msgstr "Board Class {i}"
+
+#: plugin/ui/action_dialog.py:145
+msgid "Element Clearance:"
+msgstr "Element Clearance::"
+
+#: plugin/ui/action_dialog.py:156
+msgid "Conductor and Element Clearance:"
+msgstr "Wire and Element Clearance:"
+
+#: plugin/ui/action_dialog.py:172
+msgid "Check the table Electrical Spacing in Calculator Tools while entering clearance value"
+msgstr "Check the table Electrical Spacing in Calculator Tools while entering clearance value"
+
+#: plugin/ui/action_dialog.py:182
+msgid "Save Settings?"
+msgstr "Save Settings?"
+
+#: plugin/ui/info_dialog.py:12
+msgid "Total Information"
+msgstr "Total Information"
+
+#: plugin/ui/info_dialog.py:24
+msgid ""
+"Filler ends!\n"
+"Total time: {total_time:.1f} sec\n"
+"Created shapes: {shapes}\n"
+"Added: {clipped}\n"
+"\n"
+"Details in log file."
+msgstr ""
+"Filler ends!\n"
+"Total time: {total_time:.1f} sec\n"
+"Created shapes: {shapes}\n"
+"Added: {clipped}\n"
+"\n"
+"Details in log file."
+
+#: plugin/ui/info_dialog.py:36
+msgid "Logs"
+msgstr "Logs"
+
+#: plugin/ui/info_dialog.py:55
+msgid "Not found logs directory"
+msgstr "Not found logs directory"
+
+#: plugin/ui/info_dialog.py:55 plugin/ui/info_dialog.py:66
+msgid "Error"
+msgstr "Error"
+
+#: plugin/ui/info_dialog.py:66
+msgid "Not open logs directory"
+msgstr "Not open logs directory"
+
