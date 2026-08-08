@@ -62001,7 +62001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MCUs:STM32H735IGK6"
+		(property "Footprint" "MCUs:STM32H745IIK6"
 			(at -26.67 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64753,6 +64753,42 @@
 					)
 				)
 				(number "J3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 -3.81 180)
+				(length 7.62)
+				(name "PF9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 -6.35 180)
+				(length 7.62)
+				(name "PF10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K3"
 					(effects
 						(font
 							(size 1.27 1.27)
