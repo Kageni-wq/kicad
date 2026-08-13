@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20251024)
 	(generator "kicad_symbol_editor")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(symbol "SSD1357"
 		(pin_names
 			(offset 1.016)
@@ -9,8 +9,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 0.254 40.386 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19,6 +23,8 @@
 		)
 		(property "Value" "SSD1357"
 			(at 1.016 -40.386 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28,47 +34,57 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic shielded connector, single row, 01x31, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "Connector*:*_1x??-1SH*"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "SSD1357_1_1"
@@ -1007,6 +1023,501 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TA014WVC08CT-V2054A"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "X"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TA014WVC08CT-V2054A_0_0"
+			(pin unspecified line
+				(at 0 0 0)
+				(length 2.54)
+				(name "LCD-CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 44.45 20.32 180)
+				(length 2.54)
+				(name "QSPI-D0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 44.45 17.78 180)
+				(length 2.54)
+				(name "QSPI-D1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 44.45 22.86 180)
+				(length 2.54)
+				(name "QSPI-CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 10.16 0)
+				(length 2.54)
+				(name "QSPI-D3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 12.7 0)
+				(length 2.54)
+				(name "QSPI-D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 15.24 0)
+				(length 2.54)
+				(name "VCI-EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 17.78 0)
+				(length 2.54)
+				(name "LCD-RST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 20.32 0)
+				(length 2.54)
+				(name "MTP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -36.83 16.51 0)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 25.4 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0.0254 27.94 0)
+				(length 2.54)
+				(name "LCD_TE"
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -36.83 19.05 0)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.3208 1.3208)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.3208 1.3208)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0.0762 33.02 0)
+				(length 2.54)
+				(name "D0P"
+					(effects
+						(font
+							(size 1.3462 1.3462)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.3462 1.3462)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0.1016 35.56 0)
+				(length 2.54)
+				(name "D0N"
+					(effects
+						(font
+							(size 1.3716 1.3716)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.3716 1.3716)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0.127 38.1 0)
+				(length 2.54)
+				(name "CLKP"
+					(effects
+						(font
+							(size 1.397 1.397)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.397 1.397)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0.1524 40.64 0)
+				(length 2.54)
+				(name "CLKN"
+					(effects
+						(font
+							(size 1.4224 1.4224)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.4224 1.4224)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -36.83 13.97 0)
+				(length 2.54)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.4478 1.4478)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.4478 1.4478)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 44.4754 2.54 180)
+				(length 2.54)
+				(name "CTP_SCL"
+					(effects
+						(font
+							(size 1.4732 1.4732)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.4732 1.4732)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 44.45 5.08 180)
+				(length 2.54)
+				(name "CTP_SDA"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 44.4246 7.62 180)
+				(length 2.54)
+				(name "CTP-RST"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 44.3992 10.16 180)
+				(length 2.54)
+				(name "CTP-INT"
+					(effects
+						(font
+							(size 1.5494 1.5494)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.5494 1.5494)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -36.83 11.43 0)
+				(length 2.54)
+				(name "CTP-VDD"
+					(effects
+						(font
+							(size 1.5748 1.5748)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.5748 1.5748)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0.3302 58.42 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.6002 1.6002)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.6002 1.6002)
 						)
 					)
 				)
