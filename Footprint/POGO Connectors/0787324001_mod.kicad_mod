@@ -1,4 +1,4 @@
-(footprint "0787324001"
+(footprint "0787324001_mod"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -7,7 +7,7 @@
 		(at 0 -2.31 0)
 		(unlocked yes)
 		(layer "User.2")
-		(uuid "30ae3a0d-3d59-4a92-8153-991defa5f7ec")
+		(uuid "1615f320-facd-4271-9393-73ae14f78dc1")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "0787324001"
+	(property "Value" "0787324001_mod"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "eece8b83-9bc5-4003-b33c-b97ebf3ed19f")
+		(uuid "3e38ab56-d0dc-4b1e-9c91-734a8837c801")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cb9fef6a-a4d8-4a37-a93a-de6b45951ca1")
+		(uuid "3e9a5b58-6603-4cf2-9f54-1cf36b5ac1d3")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f690709b-1503-4add-935b-2b3fc77ae5f1")
+		(uuid "cb0eeb8d-691e-4476-b050-b7cc55f4002d")
 		(effects
 			(font
 				(size 1 1)
@@ -64,7 +64,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "62ffada2-6570-4cbb-a49e-8c3f84c11f2e")
+		(uuid "08544745-2d33-4474-b9af-d7d5daccda1d")
 	)
 	(fp_rect
 		(start -2.75 -1.5)
@@ -75,13 +75,13 @@
 		)
 		(fill no)
 		(layer "User.2")
-		(uuid "c162a1db-9d88-496c-8597-f5d4d80b5527")
+		(uuid "a57deab6-eee2-48ff-b16f-6340a5027662")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f4b04187-0759-4705-8b6d-704bacdfcd9e")
+		(uuid "18b5db8a-8e75-493b-83e9-ecc26ca4b593")
 		(effects
 			(font
 				(size 1 1)
@@ -94,28 +94,36 @@
 		(size 0.7 1.25)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.15)
-		(uuid "9e642e3d-0ce2-4470-a91e-15ab42763349")
+		(uuid "cd42c55c-9145-4804-8e98-4e2282114e90")
 	)
 	(pad "2" smd roundrect
 		(at -1 0.775)
 		(size 0.7 1.25)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.15)
-		(uuid "e8d76136-e0a1-4c49-ac9c-c7d44af947da")
+		(uuid "b45de502-3ebb-4c54-a336-eaae7b623304")
 	)
 	(pad "3" smd roundrect
 		(at 1 -0.775)
 		(size 0.7 1.25)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.15)
-		(uuid "c3e82262-1137-4060-a572-7ffa7af26001")
+		(uuid "58fb5d2c-9478-495e-91d6-86a8b00720d0")
 	)
 	(pad "4" smd roundrect
 		(at 2 0.775)
 		(size 0.7 1.25)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.15)
-		(uuid "3c0879da-3e5c-4802-a2d3-50f0fce3381e")
+		(uuid "1c206675-d4d2-4b1c-a545-b89dd66f6429")
+	)
+	(pad "5" thru_hole circle
+		(at 0 2)
+		(size 1.4 1.4)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dea777a4-4fe2-444c-aad9-35b4ff97510d")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3RD_PARTY}/0787324001.STEP"
