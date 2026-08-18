@@ -1,0 +1,132 @@
+(footprint "0787324001"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.31 0)
+		(unlocked yes)
+		(layer "User.2")
+		(uuid "8c4c1105-67e0-4144-9413-d314899403cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "0787324001"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b8b09088-ef1d-4bcb-92a5-0929f4f1277a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2c2191e-38de-4f96-b320-5b7f6b540bf1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fb805a0-814c-4d93-9258-057129c28a2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.95 -1.7)
+		(end 2.95 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4bf7f939-7e06-46bf-9f00-e56a9dc699a0")
+	)
+	(fp_rect
+		(start -2.75 -1.5)
+		(end 2.75 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "3d63754e-9976-4d72-a1e4-af79327e84b4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a14fdf83-03f5-46a7-9212-ffe786b76113")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2 -0.775)
+		(size 0.7 1.25)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "c151115e-2e40-4169-85dc-95b544fe07d6")
+	)
+	(pad "2" smd roundrect
+		(at -1 0.775)
+		(size 0.7 1.25)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "09fee7a5-dd66-49bb-9008-02dfd581de73")
+	)
+	(pad "3" smd roundrect
+		(at 1 -0.775)
+		(size 0.7 1.25)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "f739fe11-3658-41dc-9484-0e5ecae4a4f3")
+	)
+	(pad "4" smd roundrect
+		(at 2 0.775)
+		(size 0.7 1.25)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "d2d3ea49-31a8-4caa-a55c-f22eb27f643e")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3RD_PARTY}/0787324001.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
