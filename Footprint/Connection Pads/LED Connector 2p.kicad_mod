@@ -1,7 +1,7 @@
 (footprint "LED Connector 2p"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Through hole straight pin header, 1x03, 2.00mm pitch, single row")
 	(tags "Through hole pin header THT 1x03 2.00mm single row")
@@ -9,7 +9,7 @@
 		(at -4.15 -5.18 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "c9b4d023-2a7d-4f43-b790-06bbfaa70c44")
+		(uuid "471a08d7-3102-42da-a385-ff62d3b83571")
 		(effects
 			(font
 				(size 1 1)
@@ -20,23 +20,11 @@
 	(property "Value" "LED Connector 2p"
 		(at 0 4.06 0)
 		(layer "F.Fab")
-		(uuid "517082f6-0c4a-4d2c-950c-38a918b59be1")
+		(uuid "6ed73a22-c47e-4a0d-a41e-2b5d222494be")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "LED Connector 2p"
-		(at 0 -3 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "297b78aa-9fa5-47ed-9fb3-8d46582226dc")
-		(effects
-			(font
-				(size 1.27 1.27)
 			)
 		)
 	)
@@ -45,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "86e6d7c1-ad25-4ab9-ac79-47ef7189ed78")
+		(uuid "1b8d090c-a8c8-4be7-8575-247a994a3cb3")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5c781771-a721-48d1-a37a-a18fb5ab3b90")
+		(uuid "f42fde0b-6372-45f0-aafd-baae283a2ca6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -65,6 +53,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1 -1.5)
 		(end -0.5 -2)
@@ -73,7 +62,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a6f516de-adae-4583-b2fa-b1be09f0fc06")
+		(uuid "3b20e8f0-db4b-49b3-8548-05e26b8e2697")
 	)
 	(fp_line
 		(start -1 2)
@@ -83,7 +72,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "370e5d40-c8ce-4ffd-85b7-1f79e702822f")
+		(uuid "91a564b8-247a-4de7-ac13-75a2dda37364")
 	)
 	(fp_line
 		(start -0.5 -2)
@@ -93,7 +82,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "43afad9f-5b35-4560-8a6b-c34bf30df435")
+		(uuid "547802bc-5eea-423b-97d7-01aa572b3efc")
 	)
 	(fp_line
 		(start 1 -4)
@@ -103,12 +92,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "67462ceb-3692-4b8c-8a72-af7e3a5bed52")
+		(uuid "34c16548-cffc-4c50-a2e2-3c27c738c547")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -1 90)
 		(layer "F.Fab")
-		(uuid "55c03edc-dd85-41db-9e02-27cf9e4e5691")
+		(uuid "10e40e50-667c-4b95-a901-3ba1cf480fff")
 		(effects
 			(font
 				(size 1 1)
@@ -116,20 +105,25 @@
 			)
 		)
 	)
-	(pad "1" smd roundrect
+	(pad "1" thru_hole roundrect
 		(at 0 -0.8)
 		(size 1.8 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(roundrect_rratio 0.1851851852)
-		(uuid "3f6424f7-7305-410c-9978-11110ba620b1")
+		(uuid "e467ba2b-f97c-45a1-87ec-b511ada90535")
 	)
-	(pad "2" smd roundrect
+	(pad "2" thru_hole roundrect
 		(at 0 0.8)
 		(size 1.8 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(roundrect_rratio 0.1851851852)
-		(uuid "80f772d9-128f-4c61-8a32-6b75646bc6b5")
+		(uuid "f1ad81a2-d125-42b3-993a-a3c2ad824e44")
 	)
+	(embedded_fonts no)
 	(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_1x03_P2.00mm_Vertical.wrl"
 		(offset
 			(xyz 0 2 0)

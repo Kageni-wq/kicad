@@ -62072,7 +62072,7 @@
 			(pin power_out line
 				(at 17.78 -33.02 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62090,7 +62090,7 @@
 			(pin power_in line
 				(at -17.78 -12.7 0)
 				(length 5.08)
-				(name "VDDLDO"
+				(name "VDDLDO_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62108,7 +62108,7 @@
 			(pin unspecified line
 				(at -17.78 40.64 0)
 				(length 5.08)
-				(name "VCAP"
+				(name "VCAP_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62126,7 +62126,7 @@
 			(pin power_in line
 				(at -17.78 -10.16 0)
 				(length 5.08)
-				(name "VDDLDO"
+				(name "VDDLDO_2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62144,7 +62144,7 @@
 			(pin unspecified line
 				(at -17.78 43.18 0)
 				(length 5.08)
-				(name "VCAP"
+				(name "VCAP_2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62162,7 +62162,7 @@
 			(pin power_out line
 				(at -17.78 -22.86 0)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62180,7 +62180,7 @@
 			(pin power_out line
 				(at 17.78 -35.56 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62216,7 +62216,7 @@
 			(pin power_in line
 				(at -17.78 25.4 0)
 				(length 5.08)
-				(name "VDD"
+				(name "VDD_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62234,7 +62234,7 @@
 			(pin power_out line
 				(at 17.78 -38.1 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62252,7 +62252,7 @@
 			(pin power_out line
 				(at 17.78 2.54 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62270,7 +62270,7 @@
 			(pin power_in line
 				(at -17.78 30.48 0)
 				(length 5.08)
-				(name "VDD"
+				(name "VDD_2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62288,7 +62288,7 @@
 			(pin power_out line
 				(at 17.78 -30.48 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62324,7 +62324,7 @@
 			(pin power_in line
 				(at -17.78 27.94 0)
 				(length 5.08)
-				(name "VDD"
+				(name "VDD_3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62342,7 +62342,7 @@
 			(pin power_in line
 				(at -17.78 33.02 0)
 				(length 5.08)
-				(name "VDD"
+				(name "VDD_4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62396,7 +62396,7 @@
 			(pin power_out line
 				(at 17.78 30.48 180)
 				(length 5.08)
-				(name "VSSSMPS"
+				(name "VSS_SMPS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62414,7 +62414,7 @@
 			(pin power_out line
 				(at 17.78 -27.94 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62432,7 +62432,7 @@
 			(pin power_out line
 				(at 17.78 -25.4 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62450,7 +62450,7 @@
 			(pin power_out line
 				(at 17.78 -22.86 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62468,7 +62468,7 @@
 			(pin power_out line
 				(at 17.78 -20.32 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62486,7 +62486,7 @@
 			(pin power_out line
 				(at 17.78 25.4 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62504,7 +62504,7 @@
 			(pin power_out line
 				(at 17.78 22.86 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62576,7 +62576,7 @@
 			(pin power_in line
 				(at -17.78 15.24 0)
 				(length 5.08)
-				(name "VDD"
+				(name "VDD_5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62594,7 +62594,7 @@
 			(pin power_out line
 				(at 17.78 -17.78 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62612,7 +62612,7 @@
 			(pin power_out line
 				(at 17.78 -15.24 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62630,7 +62630,7 @@
 			(pin power_out line
 				(at 17.78 -12.7 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62648,7 +62648,7 @@
 			(pin power_out line
 				(at 17.78 -10.16 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62666,7 +62666,7 @@
 			(pin power_out line
 				(at 17.78 20.32 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62684,7 +62684,7 @@
 			(pin power_out line
 				(at 17.78 -7.62 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62702,7 +62702,7 @@
 			(pin power_out line
 				(at 17.78 -5.08 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62720,7 +62720,7 @@
 			(pin power_out line
 				(at 17.78 -2.54 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_20"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62738,7 +62738,7 @@
 			(pin power_out line
 				(at 17.78 0 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62756,7 +62756,7 @@
 			(pin power_out line
 				(at 17.78 27.94 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62774,7 +62774,7 @@
 			(pin power_in line
 				(at -17.78 35.56 0)
 				(length 5.08)
-				(name "VDD"
+				(name "VDD_6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62792,7 +62792,7 @@
 			(pin power_out line
 				(at 17.78 -40.64 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62810,7 +62810,7 @@
 			(pin power_out line
 				(at 17.78 -43.18 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62828,7 +62828,7 @@
 			(pin power_out line
 				(at -17.78 -40.64 0)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_25"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62846,7 +62846,7 @@
 			(pin power_out line
 				(at -17.78 -43.18 0)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_26"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62864,7 +62864,7 @@
 			(pin power_out line
 				(at 17.78 7.62 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_27"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62882,7 +62882,7 @@
 			(pin power_out line
 				(at 17.78 5.08 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_28"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62900,7 +62900,7 @@
 			(pin power_out line
 				(at -17.78 -38.1 0)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_29"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62918,7 +62918,7 @@
 			(pin power_in line
 				(at -17.78 17.78 0)
 				(length 5.08)
-				(name "VDD"
+				(name "VDD_7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62936,7 +62936,7 @@
 			(pin power_out line
 				(at -17.78 -27.94 0)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_30"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62954,7 +62954,7 @@
 			(pin power_out line
 				(at -17.78 -30.48 0)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_31"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62972,7 +62972,7 @@
 			(pin power_out line
 				(at -17.78 -33.02 0)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_32"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62990,7 +62990,7 @@
 			(pin power_out line
 				(at -17.78 -35.56 0)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_33"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63008,7 +63008,7 @@
 			(pin power_out line
 				(at 17.78 12.7 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_34"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63026,7 +63026,7 @@
 			(pin power_out line
 				(at 17.78 15.24 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_35"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63062,7 +63062,7 @@
 			(pin power_in line
 				(at -17.78 12.7 0)
 				(length 5.08)
-				(name "VDD"
+				(name "VDD_8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63116,7 +63116,7 @@
 			(pin power_in line
 				(at -17.78 22.86 0)
 				(length 5.08)
-				(name "VDD"
+				(name "VDD_9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63134,7 +63134,7 @@
 			(pin power_out line
 				(at -17.78 -20.32 0)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_36"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63152,7 +63152,7 @@
 			(pin power_in line
 				(at -17.78 20.32 0)
 				(length 5.08)
-				(name "VDD"
+				(name "VDD_10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63170,7 +63170,7 @@
 			(pin power_out line
 				(at 17.78 17.78 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_37"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63206,7 +63206,7 @@
 			(pin power_out line
 				(at -17.78 -25.4 0)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_38"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63224,7 +63224,7 @@
 			(pin unspecified line
 				(at -17.78 38.1 0)
 				(length 5.08)
-				(name "VCAP"
+				(name "VCAP_3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63242,7 +63242,7 @@
 			(pin power_in line
 				(at -17.78 -7.62 0)
 				(length 5.08)
-				(name "VDDLDO"
+				(name "VDDLDO_3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63260,7 +63260,7 @@
 			(pin power_out line
 				(at 17.78 10.16 180)
 				(length 5.08)
-				(name "VSS"
+				(name "VSS_39"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63293,7 +63293,7 @@
 			(pin bidirectional line
 				(at 24.13 -1.27 180)
 				(length 5.08)
-				(name "PB8"
+				(name "BT-RST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63311,7 +63311,7 @@
 			(pin bidirectional line
 				(at 24.13 3.81 180)
 				(length 5.08)
-				(name "PB6"
+				(name "QUADSPI_BK1_NCS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63329,7 +63329,7 @@
 			(pin bidirectional line
 				(at 24.13 11.43 180)
 				(length 5.08)
-				(name "PB3"
+				(name "SDMMC2_D2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63347,7 +63347,7 @@
 			(pin bidirectional line
 				(at -24.13 -19.05 0)
 				(length 5.08)
-				(name "PA15"
+				(name "SW-C"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63365,7 +63365,7 @@
 			(pin bidirectional line
 				(at -24.13 -16.51 0)
 				(length 5.08)
-				(name "PA14"
+				(name "DEBUG_JTCK-SWCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63383,7 +63383,7 @@
 			(pin bidirectional line
 				(at 24.13 -3.81 180)
 				(length 5.08)
-				(name "PB9"
+				(name "BT-DEV-WK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63419,7 +63419,7 @@
 			(pin bidirectional line
 				(at 24.13 8.89 180)
 				(length 5.08)
-				(name "PB4"
+				(name "SDMMC2_D3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63437,7 +63437,7 @@
 			(pin bidirectional line
 				(at -24.13 -13.97 0)
 				(length 5.08)
-				(name "PA13"
+				(name "DEBUG_JTMS-SWDIO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63455,7 +63455,7 @@
 			(pin bidirectional line
 				(at -24.13 -1.27 0)
 				(length 5.08)
-				(name "PA8"
+				(name "PMIC-INT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63473,7 +63473,7 @@
 			(pin bidirectional line
 				(at -24.13 -11.43 0)
 				(length 5.08)
-				(name "PA12"
+				(name "USB_OTG_FS_DP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63509,7 +63509,7 @@
 			(pin bidirectional line
 				(at -24.13 -6.35 0)
 				(length 5.08)
-				(name "PA10"
+				(name "LPUART1_RX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63527,7 +63527,7 @@
 			(pin bidirectional line
 				(at -24.13 -8.89 0)
 				(length 5.08)
-				(name "PA11"
+				(name "USB_OTG_FS_DM"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63545,7 +63545,7 @@
 			(pin bidirectional line
 				(at -24.13 -3.81 0)
 				(length 5.08)
-				(name "PA9"
+				(name "LPUART1_TX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63563,7 +63563,7 @@
 			(pin bidirectional line
 				(at 24.13 -19.05 180)
 				(length 5.08)
-				(name "PB15"
+				(name "SDMMC2_D1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63581,7 +63581,7 @@
 			(pin bidirectional line
 				(at 24.13 -16.51 180)
 				(length 5.08)
-				(name "PB14"
+				(name "SDMMC2_D0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63599,7 +63599,7 @@
 			(pin bidirectional line
 				(at 24.13 -13.97 180)
 				(length 5.08)
-				(name "PB13"
+				(name "USART3_CTS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63635,7 +63635,7 @@
 			(pin bidirectional line
 				(at 24.13 -11.43 180)
 				(length 5.08)
-				(name "PB12"
+				(name "ADC-PWR-EN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63671,7 +63671,7 @@
 			(pin bidirectional line
 				(at -24.13 1.27 0)
 				(length 5.08)
-				(name "PA7"
+				(name "SPI1_MOSI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63689,7 +63689,7 @@
 			(pin bidirectional line
 				(at 24.13 -6.35 180)
 				(length 5.08)
-				(name "PB10"
+				(name "SPI2_SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63707,7 +63707,7 @@
 			(pin bidirectional line
 				(at -24.13 19.05 0)
 				(length 5.08)
-				(name "PA0"
+				(name "UART4_TX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63725,7 +63725,7 @@
 			(pin bidirectional line
 				(at -24.13 16.51 0)
 				(length 5.08)
-				(name "PA1"
+				(name "UART4_RX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63761,7 +63761,7 @@
 			(pin bidirectional line
 				(at -24.13 6.35 0)
 				(length 5.08)
-				(name "PA5"
+				(name "SPI1_SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63797,7 +63797,7 @@
 			(pin bidirectional line
 				(at 24.13 -8.89 180)
 				(length 5.08)
-				(name "PB11"
+				(name "LCD-RST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63815,7 +63815,7 @@
 			(pin bidirectional line
 				(at -24.13 13.97 0)
 				(length 5.08)
-				(name "PA2"
+				(name "SAI2_SCK_B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63833,7 +63833,7 @@
 			(pin bidirectional line
 				(at -24.13 3.81 0)
 				(length 5.08)
-				(name "PA6"
+				(name "CTP-RST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63851,7 +63851,7 @@
 			(pin bidirectional line
 				(at 24.13 19.05 180)
 				(length 5.08)
-				(name "PB0"
+				(name "DFSDM1_CKOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63884,7 +63884,7 @@
 			(pin bidirectional line
 				(at 24.13 11.43 180)
 				(length 5.08)
-				(name "PD3"
+				(name "WIFI-RST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63902,7 +63902,7 @@
 			(pin bidirectional line
 				(at 24.13 16.51 180)
 				(length 5.08)
-				(name "PD1"
+				(name "MCU-REQ-IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63920,7 +63920,7 @@
 			(pin bidirectional line
 				(at 24.13 1.27 180)
 				(length 5.08)
-				(name "PD7"
+				(name "SDMMC2_CMD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63956,7 +63956,7 @@
 			(pin bidirectional line
 				(at 24.13 13.97 180)
 				(length 5.08)
-				(name "PD2"
+				(name "SDMMC1_CMD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63974,7 +63974,7 @@
 			(pin bidirectional line
 				(at -24.13 -11.43 0)
 				(length 5.08)
-				(name "PC12"
+				(name "SDMMC1_CK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63992,7 +63992,7 @@
 			(pin bidirectional line
 				(at -24.13 -13.97 0)
 				(length 5.08)
-				(name "PC13"
+				(name "MCU-REQ-OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64046,7 +64046,7 @@
 			(pin bidirectional line
 				(at -24.13 -8.89 0)
 				(length 5.08)
-				(name "PC11"
+				(name "SDMMC1_D3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64064,7 +64064,7 @@
 			(pin bidirectional line
 				(at -24.13 -6.35 0)
 				(length 5.08)
-				(name "PC10"
+				(name "SDMMC1_D2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64100,7 +64100,7 @@
 			(pin bidirectional line
 				(at -24.13 -16.51 0)
 				(length 5.08)
-				(name "PC14-_OSC32_IN"
+				(name "RCC_OSC32_IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64118,7 +64118,7 @@
 			(pin bidirectional line
 				(at 24.13 3.81 180)
 				(length 5.08)
-				(name "PD6"
+				(name "SDMMC2_CK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64136,7 +64136,7 @@
 			(pin bidirectional line
 				(at -24.13 -1.27 0)
 				(length 5.08)
-				(name "PC8"
+				(name "SDMMC1_D0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64154,7 +64154,7 @@
 			(pin bidirectional line
 				(at -24.13 1.27 0)
 				(length 5.08)
-				(name "PC7"
+				(name "WIFI-SD-INT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64172,7 +64172,7 @@
 			(pin bidirectional line
 				(at -24.13 -3.81 0)
 				(length 5.08)
-				(name "PC9"
+				(name "SDMMC1_D1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64208,7 +64208,7 @@
 			(pin bidirectional line
 				(at 24.13 -16.51 180)
 				(length 5.08)
-				(name "PD14"
+				(name "LCD-3V3-EN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64226,7 +64226,7 @@
 			(pin bidirectional line
 				(at 24.13 -13.97 180)
 				(length 5.08)
-				(name "PD13"
+				(name "LCD-1V8-EN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64262,7 +64262,7 @@
 			(pin bidirectional line
 				(at 24.13 -8.89 180)
 				(length 5.08)
-				(name "PD11"
+				(name "SAI2_SD_A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64280,7 +64280,7 @@
 			(pin bidirectional line
 				(at 24.13 -11.43 180)
 				(length 5.08)
-				(name "PD12"
+				(name "USART3_RTS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64298,7 +64298,7 @@
 			(pin bidirectional line
 				(at 24.13 -3.81 180)
 				(length 5.08)
-				(name "PD9"
+				(name "USART3_RX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64334,7 +64334,7 @@
 			(pin bidirectional line
 				(at -24.13 16.51 0)
 				(length 5.08)
-				(name "PC1"
+				(name "DFSDM1_DATIN0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64370,7 +64370,7 @@
 			(pin bidirectional line
 				(at 24.13 -1.27 180)
 				(length 5.08)
-				(name "PD8"
+				(name "USART3_TX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64388,7 +64388,7 @@
 			(pin bidirectional line
 				(at -24.13 13.97 0)
 				(length 5.08)
-				(name "PC2"
+				(name "RGB-PWR-ENX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64424,7 +64424,7 @@
 			(pin bidirectional line
 				(at -24.13 6.35 0)
 				(length 5.08)
-				(name "PC5"
+				(name "SW-U"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64442,7 +64442,7 @@
 			(pin bidirectional line
 				(at -24.13 8.89 0)
 				(length 5.08)
-				(name "PC4"
+				(name "DBG-LED0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64475,7 +64475,7 @@
 			(pin bidirectional line
 				(at -24.13 8.89 0)
 				(length 5.08)
-				(name "PE4"
+				(name "SAI1_FS_A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64493,7 +64493,7 @@
 			(pin bidirectional line
 				(at -24.13 11.43 0)
 				(length 5.08)
-				(name "PE3"
+				(name "uSD-DET"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64565,7 +64565,7 @@
 			(pin bidirectional line
 				(at -24.13 6.35 0)
 				(length 5.08)
-				(name "PE5"
+				(name "SAI1_SCK_A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64583,7 +64583,7 @@
 			(pin bidirectional line
 				(at -24.13 3.81 0)
 				(length 5.08)
-				(name "PE6"
+				(name "SAI1_SD_A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64655,7 +64655,7 @@
 			(pin bidirectional line
 				(at 24.13 3.81 180)
 				(length 5.08)
-				(name "PF6"
+				(name "QUADSPI_BK1_IO3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64727,7 +64727,7 @@
 			(pin bidirectional line
 				(at 24.13 -1.27 180)
 				(length 5.08)
-				(name "PF8"
+				(name "QUADSPI_BK1_IO0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64745,7 +64745,7 @@
 			(pin bidirectional line
 				(at 24.13 1.27 180)
 				(length 5.08)
-				(name "PF7"
+				(name "QUADSPI_BK1_IO2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64763,7 +64763,7 @@
 			(pin bidirectional line
 				(at 24.13 -3.81 180)
 				(length 5.08)
-				(name "PF9"
+				(name "QUADSPI_BK1_IO1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64781,7 +64781,7 @@
 			(pin bidirectional line
 				(at 24.13 -6.35 180)
 				(length 5.08)
-				(name "PF10"
+				(name "QUADSPI_CLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64871,7 +64871,7 @@
 			(pin bidirectional line
 				(at 24.13 -13.97 180)
 				(length 5.08)
-				(name "PF13"
+				(name "DFSDM1_DATIN6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64889,7 +64889,7 @@
 			(pin bidirectional line
 				(at -24.13 1.27 0)
 				(length 5.08)
-				(name "PE7"
+				(name "DBG-LED1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64925,7 +64925,7 @@
 			(pin bidirectional line
 				(at -24.13 -11.43 0)
 				(length 5.08)
-				(name "PE12"
+				(name "DFSDM1_DATIN5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64943,7 +64943,7 @@
 			(pin bidirectional line
 				(at -24.13 -13.97 0)
 				(length 5.08)
-				(name "PE13"
+				(name "SAI2_FS_B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64961,7 +64961,7 @@
 			(pin bidirectional line
 				(at -24.13 -19.05 0)
 				(length 5.08)
-				(name "PE15"
+				(name "LCD-DC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64979,7 +64979,7 @@
 			(pin bidirectional line
 				(at -24.13 -6.35 0)
 				(length 5.08)
-				(name "PE10"
+				(name "CTP-INT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -64997,7 +64997,7 @@
 			(pin bidirectional line
 				(at 24.13 -16.51 180)
 				(length 5.08)
-				(name "PF14"
+				(name "LCD-CS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -65015,7 +65015,7 @@
 			(pin bidirectional line
 				(at -24.13 -3.81 0)
 				(length 5.08)
-				(name "PE9"
+				(name "TIM1_CH1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -65033,7 +65033,7 @@
 			(pin bidirectional line
 				(at -24.13 -8.89 0)
 				(length 5.08)
-				(name "PE11"
+				(name "SAI2_SD_B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -65066,7 +65066,7 @@
 			(pin bidirectional line
 				(at -24.13 -8.89 0)
 				(length 5.08)
-				(name "PG11"
+				(name "BTM-PWDN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -65084,7 +65084,7 @@
 			(pin bidirectional line
 				(at -24.13 -3.81 0)
 				(length 5.08)
-				(name "PG9"
+				(name "SW-R"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -65192,7 +65192,7 @@
 			(pin bidirectional line
 				(at -24.13 -19.05 0)
 				(length 5.08)
-				(name "PG15"
+				(name "WIFI-DEV-WK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -65210,7 +65210,7 @@
 			(pin bidirectional line
 				(at -24.13 -11.43 0)
 				(length 5.08)
-				(name "PG12"
+				(name "SW-L"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -65318,7 +65318,7 @@
 			(pin bidirectional line
 				(at -24.13 8.89 0)
 				(length 5.08)
-				(name "PG4"
+				(name "SW-D"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -65336,7 +65336,7 @@
 			(pin bidirectional line
 				(at -24.13 13.97 0)
 				(length 5.08)
-				(name "PG2"
+				(name "SYS-RST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -65372,7 +65372,7 @@
 			(pin unspecified line
 				(at 24.13 19.05 180)
 				(length 5.08)
-				(name "*PH0-OSC_IN"
+				(name "RCC_OSC_IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -65390,7 +65390,7 @@
 			(pin output line
 				(at 24.13 16.51 180)
 				(length 5.08)
-				(name "PH1-_OSC_OUT"
+				(name "RCC_OSC_OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -65408,7 +65408,7 @@
 			(pin bidirectional line
 				(at 24.13 1.27 180)
 				(length 5.08)
-				(name "PH7"
+				(name "I2C3_SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -65462,7 +65462,7 @@
 			(pin bidirectional line
 				(at 24.13 13.97 180)
 				(length 5.08)
-				(name "PH2"
+				(name "DBG-INT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -65498,7 +65498,7 @@
 			(pin bidirectional line
 				(at 24.13 -1.27 180)
 				(length 5.08)
-				(name "PH8"
+				(name "I2C3_SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -65534,7 +65534,7 @@
 			(pin bidirectional line
 				(at 24.13 -11.43 180)
 				(length 5.08)
-				(name "PH12"
+				(name "TORCH-EN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -65552,7 +65552,7 @@
 			(pin bidirectional line
 				(at 24.13 8.89 180)
 				(length 5.08)
-				(name "PH4"
+				(name "I2C2_SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -65570,7 +65570,7 @@
 			(pin bidirectional line
 				(at -24.13 19.05 0)
 				(length 5.08)
-				(name "PG0"
+				(name "SW-0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -65588,7 +65588,7 @@
 			(pin bidirectional line
 				(at 24.13 3.81 180)
 				(length 5.08)
-				(name "PH6"
+				(name "ADC-INT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -65606,7 +65606,7 @@
 			(pin bidirectional line
 				(at 24.13 11.43 180)
 				(length 5.08)
-				(name "PH3"
+				(name "SAI2_MCLK_B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -65624,7 +65624,7 @@
 			(pin bidirectional line
 				(at 24.13 6.35 180)
 				(length 5.08)
-				(name "PH5"
+				(name "I2C2_SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -65711,7 +65711,7 @@
 			(pin bidirectional line
 				(at 12.7 -1.27 180)
 				(length 5.08)
-				(name "PC3_C"
+				(name "SPI2_MOSI"
 					(effects
 						(font
 							(size 1.27 1.27)
